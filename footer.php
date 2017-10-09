@@ -1,8 +1,9 @@
 
   <footer class="footer">
+    <h2 class="remove-header">emai footer</h2>
     <div class="container">
       <div class="content has-text-centered">
-        <h2><a href="#">emai dalat</a></h2>
+        <h3><a href="#">emai dalat</a></h3>
         <ul id="social-icon-list">
           <li><a href="#" target="_blank" class="fa fa-twitter-square"></a></li>
           <li><a href="#" target="_blank" class="fa fa-facebook-square"></a></li>

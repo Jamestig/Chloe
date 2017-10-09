@@ -20,6 +20,7 @@
     </h1>
     <div class="column-reverse">
       <nav id="header-navbar" class="navbar" role="navigation" aria-label="main navigation">
+        <h2 class="remove-header">Navigation</h2>
         <div class="navbar-brand">
           <button class="navbar-burger" data-target="navMenu">
             <span></span>
@@ -27,7 +28,7 @@
             <span></span>
           </button>
         </div>
-        
+
         <?php
           $defaults = array(
             'container' => false,
@@ -38,7 +39,7 @@
 
           wp_nav_menu( $defaults );
         ?>
-        
+
       </nav>
       <div id="header-logo" class="column center is-one-third is-offset-2 is-offset-3-fullhd">
         <a href="<?php bloginfo('url'); ?>">

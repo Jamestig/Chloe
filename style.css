@@ -140,6 +140,28 @@ a:hover {
   color: #eaeaea;
 }
 
+h1 {
+  text-transform: lowercase;
+}
+h2 {
+  text-transform: uppercase;
+}
+h3 {
+  text-transform: lowercase;
+  font-size: 1.6em !important;
+}
+h4 {
+  text-transform: capitalize;
+}
+h5 {
+  text-transform: uppercase;
+}
+.no-transform {
+  text-transform: none;
+}
+
+
+
 /*////////////////////
     BASE COLOURS
 ////////////////////*/
@@ -507,7 +529,7 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-  #home-book article {
+  #home-book .content {
     margin-top: 100px;
     max-width: 600px;
     margin-left: auto;
@@ -515,9 +537,12 @@ main {
   }
 }
 
-#home-book article .link-button-container div {
+#home-book .link-button-container div {
   display: inline-block;
   margin-top: 1em;
+}
+#home-book .link-button-container div:nth-child(2) {
+  margin-top: 2em;
 }
 
 #home-blog-excerpts .container {
@@ -878,7 +903,7 @@ footer .container {
   margin-top: 2em;
 }
 
-.footer h2 {
+.footer h3 {
   display: inline;
 }
 

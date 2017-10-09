@@ -9,17 +9,19 @@
   <main id="home-main">
 
     <section id="home-intro" class="section intro">
+      <h2 class="remove-header">Introduction</h2>
       <div class="container side-padding">
-        <article class="content has-text-centered">
-          <h2 class="title">Viet Come into a timeless sanctuary of gentle beauty,<br> soothing music, and exquisite Mediterranean food.</h2>
+        <div class="content has-text-centered">
+          <p class="is-size-4">Viet Come into a timeless sanctuary of gentle beauty, soothing music, and exquisite Mediterranean food.</p>
           <br>
           <p class="is-size-5">Reprehenderit quos quisquam deleniti cupiditate eaque voluptatibus, odit autem eligendi deserunt eveniet consequatur nostrum dignissimos distinctio nesciunt animi. Unde voluptatem nihil, sed.</p>
           <hr>
-        </article>
+        </div>
       </div>
     </section>
 
     <section id="home-nest" class="section grey-f4">
+      <h2 class="remove-header">Gallery</h2>
       <div class="container">
         <article id="home-nest-article" class="columns">
           <div class="column is-half-tablet is-one-third-desktop">
@@ -34,10 +36,10 @@
           </div>
           <div class="column is-half-tablet is-one-third-desktop">
             <div id="home-nest-content" class="content">
-              <h2>a cosy nest,<br>a <i>joie de vivre.</i></h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ipsam eligendi, vel, dolor eos commodi modi fuga.</p>
+              <h3 class="title">a cosy nest,<br>a <i>joie de vivre.</i></h3>
+              <p class="is-size-5-widescreen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ipsam eligendi, vel, dolor eos commodi modi fuga.</p>
               <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas earum laboriosam quo sed expedita ratione voluptates dolore reiciendis culpa praesentium alias esse debitis molestias eius quibusdam, quia molestiae ipsa tempore.</p>
+              <p class="is-size-5-widescreen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas earum laboriosam quo sed expedita ratione voluptates dolore reiciendis culpa praesentium alias esse debitis molestias eius quibusdam, quia molestiae ipsa tempore.</p>
               <div class="link-button-container">
                 <a href="https://emaidalat.com/vi/hinh-anh/" class="link-button">View Gallery</a>
               </div>
@@ -50,15 +52,16 @@
     <div id="home-food-background" class="banner"></div>
 
     <section id="home-menu" class="section grey-f4">
+      <h2 class="remove-header">Menu</h2>
       <div class="container">
         <article id="home-menu-article" class="columns">
           <div class="column is-half">
             <div class="content">
-              <h2>exquisite traditional and<br> contemporary flavours</h2>
+              <h3>exquisite traditional and<br> contemporary flavours</h3>
               <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dicta, natus, rem quis veritatis.</p>
+              <p class="is-size-5-widescreen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dicta, natus, rem quis veritatis.</p>
               <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, dolore. Voluptatibus iure atque illum incidunt, natus sunt corporis cupiditate maxime vitae error aliquid, odit a, perspiciatis alias quibusdam officia similique.</p>
+              <p class="is-size-5-widescreen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, dolore. Voluptatibus iure atque illum incidunt, natus sunt corporis cupiditate maxime vitae error aliquid, odit a, perspiciatis alias quibusdam officia similique.</p>
               <div class="link-button-container">
                 <a href="#" class="link-button">View Menu</a>
               </div>
@@ -74,15 +77,16 @@
     </section>
 
     <section id="home-cafe" class="section grey-ea">
+      <h2 class="remove-header">Cafe</h2>
       <div class="container">
         <article id="home-cafe-article" class="columns">
           <div class="column is-half center">
             <div class="content">
-              <h2>wholesome and exquisite mediterranean food</h2>
+              <h3>wholesome and exquisite mediterranean food</h3>
               <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dicta, natus, rem quis veritatis.</p>
+              <p class="is-size-5-widescreen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dicta, natus, rem quis veritatis.</p>
               <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, dolore. Voluptatibus iure atque illum incidunt, natus sunt corporis cupiditate maxime vitae error aliquid, odit a, perspiciatis alias quibusdam officia similique.</p>
+              <p class="is-size-5-widescreen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, dolore. Voluptatibus iure atque illum incidunt, natus sunt corporis cupiditate maxime vitae error aliquid, odit a, perspiciatis alias quibusdam officia similique.</p>
               <div class="link-button-container">
                 <a href="#" class="link-button">Cafe Menu</a>
               </div>
@@ -99,10 +103,11 @@
 
 
     <section id="home-dalat" class="section">
+      <h2 class="remove-header">Explore Dalat</h2>
       <div class="columns banner">
         <div class="center column is-three-quarters center">
           <article id="home-dalat-article" class="content inverse">
-            <h2>let us welcome you to Dalat</h2>
+            <h3>let us welcome you to Dalat</h3>
             <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quisquam id, omnis officiis molestias veritatis eligendi facilis inventore adipisci repellat.</p>
             <div class="link-button-container">
               <a href="#" class="link-button">Explore Dalat</a>
@@ -113,13 +118,15 @@
     </section>
 
     <section id="home-rooms" class="section">
+      <h2 class="remove-header">Our Rooms</h2>
       <div class="container">
         <article id="home-rooms-article" class="columns">
           <div class="column is-half-tablet is-one-third-desktop">
             <div id="home-rooms-content" class="content">
-              <h2>gorgeous &amp; rustic little rooms</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ipsam eligendi, vel, dolor eos commodi modi fuga.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas earum laboriosam quo sed expedita ratione voluptates dolore reiciendis culpa praesentium alias esse debitis molestias eius quibusdam, quia molestiae ipsa tempore.</p>
+              <h3>gorgeous &amp; rustic little rooms</h3>
+              <p class="is-size-5-widescreen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ipsam eligendi, vel, dolor eos commodi modi fuga.</p>
+              <br>
+              <p class="is-size-5-widescreen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas earum laboriosam quo sed expedita ratione voluptates dolore reiciendis culpa praesentium alias esse debitis molestias eius quibusdam, quia molestiae ipsa tempore.</p>
               <div class="link-button-container">
                 <a href="https://emaidalat.com/vi/phong/" class="link-button">View Rooms</a>
               </div>
@@ -141,10 +148,11 @@
     </section>
 
     <section id="home-book" class="section">
+      <h2 class="remove-header">Booking</h2>
       <div class="container">
         <div class="columns banner">
           <div class="center column is-three-quarters center">
-            <article class="content inverse">
+            <div class="content inverse">
               <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quisquam id, omnis officiis molestias veritatis eligendi facilis inventore adipisci repellat.</p>
               <div class="link-button-container">
                 <div>
@@ -155,24 +163,25 @@
                 </div>
               </div>
 
-            </article>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section id="home-blog-excerpts" class="blog-excerpts section">
+      <h2 class="remove-header">Blog excerpts</h2>
       <div class="container content">
 
         <header class="has-text-centered">
-          <h2>from <a href="https://emaidalat.com/vi/blogv">our blog</a></h2>
+          <h3>from <a href="https://emaidalat.com/vi/blog-vi/">our blog</a></h3>
           <hr>
           <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </header>
 
         <div class="columns">
 
-          <?php 
+          <?php
             $args_latest = array(
             'post_type' => 'post',
             'ignore_sticky_posts' => 1,
@@ -188,14 +197,14 @@
               </a>
             </figure>
             <div class="blog-excerpt-text">
-              <h3>
+              <h4>
                 <a href="<?php the_permalink() ?>">
                   <?php the_title(); ?>
                 </a>
-              </h3>
-              <p>
+              </h4>
+              <h5>
                 <a href="http://localhost/wordpress/category/food/">Food</a> &vert; <a href="http://localhost/wordpress/category/recipe/">Recipe</a>
-              </p>
+              </h5>
               <p>
                 <?php echo substr(strip_tags($post->post_content), 0, 100);?>
               </p>
@@ -209,7 +218,7 @@
           <?php wp_reset_query();?>
         </div>
         <div class="padded has-text-centered">
-          <a href="https://emaidalat.com/vi/blogv" class="link-button">Visit blog</a>
+          <a href="https://emaidalat.com/vi/blog-vi/" class="link-button">Visit blog</a>
         </div>
       </div>
     </section>
