@@ -154,12 +154,25 @@ h4 {
   text-transform: capitalize;
 }
 h5 {
+  text-transform: lowercase;
+}
+h6 {
   text-transform: uppercase;
 }
 .no-transform {
   text-transform: none;
 }
 
+@media screen and (min-width:1024px) {
+  p {
+    font-size: 1.15em;
+  }
+}
+@media screen and (min-width:1216px) {
+  p {
+    font-size: 1.25rem;
+  }
+}
 
 
 /*////////////////////

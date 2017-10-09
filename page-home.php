@@ -14,7 +14,7 @@
         <div class="content has-text-centered">
           <p class="is-size-4">Come into a timeless sanctuary of gentle beauty, soothing music, and exquisite Mediterranean food.</p>
           <br>
-          <p class="is-size-5">Reprehenderit quos quisquam deleniti cupiditate eaque voluptatibus, odit autem eligendi deserunt eveniet consequatur nostrum dignissimos distinctio nesciunt animi. Unde voluptatem nihil, sed.</p>
+          <p>Reprehenderit quos quisquam deleniti cupiditate eaque voluptatibus, odit autem eligendi deserunt eveniet consequatur nostrum dignissimos distinctio nesciunt animi. Unde voluptatem nihil, sed.</p>
           <hr>
         </div>
       </div>
@@ -36,10 +36,10 @@
           </div>
           <div class="column is-half-tablet is-one-third-desktop">
             <div id="home-nest-content" class="content">
-              <h2>a cosy nest,<br>a <i>joie de vivre.</i></h2>
+              <h3 class="title">a cosy nest,<br>a <i>joie de vivre.</i></h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ipsam eligendi, vel, dolor eos commodi modi fuga.</p>
               <br>
-              <p class="is-size-5-widescreen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas earum laboriosam quo sed expedita ratione voluptates dolore reiciendis culpa praesentium alias esse debitis molestias eius quibusdam, quia molestiae ipsa tempore.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas earum laboriosam quo sed expedita ratione voluptates dolore reiciendis culpa praesentium alias esse debitis molestias eius quibusdam, quia molestiae ipsa tempore.</p>
               <div class="link-button-container">
                 <a href="https://emaidalat.com/gallery/" class="link-button">View Gallery</a>
               </div>
@@ -59,9 +59,9 @@
             <div class="content">
               <h3>exquisite traditional and<br> contemporary flavours</h3>
               <br>
-              <p class="is-size-5-widescreen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dicta, natus, rem quis veritatis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dicta, natus, rem quis veritatis.</p>
               <br>
-              <p class="is-size-5-widescreen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, dolore. Voluptatibus iure atque illum incidunt, natus sunt corporis cupiditate maxime vitae error aliquid, odit a, perspiciatis alias quibusdam officia similique.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, dolore. Voluptatibus iure atque illum incidunt, natus sunt corporis cupiditate maxime vitae error aliquid, odit a, perspiciatis alias quibusdam officia similique.</p>
               <div class="link-button-container">
                 <a href="#" class="link-button">View Menu</a>
               </div>
@@ -84,9 +84,9 @@
             <div class="content">
               <h3>wholesome and exquisite mediterranean food</h3>
               <br>
-              <p class="is-size-5-widescreen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dicta, natus, rem quis veritatis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dicta, natus, rem quis veritatis.</p>
               <br>
-              <p class="is-size-5-widescreen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, dolore. Voluptatibus iure atque illum incidunt, natus sunt corporis cupiditate maxime vitae error aliquid, odit a, perspiciatis alias quibusdam officia similique.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, dolore. Voluptatibus iure atque illum incidunt, natus sunt corporis cupiditate maxime vitae error aliquid, odit a, perspiciatis alias quibusdam officia similique.</p>
               <div class="link-button-container">
                 <a href="#" class="link-button">Cafe Menu</a>
               </div>
@@ -108,7 +108,7 @@
         <div class="center column is-three-quarters center">
           <article id="home-dalat-article" class="content inverse">
             <h3>let us welcome you to Dalat</h3>
-            <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quisquam id, omnis officiis molestias veritatis eligendi facilis inventore adipisci repellat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quisquam id, omnis officiis molestias veritatis eligendi facilis inventore adipisci repellat.</p>
             <div class="link-button-container">
               <a href="#" class="link-button">Explore Dalat</a>
             </div>
@@ -124,9 +124,9 @@
           <div class="column is-half-tablet is-one-third-desktop">
             <div id="home-rooms-content" class="content">
               <h3>gorgeous &amp; rustic little rooms</h3>
-              <p class="is-size-5-widescreen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ipsam eligendi, vel, dolor eos commodi modi fuga.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ipsam eligendi, vel, dolor eos commodi modi fuga.</p>
               <br>
-              <p class="is-size-5-widescreen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas earum laboriosam quo sed expedita ratione voluptates dolore reiciendis culpa praesentium alias esse debitis molestias eius quibusdam, quia molestiae ipsa tempore.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas earum laboriosam quo sed expedita ratione voluptates dolore reiciendis culpa praesentium alias esse debitis molestias eius quibusdam, quia molestiae ipsa tempore.</p>
               <div class="link-button-container">
                 <a href="https://emaidalat.com/our-rooms/" class="link-button">View Rooms</a>
               </div>
@@ -153,7 +153,7 @@
         <div class="columns banner">
           <div class="center column is-three-quarters center">
             <div class="content inverse">
-              <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quisquam id, omnis officiis molestias veritatis eligendi facilis inventore adipisci repellat.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quisquam id, omnis officiis molestias veritatis eligendi facilis inventore adipisci repellat.</p>
               <div class="link-button-container">
                 <div>
                   <a href="http://localhost/wordpress/our-rooms/" class="link-button">Reserve a table</a>
@@ -176,7 +176,7 @@
         <header class="has-text-centered">
           <h3>from <a href="https://emaidalat.com/blog/">our blog</a></h3>
           <hr>
-          <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </header>
 
         <div class="columns">
@@ -202,9 +202,9 @@
                   <?php the_title(); ?>
                 </a>
               </h4>
-              <h5>
+              <h6>
                 <a href="http://localhost/wordpress/category/food/">Food</a> &vert; <a href="http://localhost/wordpress/category/recipe/">Recipe</a>
-              </h5>
+              </h6>
               <p>
                 <?php echo substr(strip_tags($post->post_content), 0, 100);?>
               </p>

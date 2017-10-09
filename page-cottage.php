@@ -9,22 +9,24 @@
   <main id="cottage-main">
 
     <section id="cottage-intro" class="section intro">
+      <h2 class="remove-header">Introduction</h2>
       <div class="container side-padding">
         <hgroup class="content has-text-centered">
           <h2 class="title">Our Rooms</h2>
           <hr>
-          <h4>welcome to emai</h4>
+          <h3>welcome to emai</h3>
         </hgroup>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, sint? Sed suscipit incidunt debitis modi voluptate illum soluta beatae quisquam quam velit! Officia, amet sint incidunt error consequatur dolorum eos.</p>
+        <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, sint? Sed suscipit incidunt debitis modi voluptate illum soluta beatae quisquam quam velit! Officia, amet sint incidunt error consequatur dolorum eos.</p>
       </div>
     </section>
 
     <section id="cottage-section" class="section banner">
+      <h2 class="remove-header">emai cottage</h2>
       <article id="cottage-section-article" class="combine-container content">
         <div class="columns">
           <div class="combine-background column"></div>
           <div class="combine-inner column is-half is-one-third-desktop is-one-quarter-fullhd is-offset-1 is-offset-2-desktop">
-            <h2>emai cottage</h2>
+            <h3>emai cottage</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit neque veritatis aliquid velit, error nihil sint, incidunt quo pariatur.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni amet soluta aliquam neque, provident animi deleniti inventore similique ipsam porro ex necessitatibus enim sint, blanditiis ducimus itaque eveniet aliquid maiores!</p>
             <div class="link-button-container">
