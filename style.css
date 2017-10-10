@@ -25,11 +25,11 @@ hr {
 }
 
 a {
-  color: black;
+  color: #777777;
 }
 
 a:hover {
-  color: darkgrey;
+  color: black;
 }
 
 /*////////////////////
@@ -318,20 +318,27 @@ main {
 }
 
 @media screen and (max-width:1023px) {
-  .nav-item {
+  #navMenu li {
     height: 10%;
   }
   .nav-item:first-child {
-    margin-top: 80px;
+    margin-top: 15%;
   }
 }
 
 #navMenu .lang-item {
-  margin: auto;
-  justify-content: center;
   text-align: center;
+  justify-content: center;
+  margin: auto;
 }
-
+@media screen and (max-width:1023px) {
+  #navMenu .lang-item {
+    position: absolute;
+    width: 50%;
+    bottom: 15%;
+    left: 25%;
+  }
+}
 
 /*////////////////////
     HOME PAGE
