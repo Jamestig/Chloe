@@ -9,9 +9,10 @@
   <main id="home-main">
 
     <section id="home-intro" class="section intro">
+      <h2 class="remove-header">Introduction</h2>
       <div class="container side-padding">
         <article class="content has-text-centered">
-          <h2 class="title">Come into a timeless sanctuary of gentle beauty,<br> soothing music, and exquisite Mediterranean food.</h2>
+          <p class="">Come into a timeless sanctuary of gentle beauty, soothing music, and exquisite Mediterranean food.</p>
           <br>
           <p class="is-size-5">Reprehenderit quos quisquam deleniti cupiditate eaque voluptatibus, odit autem eligendi deserunt eveniet consequatur nostrum dignissimos distinctio nesciunt animi. Unde voluptatem nihil, sed.</p>
           <hr>
@@ -172,7 +173,7 @@
 
         <div class="columns">
 
-          <?php 
+          <?php
             $args_latest = array(
             'post_type' => 'post',
             'ignore_sticky_posts' => 1,
