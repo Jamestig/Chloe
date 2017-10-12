@@ -15,7 +15,7 @@
           <hr>
         </hgroup>
         <div id="smartslider">
-          <?php echo do_shortcode('[smartslider3 slider=3]'); ?>
+          <?php echo do_shortcode('[smartslider3 slider=2]'); ?>
         </div>
       </div>
     </section>

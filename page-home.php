@@ -205,7 +205,7 @@
               <h6>
                 <a href="http://localhost/wordpress/category/food/">Food</a> &vert; <a href="http://localhost/wordpress/category/recipe/">Recipe</a>
               </h6>
-              <p>
+              <p class="is-size-6">
                 <?php echo substr(strip_tags($post->post_content), 0, 100);?>
               </p>
               <!-- <?php the_content( 'Read the full post »' ); ?>-->

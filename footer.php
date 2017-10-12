@@ -5,7 +5,7 @@
       <div class="content has-text-centered">
         <h3><a href="#">emai dalat</a></h3>
         <ul id="social-icon-list">
-          <li><a href="#" target="_blank" class="fa fa-twitter-square"></a></li>
+          <li><a href="https://twitter.com/emaidalat" target="_blank" class="fa fa-twitter-square"></a></li>
           <li><a href="#" target="_blank" class="fa fa-facebook-square"></a></li>
           <li><a href="#" target="_blank" class="fa fa-instagram"></a></li>
           <li><a href="#" target="_blank" class="fa fa-envelope"></a></li>
