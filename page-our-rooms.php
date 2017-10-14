@@ -7,7 +7,7 @@
   <?php get_header(); ?>
 
     <main id="our-rooms-main">
-       
+
         <section id="our-rooms-intro" class="section intro">
             <div class="container side-padding">
                 <hgroup class="content has-text-centered">
@@ -28,7 +28,7 @@
                         </figure>
                     </div>
                     <div class="column is-half content padded center has-text-left">
-                        <h2 class="title">emai b&amp;b, restaurant &amp; cafe</h2>
+                        <h3 class="title">emai b&amp;b, restaurant &amp; cafe</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id cumque maiores totam eius ipsam, doloremque. Quo tenetur hic ab velit eos fugit, unde tempore ea dolore laboriosam perspiciatis, maiores error.</p>
                         <div class="link-button-container">
                           <a href="https://emaidalat.com/emai-bnb/" class="link-button">View Rooms</a>
@@ -43,7 +43,7 @@
                         </figure>
                     </div>
                     <div class="column is-half content padded center  has-text-left">
-                        <h2 class="title">emai cottage</h2>
+                        <h3 class="title">emai cottage</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id cumque maiores totam eius ipsam, doloremque. Quo tenetur hic ab velit eos fugit, unde tempore ea dolore laboriosam perspiciatis, maiores error.</p>
                         <div class="link-button-container">
                           <a href="https://emaidalat.com/emai-cottage/" class="link-button">View Rooms</a>
@@ -52,7 +52,7 @@
                 </article>
             </div>
         </section>
-        
+
         <section id="our-rooms-welcome" class="section banner">
             <div class="container">
                 <div class="columns-is-mobile">

@@ -128,7 +128,7 @@
               <br>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas earum laboriosam quo sed expedita ratione voluptates dolore reiciendis culpa praesentium alias esse debitis molestias eius quibusdam, quia molestiae ipsa tempore.</p>
               <div class="link-button-container">
-                <a href="https://emaidalat.com/our-rooms/" class="link-button">View Rooms</a>
+                <a href="https://emaidalat.com/emai-bnb-rooms/" class="link-button">View Rooms</a>
               </div>
 
             </div>

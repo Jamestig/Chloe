@@ -24,7 +24,7 @@
         <div class="columns">
           <div class="combine-background column"></div>
           <div class="combine-inner column is-half is-one-third-desktop is-one-quarter-fullhd is-offset-1 is-offset-2-desktop">
-            <h2>emai bed &amp; breakfast, restaurant &amp; cafe</h2>
+            <h3>emai bed &amp; breakfast, restaurant &amp; cafe</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit neque veritatis aliquid velit, error nihil sint, incidunt quo pariatur.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni amet soluta aliquam neque, provident animi deleniti inventore similique ipsam porro ex necessitatibus enim sint, blanditiis ducimus itaque eveniet aliquid maiores!</p>
             <div class="link-button-container">
@@ -47,7 +47,7 @@
               <div class="columns">
                 <div class="combine-background column"></div>
                 <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
-                  <h2>rosewood</h2>
+                  <h3>rosewood</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit neque veritatis aliquid velit, error nihil sint, incidunt quo pariatur.</p>
                   <div class="link-button-container">
                     <a href="#" class="link-button">Book room</a>
@@ -62,7 +62,7 @@
               <div class="columns">
                 <div class="combine-background column"></div>
                 <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
-                  <h2>ivy</h2>
+                  <h3>ivy</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit neque veritatis aliquid velit, error nihil sint, incidunt quo pariatur.</p>
                 </div>
               </div>
@@ -73,7 +73,7 @@
               <div class="columns">
                 <div class="combine-background column"></div>
                 <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
-                  <h2>may</h2>
+                  <h3>may</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit neque veritatis aliquid velit, error nihil sint, incidunt quo pariatur.</p>
                 </div>
               </div>
@@ -86,7 +86,7 @@
     <section id="emai-bnb-attic" class="section">
       <div class="content">
         <header class="has-text-centered">
-          <h2 class="title">attic guestrooms</h2>
+          <h3 class="title">attic guestrooms</h3>
           <hr>
         </header>
         <div class="columns is-multiline">
@@ -108,7 +108,7 @@
               <div class="columns">
                 <div class="combine-background column"></div>
                 <div class="combine-inner column is-half is-offset-5">
-                  <h2>cocoon</h2>
+                  <h3>cocoon</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit neque veritatis aliquid velit, error nihil sint, incidunt quo pariatur.</p>
                 </div>
               </div>

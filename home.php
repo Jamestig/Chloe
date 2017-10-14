@@ -18,7 +18,7 @@
 
     <article id="blog-featured-article" class="combine-container content">
 
-      <?php query_posts('posts_per_page=1 & cat=31'); if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+      <?php query_posts('posts_per_page=1 & cat=22'); if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
       <div class="columns">
         <figure class="figure-background column">

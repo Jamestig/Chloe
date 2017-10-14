@@ -1,6 +1,6 @@
 <?php
 /*
-  Template Name: Contact Page
+  Template Name: Contact Page (Vietnamese)
 */
 ?>
 
@@ -12,7 +12,7 @@
       <h2 class="remove-header">Introduction</h2>
       <div class="container side-padding">
         <hgroup class="content has-text-centered">
-          <h2>Location/Contact Us</h2>
+          <h2>Vocation/Contact Us</h2>
           <hr>
           <h3><i>how to reach us</i></h3>
         </hgroup>
