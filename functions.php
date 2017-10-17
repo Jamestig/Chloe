@@ -54,4 +54,11 @@ clara_create_widget( 'Blog Sidebar', 'blog', 'Displays on the side of pages in t
 
   add_action('wp_enqueue_scripts', 'clara_theme_js');
 
+function exclude_category( $query ) {
+  if ( $query->is_home() && $query->is_main_query() ) {
+  $query->set( 'cat', '-22,-24' );
+  }
+}
+add_action( 'pre_get_posts', 'exclude_category' );
+
 ?>

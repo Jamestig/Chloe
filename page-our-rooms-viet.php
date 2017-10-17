@@ -13,7 +13,7 @@
                 <hgroup class="content has-text-centered">
                     <h2 class="title">Our Rooms Viet</h2>
                     <hr>
-                    <h4>welcome to emai</h4>
+                    <h3><i>welcome to emai</i></h3>
                 </hgroup>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, sint? Sed suscipit incidunt debitis modi voluptate illum soluta beatae quisquam quam velit! Officia, amet sint incidunt error consequatur dolorum eos.</p>
             </div>

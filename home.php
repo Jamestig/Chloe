@@ -6,9 +6,9 @@
     <h2 class="remove-header">Introduction</h2>
     <div class="container side-padding">
       <hgroup class="content has-text-centered">
-        <h3 class="title is-uppercase">emai lifestyle blog</h3>
+        <h2>emai lifestyle blog</h2>
         <hr>
-        <h4 class="is-lowercase"><i>on art, beauty, and living meaningfully</i></h4>
+        <h3><i>on art, beauty, and living meaningfully</i></h3>
       </hgroup>
     </div>
   </section>
