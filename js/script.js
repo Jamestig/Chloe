@@ -1,13 +1,3 @@
-// Overlay menu
-
-jQuery(document).ready(function($) {
-
-  $("#toggle").click(function () {
-      $(this).toggleClass('on');
-      $("#overlay").toggleClass("active");
-  });
-
-});
 
 // Bulma Nav
 

@@ -20,17 +20,24 @@ hr {
   border: 0;
   height: 2px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
-  margin: 3em auto;
+  margin: 2.5em auto;
   width: 70%;
   max-width: 500px;
 }
 
 a {
   color: #777777;
+  font-weight: normal;
+  -webkit-transition: color .5s;
+  transition: color .5s, font-weight .5s;
+  transition-timing-function: ease-in-out;
+  font-size: 1.1em;
+  line-height: 1.5em;
 }
 
 a:hover {
   color: black;
+  font-weight: 300;
 }
 
 /*////////////////////
@@ -63,9 +70,11 @@ a:hover {
   padding: 0.2em 1.5em;
   white-space: nowrap;
 }
+
 .link-button:hover {
   color: #eaeaea;
 }
+
 .link-button-container {
   padding: 2em 0 0 .5em;
 }
@@ -124,7 +133,7 @@ a:hover {
 * {
   font-family: 'Amiri', serif;
   letter-spacing: .05em;
-  color: #777777;
+  color: #363636;
 }
 
 @font-face {
@@ -142,36 +151,54 @@ a:hover {
 }
 
 h1 {
-  text-transform: lowercase;
-}
-h2 {
   text-transform: uppercase;
 }
+section h1 {
+  font-size: 1.5em !important;
+}
+
+h2 {
+  text-transform: lowercase;
+  word-wrap: normal;
+}
+hgroup h2 {
+  font-size: 1.5em !important;
+}
+
 h3 {
   text-transform: lowercase;
   font-size: 1.6em !important;
 }
+
 h4 {
   text-transform: capitalize;
+  color: #777777 !important;
 }
+
 h5 {
   text-transform: lowercase;
+  color: #777777 !important;
 }
+
 h6 {
   text-transform: uppercase;
+  color: #777777 !important;
 }
+.blog-excerpt h6 {
+  font-size: .8em;
+}
+
 .no-transform {
   text-transform: none;
 }
 
+p {
+  color: #777777 !important;
+}
+
 @media screen and (min-width:1024px) {
   p {
-    font-size: 1.15em;
-  }
-}
-@media screen and (min-width:1216px) {
-  p {
-    font-size: 1.25rem;
+    font-size: 1.1em;
   }
 }
 
@@ -222,8 +249,6 @@ footer {
   }
 }
 
-#header-background {}
-
 #header-logo {
   max-width: 360px;
 }
@@ -262,9 +287,7 @@ footer {
 
 #header-background {
   margin-bottom: -60px;
-
 }
-
 
 /*// HEADER NAV //*/
 
@@ -274,6 +297,7 @@ footer {
   background-color: #eaeaea;
   border: none;
 }
+
 .navbar-burger:hover {
   background-color: #f4f4f4;
   color: black;
@@ -281,27 +305,6 @@ footer {
 
 .navbar-burger span {
   height: 2px;
-}
-
-#navMenu {
-  margin: auto;
-}
-
-@media screen and (min-width:1024px) {
-  #navMenu {
-    max-width: 800px;
-  }
-}
-
-@media screen and (max-width:1023px) {
-  #navMenu {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    z-index: 100;
-    opacity: .9;
-    top: 0;
-  }
 }
 
 @media screen and (min-width:1024px) {
@@ -326,10 +329,45 @@ footer {
   z-index: 1000;
 }
 
+.navbar-burger.is-active {
+  position: fixed;
+  right: 0;
+}
+
+#navMenu {
+  margin: auto;
+}
+
+@media screen and (min-width:1024px) {
+  #navMenu {
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  #navMenu {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .5s ease-in-out, visibility .5s ease-in-out;
+  }
+  #navMenu.is-active {
+    opacity: .9;
+    visibility: visible;
+    -webkit-transition: opacity .5s ease-in-out, visibility .5s ease-in-out;
+  }
+}
+
 @media screen and (max-width:1023px) {
   #navMenu li {
     height: 10%;
   }
+  #navMenu li:hover {}
   .nav-item:first-child {
     margin-top: 15%;
   }
@@ -340,12 +378,26 @@ footer {
   justify-content: center;
   margin: auto;
 }
+
 @media screen and (max-width:1023px) {
   #navMenu .lang-item {
     position: absolute;
     width: 50%;
     bottom: 15%;
     left: 25%;
+  }
+}
+
+#first-background {
+  height: 330px;
+  background-image: url(images/placeholder/house_wide_01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-width:769px) {
+  #first-background {
+    display: none;
   }
 }
 
@@ -375,20 +427,6 @@ footer {
 
 #home-main figure img {
   max-width: 400px;
-}
-
-
-#first-background {
-  height: 330px;
-  background-image: url(images/placeholder/house_wide_01.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-@media screen and (min-width:769px) {
-  #first-background {
-    display: none;
-  }
 }
 
 #home-intro p {
@@ -550,6 +588,7 @@ footer {
   display: inline-block;
   margin-top: 1em;
 }
+
 #home-book .link-button-container div:nth-child(2) {
   margin-top: 2em;
 }
@@ -664,6 +703,7 @@ footer {
   margin-bottom: 0 !important;
   overflow: hidden;
 }
+
 .figure-background img {
   min-height: 400px;
   width: 100%;
@@ -736,6 +776,7 @@ footer {
   height: 400px;
   overflow: hidden;
 }
+
 .blog-home-excerpt figure img {
   height: 400px;
   object-fit: cover;
@@ -762,6 +803,7 @@ footer {
 #blog-home-excerpt-section .screen-reader-text {
   display: none;
 }
+
 #blog-home-excerpt-section .nav-links {
   margin: auto;
 }
@@ -789,9 +831,11 @@ footer {
 #blog-sidebar-themes {
   margin-top: 5em;
 }
+
 #blog-sidebar-themes ul {
   margin-left: 0;
 }
+
 #blog-sidebar-themes li {
   padding-left: 0;
 }
@@ -801,6 +845,7 @@ footer {
   height: 80px;
   min-width: 220px;
   position: relative;
+  opacity: 0.8;
 }
 
 .theme-card-title {
@@ -850,6 +895,7 @@ footer {
   height: 250px;
   overflow: hidden;
 }
+
 .blog-excerpt figure a img {
   min-height: 250px;
   object-fit: cover;
@@ -859,6 +905,10 @@ footer {
 .blog-excerpt-text {
   max-width: 400px;
   margin: auto;
+}
+
+.blog-excerpt-text h4 {
+  margin-bottom: 0em;
 }
 
 
@@ -893,12 +943,15 @@ footer {
 #gallery-section h2 {
   margin-top: 2em !important;
 }
+
 #gallery-section hr {
   margin-bottom: 5em !important;
 }
+
 #gallery-main .section {
   padding-bottom: 30px;
 }
+
 .n2-style-0d7e6147d938756e488febb9fea88b5d-dot {
   margin-left: 1em !important;
   margin-right: 1em !important;
@@ -908,19 +961,81 @@ footer {
     CONTACT
 ////////////////////*/
 
+#contact-main input {
+  display: block;
+}
+
+#contact-form-section {
+  background-image: url(images/placeholder/dalat_wide_01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#contact-map-info {
+  margin-left: 2em;
+}
+#contact-map-image {
+  overflow: hidden;
+}
+#contact-map-image img {
+  min-height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+@media screen and (max-width:1024px) {
+  #contact-main .link-button-container a {
+    font-size: 1em;
+  }
+}
+
+#contact-form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em 1.5em;
+  opacity: 0.9;
+}
+@media screen and (min-width:450px) and (max-width:768px) {
+  #contact-form {
+    margin: 0 10%;
+    padding: 1em 2em;
+  }
+}
+@media screen and (min-width:769px) {
+  #contact-form {
+    padding: 1em 2em;
+  }
+}
+@media screen and (min-width:1024px) {
+  #contact-form {
+    padding: 1em 4em;
+  }
+}
+
+.wpcf7-form #first-name {
+  width: 49%;
+  display: inline-block;
+}
+.wpcf7-form #last-name {
+  width: 49%;
+  display: inline-block;
+}
+
+
+/*// CONTACT FORM 7 //*/
+
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],
-.wpcf7 textarea
-{
-    background-color: #fff;
-    color: #000;
-    width: 50%;
-    margin-bottom: 1em;
-    border: none;
-}
 .wpcf7 textarea {
+  background-color: #fff;
+  color: #000;
   width: 100%;
+  margin-bottom: 1em;
+  padding: .5em;
 }
+
 .wpcf7-submit {
   color: white;
   background-color: #c6c5c1;
@@ -930,17 +1045,56 @@ footer {
   font-family: 'Amiri', serif;
   font-size: 1.1em;
   letter-spacing: .2em;
-  margin: 2em auto;
-  padding: 0.2em 1.5em;
+  margin: 1em auto;
+  padding: 0.2em 5em;
   white-space: nowrap;
 }
+@media screen and (min-width:768px) {
+  .wpcf7-submit {
+    float: right;
+    margin-right: 1em;
+  }
+
+}
+
 .wpcf7-submit:hover {
   color: #eaeaea;
 }
+
 div.wpcf7-validation-errors {
-    border: 2px solid grey;
+  border: 2px solid grey;
 }
 
+div.wpcf7-mail-sent-ok {
+  border: 2px solid grey;
+  margin-top: 1em;
+}
+
+
+/*////////////////////
+    MAILCHIMP
+////////////////////*/
+
+
+
+.mc4wp-form-fields p input[type="submit"] {
+  color: white;
+  background-color: #c6c5c1;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 1px;
+  font-family: 'Amiri', serif;
+  font-size: 1.1em;
+  letter-spacing: .2em;
+  margin: 1em auto;
+  padding: 0.2em 1em;
+  white-space: nowrap;
+}
+
+.mc4wp-form-fields p input[type="email"] {
+  width: 100%;
+  padding: 1em;
+}
 
 /*////////////////////
     FOOTER

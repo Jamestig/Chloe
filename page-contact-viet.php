@@ -1,6 +1,6 @@
 <?php
 /*
-  Template Name: Contact Page
+  Template Name: Contact Page (Vietnamese)
 */
 ?>
 
@@ -9,11 +9,12 @@
   <main id="contact-main">
 
     <section class="section intro">
+      <h2 class="remove-header">Introduction</h2>
       <div class="container side-padding">
         <hgroup class="content has-text-centered">
-          <h1>Location / Contact Us</h1>
+          <h2>Vocation/Contact Us</h2>
           <hr>
-          <h2><i>how to reach us</i></h2>
+          <h3><i>how to reach us</i></h3>
         </hgroup>
         <p class="has-text-centered">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, sint? Sed suscipit incidunt debitis modi voluptate.</p>
       </div>
@@ -24,7 +25,7 @@
         <div class="columns">
           <div class="column center is-one-third is-one-quarter-widescreen is-offset-1 is-offset-2-widescreen">
             <div id="contact-map-info" class="has-text-left-tablet">
-              <h2>emai da lat</h2>
+              <h3>emai da lat</h3>
               <address>1B Thi Sach, Da lat<br>Lam Dong, Vietnam</address>
               <a href="tel: +84 147 1994">+84 147 1994</a>
             </div>
@@ -38,17 +39,6 @@
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/map.jpg" alt="">
               </a>
             </figure>
-            
-            <div class="modal">
-              <div class="modal-background"></div>
-                <div class="modal-content">
-                  <p class="image is-4by3">
-                    <img src="http://bulma.io/images/placeholders/1280x960.png" alt="">
-                  </p>
-                </div>
-              <button class="modal-close is-large" aria-label="close"></button>
-            </div>
-            
           </div>
         </div>
       </div>
