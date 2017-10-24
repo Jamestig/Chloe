@@ -9,7 +9,7 @@
   <main id="home-main">
 
     <section id="home-intro" class="section intro">
-      <h2 class="remove-header">Introduction</h2>
+      <h1 class="remove-header">Introduction</h1>
       <div class="container side-padding">
         <div class="content has-text-centered">
           <p class="is-size-4">Come into a timeless sanctuary of gentle beauty, soothing music, and exquisite Mediterranean food.</p>
@@ -21,7 +21,7 @@
     </section>
 
     <section id="home-nest" class="section grey-f4">
-      <h2 class="remove-header">Gallery</h2>
+      <h1 class="remove-header">Gallery</h1>
       <div class="container">
         <article id="home-nest-article" class="columns">
           <div class="column is-half-tablet is-one-third-desktop">
@@ -52,11 +52,11 @@
     <div id="home-food-background" class="banner"></div>
 
     <section id="home-menu" class="section grey-f4">
-      <h2 class="remove-header">Menu</h2>
+      <h1 class="remove-header">Menu</h1>
       <div class="container">
         <article id="home-menu-article" class="columns">
           <div class="column is-half">
-            <div class="content">
+            <div itemscope itemType="http://schema.org/hasMenu" class="content">
               <h3>exquisite traditional and<br> contemporary flavours</h3>
               <br>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dicta, natus, rem quis veritatis.</p>
@@ -77,12 +77,12 @@
     </section>
 
     <section id="home-cafe" class="section grey-ea">
-      <h2 class="remove-header">Cafe</h2>
+      <h1 class="remove-header">Cafe</h1>
       <div class="container">
         <article id="home-cafe-article" class="columns">
           <div class="column is-half center">
-            <div class="content">
-              <h3>wholesome and exquisite mediterranean food</h3>
+            <div itemscope itemType="http://schema.org/servesCuisine" class="content">
+              <h3>wholesome and exquisite <span itemprop="name">mediterranean</span> food</h3>
               <br>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dicta, natus, rem quis veritatis.</p>
               <br>
@@ -103,11 +103,11 @@
 
 
     <section id="home-dalat" class="section">
-      <h2 class="remove-header">Explore Dalat</h2>
+      <h1 class="remove-header">Dalat, Vietnam</h1>
       <div class="columns banner">
         <div class="center column is-three-quarters center">
-          <article id="home-dalat-article" class="content inverse">
-            <h3>let us welcome you to Dalat</h3>
+          <article itemscope itemyype="http://schema.org/City" id="home-dalat-article" class="content inverse">
+            <h3>let us welcome you to <span itemprop="name">Dalat</span></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quisquam id, omnis officiis molestias veritatis eligendi facilis inventore adipisci repellat.</p>
             <div class="link-button-container">
               <a href="#" class="link-button">Explore Dalat</a>
@@ -118,7 +118,7 @@
     </section>
 
     <section id="home-rooms" class="section">
-      <h2 class="remove-header">Our Rooms</h2>
+      <h1 class="remove-header">Homestay Rooms</h1>
       <div class="container">
         <article id="home-rooms-article" class="columns">
           <div class="column is-half-tablet is-one-third-desktop">
@@ -148,7 +148,7 @@
     </section>
 
     <section id="home-book" class="section">
-      <h2 class="remove-header">Booking</h2>
+      <h1 class="remove-header">Booking and Reservations</h1>
       <div class="container">
         <div class="columns banner">
           <div class="center column is-three-quarters center">
@@ -170,11 +170,10 @@
     </section>
 
     <section id="home-blog-excerpts" class="blog-excerpts section">
-      <h2 class="remove-header">Blog excerpts</h2>
       <div class="container content">
 
         <header class="has-text-centered">
-          <h3>from <a href="https://emaidalat.com/blog/">our blog</a></h3>
+          <h1>from <a href="https://emaidalat.com/blog/">our blog</a></h1>
           <hr>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </header>

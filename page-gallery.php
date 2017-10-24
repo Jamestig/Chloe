@@ -11,7 +11,7 @@
     <section id="gallery-section" class="section banner">
       <div class="container">
         <hgroup class="content has-text-centered">
-          <h2 class="title">Gallery</h2>
+          <h1 class="title">Gallery</h1>
           <hr>
         </hgroup>
         <div id="smartslider">

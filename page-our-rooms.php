@@ -11,15 +11,16 @@
         <section id="our-rooms-intro" class="section intro">
             <div class="container side-padding">
                 <hgroup class="content has-text-centered">
-                    <h2 class="title">Our Rooms</h2>
+                    <h1 class="title">Our Rooms</h1>
                     <hr>
-                    <h3><i>welcome to emai</i></h3>
+                    <h2><i>welcome to emai</i></h2>
                 </hgroup>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, sint? Sed suscipit incidunt debitis modi voluptate illum soluta beatae quisquam quam velit! Officia, amet sint incidunt error consequatur dolorum eos.</p>
             </div>
         </section>
 
         <section id="our-rooms-section" class="section grey-f4">
+            <h2 class="remove-header">emai bed &amp; breakfast</h2>
             <div class="container">
                 <article id="our-rooms-bnb" class="columns">
                     <div class="column is-half">
