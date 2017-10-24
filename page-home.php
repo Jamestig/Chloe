@@ -23,7 +23,13 @@
     <section id="home-menu" class="section grey-f4">
       <h1 class="remove-header">Menu</h1>
       <div class="container">
+       
         <article id="home-menu-article" class="columns">
+          <div class="column is-half">
+            <figure id="home-menu-figure" class="image">
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/food_tall_01.jpg" alt="">
+            </figure>
+          </div>
           <div class="column is-half">
             <div itemscope itemType="http://schema.org/hasMenu" class="content">
               <h3>exquisite traditional and<br> contemporary flavours</h3>
@@ -36,19 +42,21 @@
               </div>
             </div>
           </div>
-          <div class="column is-half">
-            <figure id="home-menu-figure" class="image">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/food_tall_01.jpg" alt="">
-            </figure>
-          </div>
         </article>
+        
       </div>
     </section>
 
-    <section id="home-cafe" class="section grey-ea">
+    <section id="home-cafe" class="section grey-f4">
       <h1 class="remove-header">Cafe</h1>
       <div class="container">
+       
         <article id="home-cafe-article" class="columns">
+          <div class="column is-half">
+            <figure id="home-cafe-figure" class="image">
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/coffee_tall_01.jpg" alt="">
+            </figure>
+          </div>
           <div class="column is-half center">
             <div itemscope itemType="http://schema.org/servesCuisine" class="content">
               <h3>wholesome and exquisite <span itemprop="name">mediterranean</span> food</h3>
@@ -61,12 +69,8 @@
               </div>
             </div>
           </div>
-          <div class="column is-half">
-            <figure id="home-cafe-figure" class="image">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/coffee_tall_01.jpg" alt="">
-            </figure>
-          </div>
         </article>
+        
       </div>
     </section>
 
@@ -126,7 +130,6 @@
             <figure id="home-nest-figure-left" class="image">
               <img class="" src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/nest_tall_01.jpg" alt="">
             </figure>
-            >>>>>>> imac-work
           </div>
           <div class="column is-hidden-tablet-only is-shown-desktop is-one-third-desktop">
             <figure id="home-nest-figure-right" class="image">
