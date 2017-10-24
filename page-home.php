@@ -20,37 +20,6 @@
       </div>
     </section>
 
-    <section id="home-nest" class="section grey-f4">
-      <h2 class="remove-header">Gallery</h2>
-      <div class="container">
-        <article id="home-nest-article" class="columns">
-          <div class="column is-half-tablet is-one-third-desktop">
-            <figure id="home-nest-figure-left" class="image">
-              <img class="" src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/nest_tall_01.jpg" alt="">
-            </figure>
-          </div>
-          <div class="column is-hidden-tablet-only is-shown-desktop is-one-third-desktop">
-            <figure id="home-nest-figure-right" class="image">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/nest_tall_01.jpg" alt="">
-            </figure>
-          </div>
-          <div class="column is-half-tablet is-one-third-desktop">
-            <div id="home-nest-content" class="content">
-              <h3 class="title">a cosy nest,<br>a <i>joie de vivre.</i></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ipsam eligendi, vel, dolor eos commodi modi fuga.</p>
-              <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas earum laboriosam quo sed expedita ratione voluptates dolore reiciendis culpa praesentium alias esse debitis molestias eius quibusdam, quia molestiae ipsa tempore.</p>
-              <div class="link-button-container">
-                <a href="https://emaidalat.com/gallery/" class="link-button">View Gallery</a>
-              </div>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <div id="home-food-background" class="banner"></div>
-
     <section id="home-menu" class="section grey-f4">
       <h2 class="remove-header">Menu</h2>
       <div class="container">
@@ -76,7 +45,7 @@
       </div>
     </section>
 
-    <section id="home-cafe" class="section grey-ea">
+    <section id="home-cafe" class="section grey-f4">
       <h2 class="remove-header">Cafe</h2>
       <div class="container">
         <article id="home-cafe-article" class="columns">
@@ -101,6 +70,38 @@
       </div>
     </section>
 
+    <div id="home-food-background" class="banner"></div>
+
+        <section id="home-rooms" class="section">
+          <h2 class="remove-header">Our Rooms</h2>
+          <div class="container">
+            <article id="home-rooms-article" class="columns">
+              <div class="column is-half-tablet is-one-third-desktop">
+                <div id="home-rooms-content" class="content">
+                  <h3>gorgeous &amp; rustic little rooms</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ipsam eligendi, vel, dolor eos commodi modi fuga.</p>
+                  <br>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas earum laboriosam quo sed expedita ratione voluptates dolore reiciendis culpa praesentium alias esse debitis molestias eius quibusdam, quia molestiae ipsa tempore.</p>
+                  <div class="link-button-container">
+                    <a href="https://emaidalat.com/our-rooms/" class="link-button">View Rooms</a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="column is-half-tablet is-one-third-desktop">
+                <figure id="home-rooms-figure-left" class="image">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/room_tall_01.jpg" alt="">
+                </figure>
+              </div>
+              <div class="column is-one-third-desktop">
+                <figure id="home-rooms-figure-right" class="image">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/room_tall_02.jpg" alt="">
+                </figure>
+              </div>
+            </article>
+          </div>
+        </section>
+
 
     <section id="home-dalat" class="section">
       <h2 class="remove-header">Explore Dalat</h2>
@@ -117,6 +118,7 @@
       </div>
     </section>
 
+<<<<<<< HEAD
     <section id="home-rooms" class="section">
       <h2 class="remove-header">Our Rooms</h2>
       <div class="container">
@@ -129,23 +131,36 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas earum laboriosam quo sed expedita ratione voluptates dolore reiciendis culpa praesentium alias esse debitis molestias eius quibusdam, quia molestiae ipsa tempore.</p>
               <div class="link-button-container">
                 <a href="https://emaidalat.com/emai-bnb-rooms/" class="link-button">View Rooms</a>
+=======
+        <section id="home-nest" class="section grey-f4">
+          <h2 class="remove-header">Gallery</h2>
+          <div class="container">
+            <article id="home-nest-article" class="columns">
+              <div class="column is-half-tablet is-one-third-desktop">
+                <figure id="home-nest-figure-left" class="image">
+                  <img class="" src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/nest_tall_01.jpg" alt="">
+                </figure>
+>>>>>>> imac-work
               </div>
-
-            </div>
+              <div class="column is-hidden-tablet-only is-shown-desktop is-one-third-desktop">
+                <figure id="home-nest-figure-right" class="image">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/nest_tall_01.jpg" alt="">
+                </figure>
+              </div>
+              <div class="column is-half-tablet is-one-third-desktop">
+                <div id="home-nest-content" class="content">
+                  <h3 class="title">a cosy nest,<br>a <i>joie de vivre.</i></h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ipsam eligendi, vel, dolor eos commodi modi fuga.</p>
+                  <br>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas earum laboriosam quo sed expedita ratione voluptates dolore reiciendis culpa praesentium alias esse debitis molestias eius quibusdam, quia molestiae ipsa tempore.</p>
+                  <div class="link-button-container">
+                    <a href="https://emaidalat.com/gallery/" class="link-button">View Gallery</a>
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
-          <div class="column is-half-tablet is-one-third-desktop">
-            <figure id="home-rooms-figure-left" class="image">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/room_tall_01.jpg" alt="">
-            </figure>
-          </div>
-          <div class="column is-one-third-desktop">
-            <figure id="home-rooms-figure-right" class="image">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/room_tall_02.jpg" alt="">
-            </figure>
-          </div>
-        </article>
-      </div>
-    </section>
+        </section>
 
     <section id="home-book" class="section">
       <h2 class="remove-header">Booking</h2>

@@ -15,6 +15,7 @@ Text Domain: emaidalat
     BASE STYLES
 ////////////////////*/
 
+
 hr {
   border: 0;
   height: 2px;
@@ -190,8 +191,16 @@ h6 {
     BASE COLOURS
 ////////////////////*/
 
+html {
+    background-color: #f4f4f4;
+}
+
 main {
-  background-color: #eaeaea;
+  background-color: #f4f4f4;
+}
+
+footer {
+    background-color: grey;
 }
 
 .grey-ea {
@@ -410,121 +419,46 @@ main {
   padding-bottom: 50px;
 }
 
-
-#home-nest {
-  margin-top: -3em;
-}
-
-
-@media screen and (max-width:768px) {
-  #home-nest .container {
-    margin-top: -100px;
-  }
-}
-
-@media screen and (min-width: 769px) {
-  #home-nest {
-    padding-bottom: 0;
-  }
-}
-
-#home-nest-article {
-  flex-flow: row-reverse;
-}
-
-@media screen and (min-width: 769px) and (max-width:1024px) {
-  #home-nest-figure-left {
-    position: relative;
-    max-height: 550px;
-    overflow: hidden;
-  }
-}
-
-@media screen and (min-width: 769px) {
-  #home-nest-figure-right {
-    position: relative;
-    top: -90px;
-  }
-  #home-nest-figure-left {
-    top: -70px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  #home-nest-figure-right {
-    display: none;
-  }
-}
-
-#home-food-background {
-  background-image: url(images/placeholder/food_wide_01.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-@media screen and (min-width: 769px) {
-  #home-menu .content {
-    max-width: 500px;
-  }
+#home-menu .container,
+#home-cafe .container {
+  max-width: 1000px;
 }
 
 #home-menu-article {
   flex-flow: row-reverse;
 }
 
-@media screen and (min-width: 1024px) {
-  #home-menu-article {
-    margin-right: 6.6666%;
-  }
+#home-menu-article img,
+#home-cafe-article img {
+  margin: auto;
 }
 
 @media screen and (min-width: 769px) {
   #home-menu-figure img {
-    float: right;
+    position: relative;
+    top: -80px;
+  }
+  #home-cafe-figure img {
+    position: relative;
+    top: -30px;
   }
 }
 
-@media screen and (min-width:1024px) {
   #home-cafe {
     margin-top: -110px;
     padding-top: 80px;
   }
-}
 
+#home-menu-article .content,
 #home-cafe-article .content {
-  background-color: white;
-  padding: 30px;
+  padding: 0 1em;
   text-align: left;
 }
 
-@media screen and (min-width:769px) {
-  #home-cafe-article .content {
-    max-width: 600px;
-    float: right;
-  }
-}
-
-
-@media screen and (min-width: 769px) {
-  #home-cafe-article .content {
-    position: relative;
-    left: 60px;
-    z-index: 1;
-    margin-left: -60px;
-  }
-}
-
-#home-dalat {
-  background-image: url(images/placeholder/dalat_wide_01.jpg);
+#home-food-background {
+  background-image: url(images/placeholder/food_wide_01.jpg);
   background-position: center;
   background-size: cover;
-}
-
-
-@media screen and (max-width: 768px) {
-  #home-dalat-article {
-    margin-top: 100px;
-  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -534,7 +468,7 @@ main {
 }
 
 #home-rooms-content {
-  padding-left: 40px;
+  padding: 1em;
 }
 
 #home-rooms-article {
@@ -562,6 +496,61 @@ main {
 
 @media screen and (max-width: 1023px) {
   #home-rooms-figure-right {
+    display: none;
+  }
+}
+
+#home-dalat {
+  background-image: url(images/placeholder/dalat_wide_01.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+@media screen and (max-width: 768px) {
+  #home-dalat-article {
+    margin-top: 100px;
+  }
+}
+
+#home-nest {
+  margin-top: 1em;
+}
+
+@media screen and (min-width:1024px) {
+  #home-nest {
+    margin-top: 4em;
+  }
+}
+
+#home-nest-article {
+  flex-flow: row-reverse;
+}
+
+#home-nest-content {
+    
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+  #home-nest-figure-left {
+    position: relative;
+    max-height: 550px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #home-nest-figure-right {
+    position: relative;
+    top: -50px;
+  }
+  #home-nest-figure-left {
+    top: -10px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  #home-nest-figure-right {
     display: none;
   }
 }
