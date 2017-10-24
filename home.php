@@ -3,18 +3,17 @@
 <main id="blog-main">
 
   <section id="blog-intro" class="section intro">
-    <h2 class="remove-header">Introduction</h2>
     <div class="container side-padding">
       <hgroup class="content has-text-centered">
-        <h2>emai lifestyle blog</h2>
+        <h1>emai lifestyle blog</h1>
         <hr>
-        <h3><i>on art, beauty, and living meaningfully</i></h3>
+        <h2><i>on art, beauty, and living meaningfully</i></h2>
       </hgroup>
     </div>
   </section>
 
   <section id="blog-home-featured" class="section banner">
-    <h2 class="remove-header">Featured article</h2>
+    <h1 class="remove-header">Featured article</h1>
 
     <article id="blog-featured-article" class="combine-container content">
 
@@ -47,7 +46,7 @@
   </section>
 
   <section id="blog-home-main-section" class="section">
-    <h2 class="remove-header">Blog</h2>
+    <h1 class="remove-header">Blog</h1>
     <div class="container">
       <div class="columns">
 
