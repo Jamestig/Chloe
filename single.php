@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main id="post-main">
+<main id="post-main" class="grey-ea">
 
   <section id="blog-post-main-section" class="section">
     <div class="container">
@@ -67,14 +67,14 @@
             <section id="post-blog-excerpts" class="blog-excerpts section">
 
               <header class="has-text-centered">
-                <h2>more from <a href="#">our blog</a></h2>
+                <h1 class="no-transform">more from <a href="https://emaidalat.com/blog/">our blog</a></h1>
                 <hr>
-                <p class="is-size-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               </header>
 
               <div class="columns">
 
-                <?php 
+                <?php
                   $args_latest = array(
                   'post_type' => 'post',
                   'ignore_sticky_posts' => 1,
@@ -90,18 +90,17 @@
               </a>
                   </figure>
                   <div class="blog-excerpt-text">
-                    <h3>
+                    <h4>
                       <a href="<?php the_permalink() ?>">
                         <?php the_title(); ?>
                       </a>
-                    </h3>
-                    <p>
-                      <a href="http://localhost/wordpress/category/food/">Food</a> &vert; <a href="http://localhost/wordpress/category/recipe/">Recipe</a>
-                    </p>
-                    <p>
+                    </h4>
+                    <h6>
+                      <?php the_category(' &vert; '); ?>
+                    </h6>
+                    <p class="is-size-6">
                       <?php echo substr(strip_tags($post->post_content), 0, 100);?>
                     </p>
-                    <!-- <?php the_content( 'Read the full post »' ); ?>-->
                   </div>
 
                 </article>
@@ -111,7 +110,7 @@
                 <?php wp_reset_query();?>
               </div>
               <div class="link-button-container has-text-centered">
-                <a href="http://localhost/wordpress/blog/" class="link-button">Return to blog</a>
+                <a href="https://emaidalat.com/blog/" class="link-button">Return to blog</a>
               </div>
             </section>
           </div>

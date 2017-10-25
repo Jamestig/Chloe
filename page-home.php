@@ -13,8 +13,7 @@
       <div class="container side-padding">
         <div class="content has-text-centered">
           <p class="is-size-4">Come into a timeless sanctuary of gentle beauty, soothing music, and exquisite Mediterranean food.</p>
-          <br>
-          <p>Reprehenderit quos quisquam deleniti cupiditate eaque voluptatibus, odit autem eligendi deserunt eveniet consequatur nostrum dignissimos distinctio nesciunt animi. Unde voluptatem nihil, sed.</p>
+          <p  class="is-size-5">Reprehenderit quos quisquam deleniti cupiditate eaque voluptatibus, odit autem eligendi deserunt eveniet consequatur nostrum dignissimos distinctio nesciunt animi. Unde voluptatem nihil, sed.</p>
           <hr>
         </div>
       </div>
@@ -23,7 +22,7 @@
     <section id="home-menu" class="section grey-f4">
       <h1 class="remove-header">Menu</h1>
       <div class="container">
-       
+
         <article id="home-menu-article" class="columns">
           <div class="column is-half">
             <figure id="home-menu-figure" class="image">
@@ -38,26 +37,26 @@
               <br>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, dolore. Voluptatibus iure atque illum incidunt, natus sunt corporis cupiditate maxime vitae error aliquid, odit a, perspiciatis alias quibusdam officia similique.</p>
               <div class="link-button-container">
-                <a href="#" class="link-button">View Menu</a>
+                <a href="https://emaidalat.com/restaurant/" class="link-button">View Menu</a>
               </div>
             </div>
           </div>
         </article>
-        
+
       </div>
     </section>
 
     <section id="home-cafe" class="section grey-f4">
       <h1 class="remove-header">Cafe</h1>
       <div class="container">
-       
+
         <article id="home-cafe-article" class="columns">
           <div class="column is-half">
             <figure id="home-cafe-figure" class="image">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/coffee_tall_01.jpg" alt="">
             </figure>
           </div>
-          <div class="column is-half center">
+          <div class="column is-half">
             <div itemscope itemType="http://schema.org/servesCuisine" class="content">
               <h3>wholesome and exquisite <span itemprop="name">mediterranean</span> food</h3>
               <br>
@@ -65,12 +64,12 @@
               <br>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, dolore. Voluptatibus iure atque illum incidunt, natus sunt corporis cupiditate maxime vitae error aliquid, odit a, perspiciatis alias quibusdam officia similique.</p>
               <div class="link-button-container">
-                <a href="#" class="link-button">Cafe Menu</a>
+                <a href="https://emaidalat.com/restaurant/" class="link-button">Cafe Menu</a>
               </div>
             </div>
           </div>
         </article>
-        
+
       </div>
     </section>
 
@@ -112,10 +111,10 @@
       <div class="columns banner">
         <div class="center column is-three-quarters center">
           <article itemscope itemyype="http://schema.org/City" id="home-dalat-article" class="content inverse">
-            <h3>let us welcome you to <span itemprop="name">Dalat</span></h3>
+            <h3>let us welcome you to <span itemprop="name"><a href="https://www.google.com.vn/search?q=dalat&oq=dalat&aqs=chrome..69i57j69i60j69i61l2j69i59l2.1239j0j7&sourceid=chrome&ie=UTF-8">Dalat</a></span></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quisquam id, omnis officiis molestias veritatis eligendi facilis inventore adipisci repellat.</p>
             <div class="link-button-container">
-              <a href="#" class="link-button">Explore Dalat</a>
+              <a href="https://www.google.com.vn/search?q=dalat&oq=dalat&aqs=chrome..69i57j69i60j69i61l2j69i59l2.1239j0j7&sourceid=chrome&ie=UTF-8" class="link-button">Explore Dalat</a>
             </div>
           </article>
         </div>
@@ -159,11 +158,11 @@
             <div class="content inverse">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quisquam id, omnis officiis molestias veritatis eligendi facilis inventore adipisci repellat.</p>
               <div class="link-button-container">
-                <div>
-                  <a href="http://localhost/wordpress/our-rooms/" class="link-button">Reserve a table</a>
+                <div class="link-button-left">
+                  <a href="https://emaidalat.com/contact/" class="link-button">Reserve a table</a>
                 </div>
-                <div>
-                  <a href="http://localhost/wordpress/our-rooms/" class="link-button">Book your stay</a>
+                <div class="link-button-right">
+                  <a href="https://emaidalat.com/our-rooms/" class="link-button">Book your stay</a>
                 </div>
               </div>
 
@@ -177,7 +176,7 @@
       <div class="container content">
 
         <header class="has-text-centered">
-          <h1>from <a href="https://emaidalat.com/blog/">our blog</a></h1>
+          <h1 class="no-transform">from <a href="https://emaidalat.com/blog/">our blog</a></h1>
           <hr>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </header>
@@ -206,7 +205,7 @@
                   </a>
                 </h4>
                 <h6>
-                  <a href="http://localhost/wordpress/category/food/">Food</a> &vert; <a href="http://localhost/wordpress/category/recipe/">Recipe</a>
+                  <?php the_category(' &vert; '); ?>
                 </h6>
                 <p class="is-size-6">
                   <?php echo substr(strip_tags($post->post_content), 0, 100);?>

@@ -15,12 +15,11 @@ Text Domain: emaidalat
     BASE STYLES
 ////////////////////*/
 
-
 hr {
   border: 0;
   height: 2px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
-  margin: 2.5em auto;
+  margin: 2em auto;
   width: 70%;
   max-width: 500px;
 }
@@ -79,6 +78,43 @@ a:hover {
   padding: 2em 0 0 .5em;
 }
 
+@media screen and (min-width:769px) {
+  .link-button-left {
+    margin-right: .5em;
+  }
+  .link-button-right {
+    margin-left: .5em;
+  }
+}
+
+.link-button-airbnb-container {
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+}
+
+@media screen and (min-width:
+769px) {
+  .link-button-airbnb-container {
+    position: relative;
+    top: -120px;
+  }
+}
+
+.airbnb-button img {
+  width: 280px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+}
+
+.airbnb-button img:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
 .remove-header {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -94,6 +130,11 @@ a:hover {
   background-color: #eaeaea;
   padding-top: 90px;
   padding-bottom: 90px;
+  text-align: center;
+}
+
+.intro hgroup {
+  padding-bottom: 2em;
 }
 
 .intro > .container {
@@ -125,6 +166,9 @@ a:hover {
   margin: auto;
 }
 
+.container {
+  max-width: 1152px;
+}
 
 /*////////////////////
     TYPOGRAPHY
@@ -153,6 +197,7 @@ a:hover {
 h1 {
   text-transform: uppercase;
 }
+
 section h1 {
   font-size: 1.5em !important;
 }
@@ -161,6 +206,7 @@ h2 {
   text-transform: lowercase;
   word-wrap: normal;
 }
+
 hgroup h2 {
   font-size: 1.5em !important;
 }
@@ -184,6 +230,7 @@ h6 {
   text-transform: uppercase;
   color: #777777 !important;
 }
+
 .blog-excerpt h6 {
   font-size: .8em;
 }
@@ -192,13 +239,27 @@ h6 {
   text-transform: none;
 }
 
-p {
-  color: #777777 !important;
+@media screen and (min-width:550px) {
+  p {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (min-width:768px) {
+  p {
+    font-size: 1.15em;
+  }
 }
 
 @media screen and (min-width:1024px) {
   p {
-    font-size: 1.1em;
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width:1216px) {
+  p {
+    font-size: 1.3em;
   }
 }
 
@@ -207,16 +268,12 @@ p {
     BASE COLOURS
 ////////////////////*/
 
-html {
-    background-color: #f4f4f4;
-}
-
 main {
   background-color: #f4f4f4;
 }
 
-footer {
-    background-color: grey;
+.footer {
+  background-color: lightgrey;
 }
 
 .grey-ea {
@@ -418,7 +475,6 @@ footer {
   #home-main figure {
     max-height: 500px;
     overflow: hidden;
-    ;
   }
   #home-main figure img {
     margin: auto;
@@ -447,6 +503,24 @@ footer {
   margin: auto;
 }
 
+@media screen and (max-width: 768px) {
+  #home-menu {
+    padding-top: 0px;
+  }
+  #home-menu .column:first-child {
+    padding-top: 0px;
+  }
+  #home-menu-figure {
+    top: -2em;
+  }
+  #home-cafe .column:first-child {
+    padding-top: 2em;
+  }
+  #home-cafe-figure {
+    margin-bottom: 2em;
+  }
+}
+
 @media screen and (min-width: 769px) {
   #home-menu-figure img {
     position: relative;
@@ -458,10 +532,10 @@ footer {
   }
 }
 
-  #home-cafe {
-    margin-top: -110px;
-    padding-top: 80px;
-  }
+#home-cafe {
+  margin-top: -110px;
+  padding-top: 80px;
+}
 
 #home-menu-article .content,
 #home-cafe-article .content {
@@ -541,9 +615,7 @@ footer {
   flex-flow: row-reverse;
 }
 
-#home-nest-content {
-    
-}
+#home-nest-content {}
 
 @media screen and (min-width: 769px) and (max-width:1024px) {
   #home-nest-figure-left {
@@ -593,6 +665,10 @@ footer {
   margin-top: 2em;
 }
 
+#home-blog-excerpts {
+  display: none;
+}
+
 #home-blog-excerpts .container {
   max-width: 1024px;
   margin-top: 2em;
@@ -600,53 +676,96 @@ footer {
 
 
 /*////////////////////
-    OUR ROOMS PAGE
+    RESTAURANT PAGE
 ////////////////////*/
 
-#our-rooms-intro hr {
+#restaurant-intro hr {
   margin-bottom: 50px;
 }
 
-#our-rooms-section img {
-  max-width: 400px;
-  margin: auto;
+#restaurant-menu img,
+#restaurant-food img {
+  max-width: 420px;
 }
 
-#our-rooms-section .content {
-  background-color: white;
+#restaurant-menu .container,
+#restaurant-food .container {
+  max-width: 1000px;
 }
 
-#our-rooms-cottage {
+#restaurant-food {
+  background-color: #eaeaea;
+}
+
+#restaurant-menu-article {
   flex-flow: row-reverse;
 }
 
-@media screen and (min-width:769px) {
-  #our-rooms-cottage {
-    margin-top: -220px;
-    margin-left: 3%;
+#restaurant-menu-article img {
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  #restaurant-menu-figure {
+    margin-top: 2em;
   }
-  #our-rooms-bnb {
-    margin-right: 3%;
+  #restaurant-food .column:first-child {
+    padding-top: 2em;
   }
-  #our-rooms-bnb .content {
-    position: relative;
-    top: -120px;
-    right: 50px;
+  #restaurant-food-figure {
+    margin-top: 2em;
   }
-  #our-rooms-cottage .content {
-    position: relative;
-    top: 120px;
-    left: 50px;
-  }
-  #our-rooms-bnb img {
-    float: right;
-  }
-  #our-rooms-cottage img {
-    float: left;
+  #restaurant-food-article img {
+    margin: auto;
   }
 }
 
-#our-rooms-welcome {
+@media screen and (min-width: 769px) {
+  #restaurant-food-figure img {
+    position: relative;
+    margin: auto;
+  }
+  #restaurant-food {
+    margin-top: -90px;
+    padding-top: 70px;
+  }
+}
+
+#restaurant-menu-article .content,
+#restaurant-food-article .content {
+  padding: 0 1em;
+  text-align: left;
+}
+
+#restaurant-menu-article .content {
+  margin-top: 2em;
+}
+
+#restaurant-food-article .content {
+  background-color: white;
+  padding: 1em;
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (min-width: 769px) {
+  #restaurant-food-article .content {
+    left: 15%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #restaurant-food figure {
+    position: relative;
+    top: -2em;
+  }
+  #restaurant-food {
+    margin-top: -150px;
+    padding-top: 90px;
+  }
+}
+
+#restaurant-welcome {
   background-image: url(images/placeholder/food_wide_02.jpg);
   background-position: center;
   background-size: cover;
@@ -657,10 +776,28 @@ footer {
     EMAI BNB PAGE
 ////////////////////*/
 
+#emai-bnb-homestay {
+  padding-top: 0;
+}
+
+#emai-bnb-first.section {
+  padding-bottom: 0;
+}
+
+#emai-bnb-first>.content>.columns,
+#emai-bnb-attic>.content>.columns {
+  margin-top: 4em;
+}
+
 #emai-bnb-first .content,
 #emai-bnb-attic .content {
   max-width: 1200px;
   margin: auto;
+}
+
+#emai-bnb-first .combine-inner,
+#emai-bnb-attic .combine-inner {
+  padding: 3%;
 }
 
 #emai-bnb-first .combine-background,
@@ -675,16 +812,23 @@ footer {
   }
 }
 
-#emai-bnb-first .combine-inner,
-#emai-bnb-attic .combine-inner {
-  padding: 5%;
+.room-section {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
+@media screen and (min-width:769px) {
+  .room-section {
+    margin-bottom: -4em;
+  }
+}
 
 /*// COMBINE ELEMENT //*/
 
 .combine-inner {
-  padding: 3%;
+  padding: 2em;
   background-color: #f4f4f4;
 }
 
@@ -974,9 +1118,11 @@ footer {
 #contact-map-info {
   margin-left: 2em;
 }
+
 #contact-map-image {
   overflow: hidden;
 }
+
 #contact-map-image img {
   min-height: 200px;
   width: 100%;
@@ -997,17 +1143,20 @@ footer {
   padding: 1em 1.5em;
   opacity: 0.9;
 }
+
 @media screen and (min-width:450px) and (max-width:768px) {
   #contact-form {
     margin: 0 10%;
     padding: 1em 2em;
   }
 }
+
 @media screen and (min-width:769px) {
   #contact-form {
     padding: 1em 2em;
   }
 }
+
 @media screen and (min-width:1024px) {
   #contact-form {
     padding: 1em 4em;
@@ -1018,6 +1167,7 @@ footer {
   width: 49%;
   display: inline-block;
 }
+
 .wpcf7-form #last-name {
   width: 49%;
   display: inline-block;
@@ -1049,6 +1199,7 @@ footer {
   padding: 0.2em 5em;
   white-space: nowrap;
 }
+
 @media screen and (min-width:768px) {
   .wpcf7-submit {
     float: right;
@@ -1074,8 +1225,6 @@ div.wpcf7-mail-sent-ok {
 /*////////////////////
     MAILCHIMP
 ////////////////////*/
-
-
 
 .mc4wp-form-fields p input[type="submit"] {
   color: white;

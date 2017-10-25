@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main id="blog-main">
+<main id="blog-main" class="grey-ea">
 
   <section id="blog-intro" class="section intro">
     <div class="container side-padding">
@@ -42,7 +42,6 @@
       <?php wp_reset_query(); ?>
 
     </article>
-
   </section>
 
   <section id="blog-home-main-section" class="section">
