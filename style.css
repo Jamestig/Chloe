@@ -191,7 +191,7 @@ a:hover {
 .inverse h3,
 .inverse h4,
 .inverse h5 {
-  color: #eaeaea;
+  color: white;
 }
 
 h1 {
@@ -212,7 +212,6 @@ hgroup h2 {
 }
 
 h3 {
-  text-transform: lowercase;
   font-size: 1.6em !important;
 }
 
@@ -241,25 +240,25 @@ h6 {
 
 @media screen and (min-width:550px) {
   p {
-    font-size: 1.1em;
+    font-size: 1.05em;
   }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:769px) {
   p {
-    font-size: 1.15em;
+    font-size: 1.1em;
   }
 }
 
 @media screen and (min-width:1024px) {
   p {
-    font-size: 1.2em;
+    font-size: 1.15em;
   }
 }
 
 @media screen and (min-width:1216px) {
   p {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 }
 
@@ -300,7 +299,7 @@ main {
 
 @media screen and (min-width:769px) {
   #header {
-    background-image: url(images/placeholder/house_wide_01.jpg);
+    background-image: url(images/photo/header-background.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -450,7 +449,7 @@ main {
 
 #first-background {
   height: 330px;
-  background-image: url(images/placeholder/house_wide_01.jpg);
+  background-image: url(images/photo/header-background.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -500,6 +499,9 @@ main {
 #home-menu-article {
   flex-flow: row-reverse;
 }
+#home-menu-article h3 {
+  margin-top: 1em;
+}
 
 #home-menu-article img,
 #home-cafe-article img {
@@ -531,13 +533,13 @@ main {
   }
   #home-cafe-figure img {
     position: relative;
-    top: -30px;
+    top: 30px;
   }
 }
 
 #home-cafe {
-  margin-top: -110px;
-  padding-top: 80px;
+  margin-top: -50px;
+  margin-bottom: 70px;
 }
 
 #home-menu-article .content,
@@ -547,7 +549,7 @@ main {
 }
 
 #home-food-background {
-  background-image: url(images/placeholder/food_wide_01.jpg);
+  background-image: url(images/photo/food_wide_01.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -560,6 +562,12 @@ main {
 
 #home-rooms-content {
   padding: 1em;
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+  #home-rooms-content {
+    padding: 2em;
+  }
 }
 
 #home-rooms-article {
@@ -596,8 +604,12 @@ main {
   background-position: center;
   background-size: cover;
 }
-
-
+#home-dalat a {
+  color: white;
+}
+#home-dalat a:hover {
+  color: #eaeaea;
+}
 @media screen and (max-width: 768px) {
   #home-dalat-article {
     margin-top: 100px;
@@ -605,7 +617,7 @@ main {
 }
 
 #home-nest {
-  margin-top: 1em;
+  margin: 2em 0 1em 0;
 }
 
 @media screen and (min-width:1024px) {
@@ -618,7 +630,15 @@ main {
   flex-flow: row-reverse;
 }
 
-#home-nest-content {}
+#home-nest-content {
+  padding: 1em;
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+  #home-nest-content {
+    padding: 2em;
+  }
+}
 
 @media screen and (min-width: 769px) and (max-width:1024px) {
   #home-nest-figure-left {
@@ -645,7 +665,7 @@ main {
 }
 
 #home-book {
-  background-image: url(images/placeholder/garden_wide_01.jpg);
+  background-image: url(images/photo/garden_wide_01.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -768,7 +788,7 @@ main {
 }
 
 #restaurant-welcome {
-  background-image: url(images/placeholder/food_wide_02.jpg);
+  background-image: url(images/photo/food_wide_02.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -835,7 +855,7 @@ main {
 }
 
 .combine-background {
-  background-image: url(images/placeholder/house_wide_01.jpg);
+  background-image: url(images/photo/house_wide_01.jpg);
   background-position: center;
   background-size: cover;
   height: 400px;

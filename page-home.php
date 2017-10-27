@@ -12,7 +12,7 @@
       <h1 class="remove-header">Introduction</h1>
       <div class="container side-padding">
         <div class="content has-text-centered">
-          <p class="is-size-4">Come into a timeless sanctuary of gentle beauty, soothing music, and exquisite Mediterranean food.
+          <p class="is-size-4">Come into a timeless sanctuary of gentle beauty,<br>soothing music, and exquisite Mediterranean food.
           </p>
           <p class="is-size-5">Blending European romanticism, Nordic minimalism, and Japanese Zen aesthetics, émai is a bed &amp; breakfast, art café, and contemporary Italian restaurant, all in a beautiful little cottage home in which to rest your heart and enchant your senses.</p>
           <hr>
@@ -27,7 +27,7 @@
         <article id="home-menu-article" class="columns">
           <div class="column is-half">
             <figure id="home-menu-figure" class="image">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/food_tall_01.jpg" alt="">
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/food_tall_01.jpg" alt="">
             </figure>
           </div>
           <div class="column is-half">
@@ -54,7 +54,7 @@
         <article id="home-cafe-article" class="columns">
           <div class="column is-half">
             <figure id="home-cafe-figure" class="image">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/coffee_tall_01.jpg" alt="">
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/coffee_tall_01.jpg" alt="">
             </figure>
           </div>
           <div class="column is-half">
@@ -86,20 +86,20 @@
               <h3>Gorgeous &amp; rustic little rooms</h3>
               <p>Our cosy guest rooms recall the picturesque charm of the Dalat countryside, with a touch of Zen and contemporary aesthetics from Europe and Japan.</p>
               <br>
-              <p>Whether you would like to get snug in one of the charming guestrooms at our bed & breakfast, or enjoy the spacious beauty and privacy at our cottage house, we would be so pleased to welcome you to émai.</p>
+              <p>Whether you would like to get snug in one of the charming guestrooms at our bed &amp; breakfast, or enjoy the spacious beauty and privacy at our cottage house, we would be so pleased to welcome you to émai.</p>
               <div class="link-button-container">
-                <a href="https://emaidalat.com/our-rooms/" class="link-button">View Rooms / Make a Booking</a>
+                <a href="https://emaidalat.com/our-rooms/" class="link-button">View Rooms</a>
               </div>
             </div>
           </div>
           <div class="column is-half-tablet is-one-third-desktop">
             <figure id="home-rooms-figure-left" class="image">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/room_tall_01.jpg" alt="">
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/room_tall_01.jpg" alt="">
             </figure>
           </div>
           <div class="column is-one-third-desktop">
             <figure id="home-rooms-figure-right" class="image">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/room_tall_02.jpg" alt="">
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/room_tall_02.jpg" alt="">
             </figure>
           </div>
         </article>
@@ -128,12 +128,12 @@
         <article id="home-nest-article" class="columns">
           <div class="column is-half-tablet is-one-third-desktop">
             <figure id="home-nest-figure-left" class="image">
-              <img class="" src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/nest_tall_01.jpg" alt="">
+              <img class="" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_02.jpg" alt="">
             </figure>
           </div>
           <div class="column is-hidden-tablet-only is-shown-desktop is-one-third-desktop">
             <figure id="home-nest-figure-right" class="image">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/nest_tall_01.jpg" alt="">
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_01.jpg" alt="">
             </figure>
           </div>
           <div class="column is-half-tablet is-one-third-desktop">
