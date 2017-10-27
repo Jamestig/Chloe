@@ -12,8 +12,9 @@
       <h1 class="remove-header">Introduction</h1>
       <div class="container side-padding">
         <div class="content has-text-centered">
-          <p class="is-size-4">Come into a timeless sanctuary of gentle beauty, soothing music, and exquisite Mediterranean food.</p>
-          <p  class="is-size-5">Reprehenderit quos quisquam deleniti cupiditate eaque voluptatibus, odit autem eligendi deserunt eveniet consequatur nostrum dignissimos distinctio nesciunt animi. Unde voluptatem nihil, sed.</p>
+          <p class="is-size-4">Come into a timeless sanctuary of gentle beauty, soothing music, and exquisite Mediterranean food.
+          </p>
+          <p class="is-size-5">Blending European romanticism, Nordic minimalism, and Japanese Zen aesthetics, émai is a bed &amp; breakfast, art café, and contemporary Italian restaurant, all in a beautiful little cottage home in which to rest your heart and enchant your senses.</p>
           <hr>
         </div>
       </div>
@@ -31,11 +32,11 @@
           </div>
           <div class="column is-half">
             <div itemscope itemType="http://schema.org/hasMenu" class="content">
-              <h3>exquisite traditional and<br> contemporary flavours</h3>
+              <h3>Traditional italian flavours<br>with a contemporary touch</h3>
               <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dicta, natus, rem quis veritatis.</p>
+              <p>Inspired by the elegant simplicity of the Tuscan countryside, the food at émai is an exquisite blend of traditional and contemporary styles to deliver a wholly unique gastronomic experience.</p>
               <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, dolore. Voluptatibus iure atque illum incidunt, natus sunt corporis cupiditate maxime vitae error aliquid, odit a, perspiciatis alias quibusdam officia similique.</p>
+              <p>Every delectable dish is freshly cooked using organic vegetables and herbs farmed from Dalat's remarkable agricultural landscape, renowned across the country for its beautiful weather and clean, fresh Mediterranean produce.</p>
               <div class="link-button-container">
                 <a href="https://emaidalat.com/restaurant/" class="link-button">View Menu</a>
               </div>
@@ -58,13 +59,13 @@
           </div>
           <div class="column is-half">
             <div itemscope itemType="http://schema.org/servesCuisine" class="content">
-              <h3>wholesome and exquisite <span itemprop="name">mediterranean</span> food</h3>
+              <h3>Wholesome, indulgent homemade cakes &amp; drinks</h3>
               <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dicta, natus, rem quis veritatis.</p>
+              <p>Have a taste of heaven with our handpicked selection of special homemade cakes and desserts.</p>
               <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, dolore. Voluptatibus iure atque illum incidunt, natus sunt corporis cupiditate maxime vitae error aliquid, odit a, perspiciatis alias quibusdam officia similique.</p>
+              <p>From heartwarming mulled wine panacottas to delightfully creamy passion fruit cheesecakes, our charming treats go perfectly with a warm cup of coffee or tea made from some of the world’s best beans and tea leaves, or any one of our own creative and healthy drink creations.</p>
               <div class="link-button-container">
-                <a href="https://emaidalat.com/restaurant/" class="link-button">Cafe Menu</a>
+                <a href="https://emaidalat.com/restaurant/" class="link-button">Café Menu</a>
               </div>
             </div>
           </div>
@@ -82,12 +83,12 @@
         <article id="home-rooms-article" class="columns">
           <div class="column is-half-tablet is-one-third-desktop">
             <div id="home-rooms-content" class="content">
-              <h3>gorgeous &amp; rustic little rooms</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ipsam eligendi, vel, dolor eos commodi modi fuga.</p>
+              <h3>Gorgeous &amp; rustic little rooms</h3>
+              <p>Our cosy guest rooms recall the picturesque charm of the Dalat countryside, with a touch of Zen and contemporary aesthetics from Europe and Japan.</p>
               <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas earum laboriosam quo sed expedita ratione voluptates dolore reiciendis culpa praesentium alias esse debitis molestias eius quibusdam, quia molestiae ipsa tempore.</p>
+              <p>Whether you would like to get snug in one of the charming guestrooms at our bed & breakfast, or enjoy the spacious beauty and privacy at our cottage house, we would be so pleased to welcome you to émai.</p>
               <div class="link-button-container">
-                <a href="https://emaidalat.com/our-rooms/" class="link-button">View Rooms</a>
+                <a href="https://emaidalat.com/our-rooms/" class="link-button">View Rooms / Make a Booking</a>
               </div>
             </div>
           </div>
@@ -110,9 +111,9 @@
       <h1 class="remove-header">Dalat, Vietnam</h1>
       <div class="columns banner">
         <div class="center column is-three-quarters center">
-          <article itemscope itemyype="http://schema.org/City" id="home-dalat-article" class="content inverse">
-            <h3>let us welcome you to <span itemprop="name"><a href="https://www.google.com.vn/search?q=dalat&oq=dalat&aqs=chrome..69i57j69i60j69i61l2j69i59l2.1239j0j7&sourceid=chrome&ie=UTF-8">Dalat</a></span></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quisquam id, omnis officiis molestias veritatis eligendi facilis inventore adipisci repellat.</p>
+          <article itemscope itemtype="http://schema.org/City" id="home-dalat-article" class="content inverse">
+            <h3>Let us welcome you to <span itemprop="name"><a href="https://www.google.com.vn/search?q=dalat&oq=dalat&aqs=chrome..69i57j69i60j69i61l2j69i59l2.1239j0j7&sourceid=chrome&ie=UTF-8">Dalat</a></span></h3>
+            <p>We are situated in the central highlands city of Dalat, Vietnam, where misty pine forests blend into wide open lakes & lush mountain landscapes to take your breath away.</p>
             <div class="link-button-container">
               <a href="https://www.google.com.vn/search?q=dalat&oq=dalat&aqs=chrome..69i57j69i60j69i61l2j69i59l2.1239j0j7&sourceid=chrome&ie=UTF-8" class="link-button">Explore Dalat</a>
             </div>
@@ -138,9 +139,9 @@
           <div class="column is-half-tablet is-one-third-desktop">
             <div id="home-nest-content" class="content">
               <h3 class="title">a cosy nest,<br>a <i>joie de vivre.</i></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ipsam eligendi, vel, dolor eos commodi modi fuga.</p>
+              <p>Embodying the Danish concept of “hygge,” émai hosts a poetic, authentically European atmosphere of warmth, cosiness, and togetherness in all of its textures and sensibilities.</p>
               <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas earum laboriosam quo sed expedita ratione voluptates dolore reiciendis culpa praesentium alias esse debitis molestias eius quibusdam, quia molestiae ipsa tempore.</p>
+              <p>Let émai be yours and your loved ones’ sanctuary from the brisk Dalat weather. To come into émai is to envelop oneself in the embrace of sensory comfort, homely food &amp; drinks, gentle music and natural beauty.</p>
               <div class="link-button-container">
                 <a href="https://emaidalat.com/gallery/" class="link-button">View Gallery</a>
               </div>
@@ -156,7 +157,7 @@
         <div class="columns banner">
           <div class="center column is-three-quarters center">
             <div class="content inverse">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quisquam id, omnis officiis molestias veritatis eligendi facilis inventore adipisci repellat.</p>
+              <p>Amidst Dalat’s sublimity, let émai be your nook for comfort and beauty, delighting your senses and palate in the most tender of ways.</p>
               <div class="link-button-container">
                 <div class="link-button-left">
                   <a href="https://emaidalat.com/contact/" class="link-button">Reserve a table</a>
@@ -178,7 +179,7 @@
         <header class="has-text-centered">
           <h1 class="no-transform">from <a href="https://emaidalat.com/blog/">our blog</a></h1>
           <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p>Our blog features our latest news, lifestyle stories and essays, and special offers.</p>
         </header>
 
         <div class="columns">

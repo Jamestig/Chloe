@@ -15,7 +15,7 @@
           <hr>
           <h2><i>welcome to emai</i></h2>
         </hgroup>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, sint? Sed suscipit incidunt debitis modi voluptate illum soluta beatae quisquam quam velit! Officia, amet sint incidunt error consequatur dolorum eos.</p>
+        <p>To reserve a stay in one of our charming guestrooms, please make your selection below to book on AirBnB, or call us at +84 123 456 789 (English) or + 84 987 654 321 (Vietnamese). We would be so pleased to welcome you to émai.</p>
       </div>
     </section>
 
@@ -26,8 +26,8 @@
           <div class="combine-background column"></div>
           <div class="combine-inner column is-two-thirds is-half-desktop is-one-third-fullhd is-offset-1 is-offset-2-fullhd">
             <h2>emai bed &amp; breakfast, restaurant &amp; cafe</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit neque veritatis aliquid velit, error nihil sint, incidunt quo pariatur.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni amet soluta aliquam neque, provident animi deleniti inventore similique ipsam porro ex necessitatibus enim sint, blanditiis ducimus itaque eveniet aliquid maiores!</p>
+            <p>Atop a little slope on a town street in Dalat sits an old wooden house, densely covered with vines and surrounded by lush, beautiful gardens and stone paths.</p>
+            <p>Comprising an intimate 5-room bed & breakfast, a contemporary Mediterranean restaurant and café, this little abode is brimming with cosiness, good food, and soothing music, always ready to treat you to a beautiful time no matter the occasion.</p>
             <div class="link-button-container">
               <a href="https://emaidalat.com/contact/" class="link-button">Book your stay</a>
             </div>
@@ -50,8 +50,8 @@
               <div class="columns">
                 <div class="combine-background column"></div>
                 <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
-                  <h3>rosewood</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit neque veritatis aliquid velit, error nihil sint, incidunt quo pariatur.</p>
+                  <h3>Clara</h3>
+                  <p>Clara is the only room which offers an expansive balcony on which you can read a book, sip a coffee, or unwind with good company.</p>
                 </div>
               </div>
               <div class="link-button-airbnb-container">
@@ -68,8 +68,8 @@
               <div class="columns">
                 <div class="combine-background column"></div>
                 <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
-                  <h3>ivy</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit neque veritatis aliquid velit, error nihil sint, incidunt quo pariatur.</p>
+                  <h3>Ivy</h3>
+                  <p>With a view of our gorgeous garden and vined-covered wall down below, Ivy is a delight to eyes that are sensitive to the greeneries of life.</p>
                 </div>
               </div>
               <div class="link-button-airbnb-container">
@@ -86,8 +86,8 @@
               <div class="columns">
                 <div class="combine-background column"></div>
                 <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
-                  <h3>may</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit neque veritatis aliquid velit, error nihil sint, incidunt quo pariatur.</p>
+                  <h3>May</h3>
+                  <p>May offers a view of our smaller, serene garden, with a pond and lush plants and trees to soothe the eyes.</p>
                 </div>
               </div>
               <div class="link-button-airbnb-container">
@@ -104,8 +104,9 @@
     <section id="emai-bnb-attic" class="section">
       <div class="content">
         <header class="has-text-centered">
-          <h2 class="title">attic guestrooms</h2>
+          <h2 class="title">Attic guestrooms</h2>
           <hr>
+          <p>Our attic rooms are tucked snugly under the roof, with a skylight through which you can watch the clouds drift or see the stars. Taking inspiration from Japanese architecture, the sleeping arrangement in our attic rooms is a single mattress on the floor.</p>
         </header>
         <div class="columns is-multiline">
 
@@ -115,8 +116,7 @@
               <div class="columns">
                 <div class="combine-background column"></div>
                 <div class="combine-inner column is-half is-offset-5">
-                  <h3>willow</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit neque veritatis aliquid velit, error nihil sint, incidunt quo pariatur.</p>
+                  <h3>Willow</h3>
                 </div>
               </div>
               <div class="link-button-airbnb-container">
@@ -133,8 +133,7 @@
               <div class="columns">
                 <div class="combine-background column"></div>
                 <div class="combine-inner column is-half is-offset-5">
-                  <h3>cocoon</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reprehenderit neque veritatis aliquid velit, error nihil sint, incidunt quo pariatur.</p>
+                  <h3>Cocoon</h3>
                 </div>
               </div>
               <div class="link-button-airbnb-container">
@@ -145,6 +144,21 @@
             </article>
           </section>
 
+        </div>
+      </div>
+    </section>
+    
+    <section id="restaurant-welcome" class="section banner">
+      <div class="container">
+        <div class="columns-is-mobile">
+          <div class="column content inverse is-half">
+            <h3>It would please us greatly to welcome you to our home with a complimentary starter.</h3>
+            <p>Please kindly let us know while you make your booking if you would also like a table reservation at our contemporary Mediterranean restaurant - or simply drop in any time you like. To thank you for your stay, our talented chef will prepare a starter of your choosing, free of charge.</p>
+            <p>Of course, we think you’ll find that the rest of our menu will, too, be of utmost delight to you and your company.</p>
+            <div class="link-button-container">
+              <a href="https://emaidalat.com/contact/" class="link-button">Make a reservation</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
