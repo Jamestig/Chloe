@@ -12,7 +12,7 @@
       <h1 class="remove-header">Introduction</h1>
       <div class="container side-padding">
         <div class="content has-text-centered">
-          <p class="is-size-4">Come into a timeless sanctuary of gentle beauty,<br>soothing music, and exquisite Mediterranean food.
+          <p class="is-size-4">Come into a timeless sanctuary of gentle beauty, soothing music, and exquisite Mediterranean food.
           </p>
           <p class="is-size-5">Blending European romanticism, Nordic minimalism, and Japanese Zen aesthetics, émai is a bed &amp; breakfast, art café, and contemporary Italian restaurant, all in a beautiful little cottage home in which to rest your heart and enchant your senses.</p>
           <hr>
@@ -23,15 +23,14 @@
     <section id="home-menu" class="section grey-f4">
       <h1 class="remove-header">Menu</h1>
       <div class="container">
-
         <article id="home-menu-article" class="columns">
           <div class="column is-half">
-            <figure id="home-menu-figure" class="image">
+            <figure id="home-menu-figure" class="image portrait">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/food_tall_01.jpg" alt="">
             </figure>
           </div>
           <div class="column is-half">
-            <div itemscope itemType="http://schema.org/hasMenu" class="content">
+            <div itemscope itemType="http://schema.org/hasMenu" class="content tablet-text">
               <h3>Traditional italian flavours<br>with a contemporary touch</h3>
               <br>
               <p>Inspired by the elegant simplicity of the Tuscan countryside, the food at émai is an exquisite blend of traditional and contemporary styles to deliver a wholly unique gastronomic experience.</p>
@@ -43,22 +42,20 @@
             </div>
           </div>
         </article>
-
       </div>
     </section>
 
     <section id="home-cafe" class="section grey-f4">
       <h1 class="remove-header">Cafe</h1>
       <div class="container">
-
         <article id="home-cafe-article" class="columns">
           <div class="column is-half">
-            <figure id="home-cafe-figure" class="image">
+            <figure id="home-cafe-figure" class="image portrait">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/coffee_tall_01.jpg" alt="">
             </figure>
           </div>
           <div class="column is-half">
-            <div itemscope itemType="http://schema.org/servesCuisine" class="content">
+            <div itemscope itemType="http://schema.org/servesCuisine" class="content tablet-text">
               <h3>Wholesome, indulgent homemade cakes &amp; drinks</h3>
               <br>
               <p>Have a taste of heaven with our handpicked selection of special homemade cakes and desserts.</p>
@@ -70,7 +67,6 @@
             </div>
           </div>
         </article>
-
       </div>
     </section>
 
@@ -79,10 +75,9 @@
     <section id="home-rooms" class="section">
       <h1 class="remove-header">Our Rooms</h1>
       <div class="container">
-
         <article id="home-rooms-article" class="columns">
-          <div class="column is-half-tablet is-one-third-desktop">
-            <div id="home-rooms-content" class="content">
+          <div id="home-rooms-right" class="column is-half-tablet is-one-third-desktop">
+            <div id="home-rooms-content" class="content center tablet-text">
               <h3>Gorgeous &amp; rustic little rooms</h3>
               <p>Our cosy guest rooms recall the picturesque charm of the Dalat countryside, with a touch of Zen and contemporary aesthetics from Europe and Japan.</p>
               <br>
@@ -92,18 +87,17 @@
               </div>
             </div>
           </div>
-          <div class="column is-half-tablet is-one-third-desktop">
-            <figure id="home-rooms-figure-left" class="image">
+          <div id="home-rooms-mid" class="column is-half-tablet is-one-third-desktop">
+            <figure id="home-rooms-figure-left" class="image portrait">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/room_tall_01.jpg" alt="">
             </figure>
           </div>
-          <div class="column is-one-third-desktop">
-            <figure id="home-rooms-figure-right" class="image">
+          <div id="home-rooms-left" class="column is-one-third-desktop">
+            <figure id="home-rooms-figure-right" class="image portrait">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/room_tall_02.jpg" alt="">
             </figure>
           </div>
         </article>
-
       </div>
     </section>
 
@@ -113,7 +107,7 @@
         <div class="center column is-three-quarters center">
           <article itemscope itemtype="http://schema.org/City" id="home-dalat-article" class="content inverse">
             <h3>Let us welcome you to <span itemprop="name"><a href="https://www.google.com.vn/search?q=dalat&oq=dalat&aqs=chrome..69i57j69i60j69i61l2j69i59l2.1239j0j7&sourceid=chrome&ie=UTF-8">Dalat</a></span></h3>
-            <p>We are situated in the central highlands city of Dalat, Vietnam, where misty pine forests blend into wide open lakes & lush mountain landscapes to take your breath away.</p>
+            <p>We are situated in the central highlands city of Dalat, Vietnam, where misty pine forests blend into wide open lakes &amp; lush mountain landscapes to take your breath away.</p>
             <div class="link-button-container">
               <a href="https://www.google.com.vn/search?q=dalat&oq=dalat&aqs=chrome..69i57j69i60j69i61l2j69i59l2.1239j0j7&sourceid=chrome&ie=UTF-8" class="link-button">Explore Dalat</a>
             </div>
@@ -126,18 +120,18 @@
       <h1 class="remove-header">Gallery</h1>
       <div class="container">
         <article id="home-nest-article" class="columns">
-          <div class="column is-half-tablet is-one-third-desktop">
-            <figure id="home-nest-figure-left" class="image">
+          <div id="home-nest-right" class="column is-half-tablet is-one-third-desktop">
+            <figure id="home-nest-figure-left" class="image portrait">
               <img class="" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_02.jpg" alt="">
             </figure>
           </div>
-          <div class="column is-hidden-tablet-only is-shown-desktop is-one-third-desktop">
-            <figure id="home-nest-figure-right" class="image">
+          <div id="home-nest-mid" class="column is-hidden-tablet-only is-shown-desktop is-one-third-desktop">
+            <figure id="home-nest-figure-right" class="image portrait">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_01.jpg" alt="">
             </figure>
           </div>
-          <div class="column is-half-tablet is-one-third-desktop">
-            <div id="home-nest-content" class="content">
+          <div id="home-nest-left" class="column center is-half-tablet is-one-third-desktop">
+            <div id="home-nest-content" class="content tablet-text">
               <h3 class="title">a cosy nest,<br>a <i>joie de vivre.</i></h3>
               <p>Embodying the Danish concept of “hygge,” émai hosts a poetic, authentically European atmosphere of warmth, cosiness, and togetherness in all of its textures and sensibilities.</p>
               <br>

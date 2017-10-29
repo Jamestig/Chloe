@@ -17,7 +17,7 @@ Text Domain: emaidalat
 
 hr {
   border: 0;
-  height: 2px;
+  height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
   margin: 2em auto;
   width: 70%;
@@ -68,10 +68,14 @@ a:hover {
   margin: 2em auto;
   padding: 0.2em 1.5em;
   white-space: nowrap;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+  transition-timing-function: ease-in-out;
 }
 
 .link-button:hover {
-  color: #eaeaea;
+  background-color: grey;
+  color: white;
 }
 
 .link-button-container {
@@ -93,8 +97,7 @@ a:hover {
   text-align: center;
 }
 
-@media screen and (min-width:
-769px) {
+@media screen and (min-width: 769px) {
   .link-button-airbnb-container {
     position: relative;
     top: -120px;
@@ -153,6 +156,12 @@ a:hover {
   }
 }
 
+@media screen and (min-width:1200px) {
+  .banner {
+    min-height: 600px;
+  }
+}
+
 .padded {
   padding: 3%;
 }
@@ -168,6 +177,25 @@ a:hover {
 
 .container {
   max-width: 1152px;
+}
+
+@media screen and (max-width:768px) {
+  .tablet-text {
+    max-width: 500px !important;
+    margin: auto;
+  }
+}
+
+.portrait {
+  max-height: 530px;
+  overflow: hidden;
+}
+
+.portrait img {
+  max-width: 400px;
+  margin: auto;
+  object-fit: contain;
+  object-position: center;
 }
 
 /*////////////////////
@@ -300,7 +328,7 @@ main {
 @media screen and (min-width:769px) {
   #header {
     background-image: url(images/photo/header-background.jpg);
-    background-position: center;
+    background-position: 50% 80%;
     background-size: cover;
   }
 }
@@ -312,6 +340,7 @@ main {
 @media screen and (max-width:768px) {
   #header-logo {
     margin: auto;
+    min-height: 250px;
   }
 }
 
@@ -338,7 +367,7 @@ main {
 
 #emai-logo {
   margin: auto;
-  max-height: 250px;
+  max-height: 180px;
 }
 
 #header-background {
@@ -473,22 +502,12 @@ main {
   margin: auto;
 }
 
-@media screen and (max-width:768px) {
-  #home-main figure {
-    max-height: 500px;
-    overflow: hidden;
-  }
-  #home-main figure img {
-    margin: auto;
-  }
-}
-
-#home-main figure img {
-  max-width: 400px;
-}
-
 #home-intro p {
   padding-bottom: 50px;
+}
+
+#home-intro p:first-child {
+  max-width: 600px;
 }
 
 #home-menu .container,
@@ -499,6 +518,7 @@ main {
 #home-menu-article {
   flex-flow: row-reverse;
 }
+
 #home-menu-article h3 {
   margin-top: 1em;
 }
@@ -517,6 +537,7 @@ main {
   }
   #home-menu-figure {
     top: -2em;
+    margin-bottom: -2em;
   }
   #home-cafe .column:first-child {
     padding-top: 2em;
@@ -527,19 +548,19 @@ main {
 }
 
 @media screen and (min-width: 769px) {
-  #home-menu-figure img {
+  #home-menu-figure {
     position: relative;
-    top: -80px;
+    top: -100px;
   }
-  #home-cafe-figure img {
+  #home-cafe-figure {
     position: relative;
     top: 30px;
   }
 }
 
 #home-cafe {
-  margin-top: -50px;
-  margin-bottom: 70px;
+  margin-top: -70px;
+  margin-bottom: 2em;
 }
 
 #home-menu-article .content,
@@ -549,7 +570,7 @@ main {
 }
 
 #home-food-background {
-  background-image: url(images/photo/food_wide_01.jpg);
+  background-image: url(images/photo/food_wide_02.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -562,6 +583,7 @@ main {
 
 #home-rooms-content {
   padding: 1em;
+    text-align: left;
 }
 
 @media screen and (min-width: 769px) and (max-width:1024px) {
@@ -574,7 +596,7 @@ main {
   flex-flow: row-reverse;
 }
 
-@media screen and (min-width: 769px) and (max-width:1024px) {
+@media screen and (min-width: 769px) and (max-width:1023px) {
   #home-rooms-figure-left {
     max-height: 500px;
     overflow: hidden;
@@ -604,12 +626,15 @@ main {
   background-position: center;
   background-size: cover;
 }
+
 #home-dalat a {
   color: white;
 }
+
 #home-dalat a:hover {
   color: #eaeaea;
 }
+
 @media screen and (max-width: 768px) {
   #home-dalat-article {
     margin-top: 100px;
@@ -618,11 +643,47 @@ main {
 
 #home-nest {
   margin: 2em 0 1em 0;
+  padding-right: 0;
+}
+
+@media screen and (min-width:769px) and (max-width:1023px) {
+  #home-nest-left {
+    padding-left: 5%;
+  }
+}
+
+@media screen and (min-width:1024px) and (max-width:1215px) {
+  #home-nest-left {
+    margin-top: -2em;
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:1215px) {
+  #home-nest {
+    margin-right: 0;
+    padding-right: 0;
+  }
+  #home-nest-figure-left img {
+    margin-right: 0;
+  }
+  #home-nest-content {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width:1215px) {
+  #home-nest .container {
+    margin-right: 0;
+  }
 }
 
 @media screen and (min-width:1024px) {
   #home-nest {
     margin-top: 4em;
+  }
+  #home-nest-mid {
+    margin: 0 1%;
   }
 }
 
@@ -631,16 +692,16 @@ main {
 }
 
 #home-nest-content {
-  padding: 1em;
+  text-align: left;
 }
 
-@media screen and (min-width: 769px) and (max-width:1024px) {
+@media screen and (min-width: 769px) and (max-width:1023px) {
   #home-nest-content {
-    padding: 2em;
+    padding: 1em;
   }
 }
 
-@media screen and (min-width: 769px) and (max-width:1024px) {
+@media screen and (min-width: 769px) and (max-width:1023px) {
   #home-nest-figure-left {
     position: relative;
     max-height: 550px;
@@ -806,8 +867,8 @@ main {
   padding-bottom: 0;
 }
 
-#emai-bnb-first>.content>.columns,
-#emai-bnb-attic>.content>.columns {
+#emai-bnb-first > .content > .columns,
+#emai-bnb-attic > .content > .columns {
   margin-top: 4em;
 }
 
