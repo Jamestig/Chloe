@@ -1,73 +1,167 @@
 <?php
 /*
-  Template Name: Our Rooms Page Vietnamese
+  Template Name: Our Rooms page Vietnamese
 */
 ?>
 
   <?php get_header(); ?>
 
-    <main id="our-rooms-main">
-       
-        <section id="our-rooms-intro" class="section intro">
-            <div class="container side-padding">
-                <hgroup class="content has-text-centered">
-                    <h2 class="title">Our Rooms Viet</h2>
-                    <hr>
-                    <h3><i>welcome to emai</i></h3>
-                </hgroup>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, sint? Sed suscipit incidunt debitis modi voluptate illum soluta beatae quisquam quam velit! Officia, amet sint incidunt error consequatur dolorum eos.</p>
-            </div>
-        </section>
+  <main id="emai-bnb-main" class="grey-ea">
 
-        <section id="our-rooms-section" class="section grey-f4">
-            <div class="container">
-                <article id="our-rooms-bnb" class="columns">
-                    <div class="column is-half">
-                        <figure class="image">
-                            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/room_tall_01.jpg" alt="ALT">
-                        </figure>
-                    </div>
-                    <div class="column is-half content padded center has-text-left">
-                        <h2 class="title">emai b&amp;b, restaurant &amp; cafe</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id cumque maiores totam eius ipsam, doloremque. Quo tenetur hic ab velit eos fugit, unde tempore ea dolore laboriosam perspiciatis, maiores error.</p>
-                        <div class="link-button-container">
-                          <a href="https://emaidalat.com/vi/emai-bnb-vi/" class="link-button">View Rooms</a>
-                        </div>
-                    </div>
-                </article>
+    <section id="emai-bnb-intro" class="section intro">
+      <div class="container side-padding">
+        <hgroup class="content has-text-centered">
+          <h1 class="title">Our Rooms</h1>
+          <hr>
+          <h2><i>welcome to emai</i></h2>
+        </hgroup>
+        <p>To reserve a stay in one of our charming guestrooms, please make your selection below to book on AirBnB, or call us at +84 123 456 789 (English) or + 84 987 654 321 (Vietnamese). We would be so pleased to welcome you to émai.</p>
+      </div>
+    </section>
 
-                <article id="our-rooms-cottage" class="columns">
-                    <div class="column is-half">
-                        <figure class="image">
-                            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/room_tall_02.jpg" alt="ALT">
-                        </figure>
-                    </div>
-                    <div class="column is-half content padded center  has-text-left">
-                        <h2 class="title">emai cottage</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id cumque maiores totam eius ipsam, doloremque. Quo tenetur hic ab velit eos fugit, unde tempore ea dolore laboriosam perspiciatis, maiores error.</p>
-                        <div class="link-button-container">
-                          <a href="https://emaidalat.com/vi/emai-nha-nho/" class="link-button">View Rooms</a>
-                        </div>
-                    </div>
-                </article>
+    <section id="emai-bnb-homestay" class="section banner">
+      <h1 class="remove-header">emai dalat homestay</h1>
+      <article id="emai-bnb-emaibnb-article" class="combine-container content">
+        <div class="columns">
+          <div class="combine-background column"></div>
+          <div class="combine-inner column is-two-thirds is-half-desktop is-one-third-fullhd is-offset-1 is-offset-2-fullhd">
+            <h2>emai bed &amp; breakfast, restaurant &amp; cafe</h2>
+            <p>Atop a little slope on a town street in Dalat sits an old wooden house, densely covered with vines and surrounded by lush, beautiful gardens and stone paths.</p>
+            <p>Comprising an intimate 5-room bed & breakfast, a contemporary Mediterranean restaurant and café, this little abode is brimming with cosiness, good food, and soothing music, always ready to treat you to a beautiful time no matter the occasion.</p>
+            <div class="link-button-container">
+              <a href="https://emaidalat.com/contact/" class="link-button">Book your stay</a>
             </div>
-        </section>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="emai-bnb-first" class="section">
+      <div class="content">
+        <header class="has-text-centered">
+          <h2 class="title">1st floor guestrooms</h2>
+          <hr>
+        </header>
         
-        <section id="our-rooms-welcome" class="section banner">
-            <div class="container">
-                <div class="columns-is-mobile">
-                    <div class="column content inverse is-half">
-                        <h3>It would please us greatly to welcome you to our home with a complimentary starter.</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias explicabo unde nulla animi. Fugiat officiis nemo, doloremque optio nulla eligendi animi distinctio itaque culpa, esse, eveniet reprehenderit consectetur officia ipsa.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam laudantium sit maiores nemo delectus.</p>
-                        <div class="link-button-container">
-                          <a href="https://emaidalat.com/vi/emai-nha-nho/" class="link-button">Make a reservation</a>
-                        </div>
-                    </div>
+        <div class="columns is-multiline">
+          <section id="emai-bnb-rosewood" class="column room-section section is-full is-one-third-desktop">
+            <h2 class="remove-header">Room One</h2>
+            <article class="combine-container content">
+              <div class="columns">
+                <div class="combine-background column"></div>
+                <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
+                  <h3>Clara</h3>
+                  <p>Clara is the only room which offers an expansive balcony on which you can read a book, sip a coffee, or unwind with good company.</p>
                 </div>
+              </div>
+              <div class="link-button-airbnb-container">
+                <a class="airbnb-button" href="https://emaidalat.com/contact/">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now On airbnb">
+                </a>
+              </div>
+            </article>
+          </section>
+
+          <section id="emai-bnb-ivy" class="column room-section section is-full is-one-third-desktop">
+            <h2 class="remove-header">Room Two</h2>
+            <article class="combine-container content">
+              <div class="columns">
+                <div class="combine-background column"></div>
+                <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
+                  <h3>Ivy</h3>
+                  <p>With a view of our gorgeous garden and vined-covered wall down below, Ivy is a delight to eyes that are sensitive to the greeneries of life.</p>
+                </div>
+              </div>
+              <div class="link-button-airbnb-container">
+                <a class="airbnb-button" href="https://emaidalat.com/contact/">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now On airbnb">
+                </a>
+              </div>
+            </article>
+          </section>
+
+          <section id="emai-bnb-may" class="column room-section section is-full is-one-third-desktop">
+            <h2 class="remove-header">Room Three</h2>
+            <article class="combine-container content">
+              <div class="columns">
+                <div class="combine-background column"></div>
+                <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
+                  <h3>May</h3>
+                  <p>May offers a view of our smaller, serene garden, with a pond and lush plants and trees to soothe the eyes.</p>
+                </div>
+              </div>
+              <div class="link-button-airbnb-container">
+                <a class="airbnb-button" href="https://emaidalat.com/contact/">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now On airbnb">
+                </a>
+              </div>
+            </article>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section id="emai-bnb-attic" class="section">
+      <div class="content">
+        <header class="has-text-centered">
+          <h2 class="title">Attic guestrooms</h2>
+          <hr>
+          <p>Our attic rooms are tucked snugly under the roof, with a skylight through which you can watch the clouds drift or see the stars. Taking inspiration from Japanese architecture, the sleeping arrangement in our attic rooms is a single mattress on the floor.</p>
+        </header>
+        <div class="columns is-multiline">
+
+          <section id="emai-bnb-willow" class="column room-section section is-full is-half-desktop">
+            <h2 class="remove-header">Room Five</h2>
+            <article class="combine-container content">
+              <div class="columns">
+                <div class="combine-background column"></div>
+                <div class="combine-inner column is-half is-offset-5">
+                  <h3>Willow</h3>
+                </div>
+              </div>
+              <div class="link-button-airbnb-container">
+                <a class="airbnb-button" href="https://emaidalat.com/contact/">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now On airbnb">
+                </a>
+              </div>
+            </article>
+          </section>
+
+          <section id="emai-bnb-cocoon" class="column room-section section is-full is-half-desktop">
+            <h2 class="remove-header">Room Six</h2>
+            <article class="combine-container content">
+              <div class="columns">
+                <div class="combine-background column"></div>
+                <div class="combine-inner column is-half is-offset-5">
+                  <h3>Cocoon</h3>
+                </div>
+              </div>
+              <div class="link-button-airbnb-container">
+                <a class="airbnb-button" href="https://emaidalat.com/contact/">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now On airbnb">
+                </a>
+              </div>
+            </article>
+          </section>
+
+        </div>
+      </div>
+    </section>
+    
+    <section id="restaurant-welcome" class="section banner">
+      <div class="container">
+        <div class="columns-is-mobile">
+          <div class="column content inverse is-half">
+            <h3>It would please us greatly to welcome you to our home with a complimentary starter.</h3>
+            <p>Please kindly let us know while you make your booking if you would also like a table reservation at our contemporary Mediterranean restaurant - or simply drop in any time you like. To thank you for your stay, our talented chef will prepare a starter of your choosing, free of charge.</p>
+            <p>Of course, we think you’ll find that the rest of our menu will, too, be of utmost delight to you and your company.</p>
+            <div class="link-button-container">
+              <a href="https://emaidalat.com/contact/" class="link-button">Make a reservation</a>
             </div>
-        </section>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </main>
-
+  </main>
   <?php get_footer(); ?>

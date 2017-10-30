@@ -908,6 +908,10 @@ main {
   }
 }
 
+#emai-bnb-clara-background {
+  
+}
+
 /*// COMBINE ELEMENT //*/
 
 .combine-inner {
@@ -916,10 +920,18 @@ main {
 }
 
 .combine-background {
-  background-image: url(images/photo/house_wide_01.jpg);
-  background-position: center;
-  background-size: cover;
+  overflow: hidden;
   height: 400px;
+  padding: 0;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  background-image: url(images/placeholder/room_tall_02.jpg)
+}
+.combine-background img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .figure-background {
@@ -960,6 +972,10 @@ main {
   .combine-background {
     height: 600px;
   }
+}
+
+.content figure:not(:last-child) {
+  margin-bottom: 0;
 }
 
 
@@ -1332,6 +1348,40 @@ div.wpcf7-mail-sent-ok {
 .mc4wp-form-fields p input[type="email"] {
   width: 100%;
   padding: 1em;
+}
+
+/*////////////////////
+    COMING SOON
+////////////////////*/
+
+html, body {
+  margin-top: 0 !important;
+}
+.coming-soon {
+  background-image: url(images/photo/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 0;
+}
+.coming-soon .column {
+  background-image: url(images/logo/coverbanner.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 75vh;
+  opacity: .9;
+}
+@media screen and (min-width:550px) {
+  .coming-soon .column {
+    margin-left: 33%;
+    opacity: 1;
+  }
+}
+@media screen and (min-width:1024px) {
+  .coming-soon .column {
+    height: 85vh;
+  }
 }
 
 /*////////////////////
