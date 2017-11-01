@@ -27,8 +27,8 @@
           <div id="contact-location-info" class="column center is-half">
             <div id="contact-map-info" class="content has-text-left-tablet">
               <h2><a href="https://emaidalat.com">emai da lat</a></h2>
-              <address>1B Thi Sach, Da lat, Lam Dong, Vietnam</address>
-              <a href="tel: 02633839001">02 633 839 001</a>
+              <address>1 Thi Sach, Da lat, Lam Dong, Vietnam</address>
+              <a href="tel: 02633839001">0263 3839 001</a>
             </div>
             <figure id="contact-map-image" class="image">
               <a target="_blank" href="https://www.google.com/maps/place/1B+Thi+S%C3%A1ch,+Ph%C6%B0%E1%BB%9Dng+6,+Tp.+%C4%90%C3%A0+L%E1%BA%A1t,+L%C3%A2m+%C4%90%E1%BB%93ng,+Vietnam/@11.9468417,108.4303862,17z/data=!3m1!4b1!4m5!3m4!1s0x3171132a36980751:0x1ceec5a70b8cc54d!8m2!3d11.9468417!4d108.4325695">

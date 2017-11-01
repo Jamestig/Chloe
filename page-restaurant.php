@@ -77,7 +77,7 @@
     <section id="restaurant-welcome" class="section banner">
       <div class="container">
         <div class="columns-is-mobile">
-          <div class="column content inverse is-half">
+          <div class="column content inverse is-two-thirds is-half-widescreen">
             <h3>Book a room with us and receive our warm welcome with a complimentary starter.</h3>
             <p>For the full émai experience, we would love to have you stay with us at one of our intimate and wonderful guestrooms. Brimming with cosiness, good food, and calming music, our bed & breakfast cottage house makes for a charming space in which to rest your mind and body and to soak in the gentle beauties of life.</p>
             <p>Please kindly let us know while you make your booking if you would also like a table reservation at our restaurant - or simply drop in any time you like. To thank you for your stay, our talented chef will prepare a starter of your choosing, free of charge.</p>
