@@ -179,6 +179,7 @@
 
     <section id="restaurant-welcome" class="section banner">
       <div class="container">
+      <div class="black-background"></div>
         <div class="columns-is-mobile">
           <div class="column content inverse is-half">
             <h3>It would please us greatly to welcome you to our home with a complimentary starter.</h3>

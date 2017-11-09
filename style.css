@@ -192,7 +192,7 @@ a:hover {
 }
 
 .portrait {
-  max-height: 530px;
+  max-height: 540px;
   overflow: hidden;
 }
 
@@ -201,6 +201,72 @@ a:hover {
   margin: auto;
   object-fit: contain;
   object-position: center;
+}
+
+.image-modal {
+  cursor: pointer;
+}
+
+.modal-content figure {
+  height: 90vh;
+  overflow: hidden;
+}
+
+.home-menu-modal.is-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.home-cafe-modal.is-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.home-rooms-mid-modal.is-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.home-rooms-left-modal.is-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.home-nest-right-modal.is-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.home-nest-mid-modal.is-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.restaurant-menu-modal.is-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.restaurant-food-modal.is-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#restaurant-welcome .content {
+  position: relative;
+}
+
+@media screen and (max-width:768px) {
+  .black-background {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgba(10, 10, 10, 0.5);
+    margin: -3rem 0;
+  }
 }
 
 /*////////////////////
@@ -627,8 +693,8 @@ main {
 }
 
 #home-dalat {
-  background-image: url(images/placeholder/dalat_wide_01.jpg);
-  background-position: center;
+  background-image: url(images/photo/dalat_wide.jpg);
+  background-position: bottom;
   background-size: cover;
 }
 
@@ -865,7 +931,7 @@ main {
 }
 
 #restaurant-welcome {
-  background-image: url(images/photo/flowers_wide.jpg);
+  background-image: url(images/photo/appetizer-wide.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -873,6 +939,12 @@ main {
   #restaurant-welcome {
     background-position: right;
   }
+}
+
+#restaurant-food-background {
+  background-image: url(images/photo/food_wide_02.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 
@@ -946,7 +1018,6 @@ main {
   padding: 0;
   margin-right: 0 !important;
   margin-left: 0 !important;
-  background-image: url(images/placeholder/room_tall_02.jpg)
 }
 .combine-background img {
   height: 100%;

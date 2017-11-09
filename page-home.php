@@ -24,9 +24,18 @@
       <h1 class="remove-header">Menu</h1>
       <div class="container">
         <article id="home-menu-article" class="columns">
+        <div class="home-menu-modal modal">
+          <div class="modal-background"></div>
+          <div class="modal-content">
+              <figure>
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/food_tall_01.jpg" alt="">
+              </figure>
+          </div>
+          <button class="modal-close"></button>
+        </div>
           <div class="column is-half">
             <figure id="home-menu-figure" class="image portrait">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/food_tall_01.jpg" alt="">
+              <img id="show-home-menu-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/food_tall_01.jpg" alt="">
             </figure>
           </div>
           <div class="column is-half">
@@ -49,9 +58,18 @@
       <h1 class="remove-header">Cafe</h1>
       <div class="container">
         <article id="home-cafe-article" class="columns">
+        <div class="home-cafe-modal modal">
+          <div class="modal-background"></div>
+          <div class="modal-content">
+              <figure>
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/pana_tall_01.jpg" alt="">
+              </figure>
+          </div>
+          <button class="modal-close"></button>
+        </div>
           <div class="column is-half">
             <figure id="home-cafe-figure" class="image portrait">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/coffee_tall_01.jpg" alt="">
+              <img id="show-home-cafe-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/pana_tall_01.jpg" alt="">
             </figure>
           </div>
           <div class="column is-half">
@@ -88,13 +106,35 @@
             </div>
           </div>
           <div id="home-rooms-mid" class="column is-half-tablet is-one-third-desktop">
+           
+            <div class="home-rooms-mid-modal modal">
+              <div class="modal-background"></div>
+              <div class="modal-content">
+                  <figure>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/room_tall_01.jpg" alt="">
+                  </figure>
+              </div>
+              <button class="modal-close"></button>
+            </div>
+           
             <figure id="home-rooms-figure-left" class="image portrait">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/room_tall_01.jpg" alt="">
+              <img id="show-home-rooms-mid-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/room_tall_01.jpg" alt="">
             </figure>
           </div>
           <div id="home-rooms-left" class="column is-one-third-desktop">
+           
+            <div class="home-rooms-left-modal modal">
+              <div class="modal-background"></div>
+              <div class="modal-content">
+                  <figure>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/room_tall_02.jpg" alt="">
+                  </figure>
+              </div>
+              <button class="modal-close"></button>
+            </div>
+           
             <figure id="home-rooms-figure-right" class="image portrait">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/room_tall_02.jpg" alt="">
+              <img id="show-home-rooms-left-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/room_tall_02.jpg" alt="">
             </figure>
           </div>
         </article>
@@ -121,13 +161,31 @@
       <div class="container">
         <article id="home-nest-article" class="columns">
           <div id="home-nest-right" class="column is-half-tablet is-one-third-desktop">
+            <div class="home-nest-right-modal modal">
+              <div class="modal-background"></div>
+              <div class="modal-content">
+                <figure>
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_02.jpg" alt="">
+                </figure>
+              </div>
+              <button class="modal-close"></button>
+            </div>
             <figure id="home-nest-figure-left" class="image portrait">
-              <img class="" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_02.jpg" alt="">
+              <img id="show-home-nest-right-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_02.jpg" alt="">
             </figure>
           </div>
           <div id="home-nest-mid" class="column is-hidden-tablet-only is-shown-desktop is-one-third-desktop">
+            <div class="home-nest-mid-modal modal">
+              <div class="modal-background"></div>
+              <div class="modal-content">
+                <figure>
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_01.jpg" alt="">
+                </figure>
+              </div>
+              <button class="modal-close"></button>
+            </div>
             <figure id="home-nest-figure-right" class="image portrait">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_01.jpg" alt="">
+              <img id="show-home-nest-mid-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_01.jpg" alt="">
             </figure>
           </div>
           <div id="home-nest-left" class="column center is-half-tablet is-one-third-desktop">
@@ -166,16 +224,15 @@
         </div>
       </div>
     </section>
-
+<!--
     <section id="home-blog-excerpts" class="blog-excerpts section">
       <div class="container content">
 
         <header class="has-text-centered">
           <h1 class="no-transform">from <a href="https://emaidalat.com/blog/">our blog</a></h1>
           <hr>
-          <p>Our blog features our latest news, lifestyle stories and essays, and special offers.</p>
+          <p>Coming soon - Our blog features our latest news, lifestyle stories and essays, and special offers.</p>
         </header>
-
         <div class="columns">
 
           <?php
@@ -205,7 +262,7 @@
                 <p class="is-size-6">
                   <?php echo substr(strip_tags($post->post_content), 0, 100);?>
                 </p>
-                <!-- <?php the_content( 'Read the full post »' ); ?>-->
+                <!- <?php the_content( 'Read the full post »' ); ?>->
               </div>
             </article>
 
@@ -218,7 +275,7 @@
         </div>
       </div>
     </section>
-
+-->
   </main>
 
   <?php get_footer(); ?>

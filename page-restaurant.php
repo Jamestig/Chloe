@@ -21,7 +21,7 @@
       </div>
     </section>
 
-    <div id="home-food-background" class="banner"></div>
+    <div id="restaurant-food-background" class="banner"></div>
 
     <section id="restaurant-menu" class="section grey-f4">
       <h1 class="remove-header">Menu</h1>
@@ -40,8 +40,17 @@
             </div>
           </div>
           <div class="column is-half">
+            <div class="restaurant-menu-modal modal">
+              <div class="modal-background"></div>
+              <div class="modal-content">
+                <figure>
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/food_tall_01.jpg" alt="">
+                </figure>
+              </div>
+              <button class="modal-close"></button>
+            </div>
             <figure id="restaurant-menu-figure" class="image">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/food_tall_01.jpg" alt="">
+              <img id="show-restaurant-menu-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/food_tall_01.jpg" alt="">
             </figure>
           </div>
         </article>
@@ -65,8 +74,17 @@
             </div>
           </div>
           <div class="column is-half">
+            <div class="restaurant-food-modal modal">
+              <div class="modal-background"></div>
+              <div class="modal-content">
+                <figure>
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_02.jpg" alt="">
+                </figure>
+              </div>
+              <button class="modal-close"></button>
+            </div>
             <figure id="restaurant-food-figure" class="image">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/placeholder/coffee_tall_01.jpg" alt="">
+              <img id="show-restaurant-food-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_01.jpg" alt="">
             </figure>
           </div>
         </article>
@@ -76,11 +94,12 @@
 
     <section id="restaurant-welcome" class="section banner">
       <div class="container">
+      <div class="black-background"></div>
         <div class="columns-is-mobile">
-          <div class="column content inverse is-two-thirds is-half-widescreen">
-            <h3>Book a room with us and receive our warm welcome with a complimentary starter.</h3>
-            <p>For the full émai experience, we would love to have you stay with us at one of our intimate and wonderful guestrooms. Brimming with cosiness, good food, and calming music, our bed & breakfast cottage house makes for a charming space in which to rest your mind and body and to soak in the gentle beauties of life.</p>
-            <p>Please kindly let us know while you make your booking if you would also like a table reservation at our restaurant - or simply drop in any time you like. To thank you for your stay, our talented chef will prepare a starter of your choosing, free of charge.</p>
+          <div class="column content inverse is-half">
+            <h3>It would please us greatly to welcome you to our home with a complimentary starter.</h3>
+            <p>Please kindly let us know while you make your booking if you would also like a table reservation at our contemporary Mediterranean restaurant - or simply drop in any time you like. To thank you for your stay, our talented chef will prepare a starter of your choosing, free of charge.</p>
+            <p>Of course, we think you’ll find that the rest of our menu will, too, be of utmost delight to you and your company.</p>
             <div class="link-button-container">
               <a href="https://emaidalat.com/contact/" class="link-button">Make a reservation</a>
             </div>
