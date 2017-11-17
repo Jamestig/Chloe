@@ -44,13 +44,13 @@
               <div class="modal-background"></div>
               <div class="modal-content">
                 <figure>
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/food_tall_01.jpg" alt="">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/tomato_soup_tall.jpg" alt="">
                 </figure>
               </div>
               <button class="modal-close"></button>
             </div>
             <figure id="restaurant-menu-figure" class="image">
-              <img id="show-restaurant-menu-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/food_tall_01.jpg" alt="">
+              <img id="show-restaurant-menu-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/tomato_soup_tall.jpg" alt="">
             </figure>
           </div>
         </article>
@@ -78,13 +78,13 @@
               <div class="modal-background"></div>
               <div class="modal-content">
                 <figure>
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_02.jpg" alt="">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/tomato_soup_tall.jpg" alt="">
                 </figure>
               </div>
               <button class="modal-close"></button>
             </div>
             <figure id="restaurant-food-figure" class="image">
-              <img id="show-restaurant-food-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_01.jpg" alt="">
+              <img id="show-restaurant-food-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/tomato_soup_tall.jpg" alt="">
             </figure>
           </div>
         </article>

@@ -398,7 +398,7 @@ main {
 
 @media screen and (min-width:769px) {
   #header {
-    background-image: url(images/photo/header-background.jpg);
+    background-image: url(images/photo/clara_large.jpg);
     background-position: 50% 80%;
     background-size: cover;
   }
@@ -549,7 +549,7 @@ main {
 
 #first-background {
   height: 330px;
-  background-image: url(images/photo/header-background.jpg);
+  background-image: url(images/photo/clara_large.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -641,7 +641,7 @@ main {
 }
 
 #home-food-background {
-  background-image: url(images/photo/food_wide_02.jpg);
+  background-image: url(images/photo/prawns_wide.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -797,7 +797,7 @@ main {
 }
 
 #home-book {
-  background-image: url(images/photo/garden_wide_01.jpg);
+  background-image: url(images/photo/garden_large_01.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -862,8 +862,6 @@ main {
 @media screen and (max-width: 768px) {
   #restaurant-menu-figure {
     margin-top: 2em;
-  }
-  #restaurant-food .column:first-child {
   }
   #restaurant-food-figure {
     margin-top: 2em;
@@ -931,7 +929,7 @@ main {
 }
 
 #restaurant-welcome {
-  background-image: url(images/photo/appetizer-wide.jpg);
+  background-image: url(images/photo/ravioli_wide.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -942,7 +940,7 @@ main {
 }
 
 #restaurant-food-background {
-  background-image: url(images/photo/food_wide_02.jpg);
+  background-image: url(images/photo/prawns_wide.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -999,10 +997,6 @@ main {
   .room-section {
     margin-bottom: -4em;
   }
-}
-
-#emai-bnb-clara-background {
-  
 }
 
 /*// COMBINE ELEMENT //*/

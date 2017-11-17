@@ -28,14 +28,14 @@
           <div class="modal-background"></div>
           <div class="modal-content">
               <figure>
-                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/food_tall_01.jpg" alt="">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/tomato_soup_tall.jpg" alt="">
               </figure>
           </div>
           <button class="modal-close"></button>
         </div>
           <div class="column is-half">
             <figure id="home-menu-figure" class="image portrait">
-              <img id="show-home-menu-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/food_tall_01.jpg" alt="">
+              <img id="show-home-menu-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/tomato_soup_tall.jpg" alt="">
             </figure>
           </div>
           <div class="column is-half">
@@ -62,14 +62,14 @@
           <div class="modal-background"></div>
           <div class="modal-content">
               <figure>
-                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/pana_tall_01.jpg" alt="">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/panna_tall_01.jpg" alt="">
               </figure>
           </div>
           <button class="modal-close"></button>
         </div>
           <div class="column is-half">
             <figure id="home-cafe-figure" class="image portrait">
-              <img id="show-home-cafe-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/pana_tall_01.jpg" alt="">
+              <img id="show-home-cafe-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/panna_tall_01.jpg" alt="">
             </figure>
           </div>
           <div class="column is-half">
@@ -111,14 +111,14 @@
               <div class="modal-background"></div>
               <div class="modal-content">
                   <figure>
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/room_tall_01.jpg" alt="">
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clara_tall.jpg" alt="">
                   </figure>
               </div>
               <button class="modal-close"></button>
             </div>
            
             <figure id="home-rooms-figure-left" class="image portrait">
-              <img id="show-home-rooms-mid-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/room_tall_01.jpg" alt="">
+              <img id="show-home-rooms-mid-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clara_tall.jpg" alt="">
             </figure>
           </div>
           <div id="home-rooms-left" class="column is-one-third-desktop">
@@ -127,14 +127,14 @@
               <div class="modal-background"></div>
               <div class="modal-content">
                   <figure>
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/room_tall_02.jpg" alt="">
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/may_tall.jpg" alt="">
                   </figure>
               </div>
               <button class="modal-close"></button>
             </div>
            
             <figure id="home-rooms-figure-right" class="image portrait">
-              <img id="show-home-rooms-left-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/room_tall_02.jpg" alt="">
+              <img id="show-home-rooms-left-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/may_tall.jpg" alt="">
             </figure>
           </div>
         </article>
@@ -165,13 +165,13 @@
               <div class="modal-background"></div>
               <div class="modal-content">
                 <figure>
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_02.jpg" alt="">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/grapes_tall.jpg" alt="">
                 </figure>
               </div>
               <button class="modal-close"></button>
             </div>
             <figure id="home-nest-figure-left" class="image portrait">
-              <img id="show-home-nest-right-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_02.jpg" alt="">
+              <img id="show-home-nest-right-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/grapes_tall.jpg" alt="">
             </figure>
           </div>
           <div id="home-nest-mid" class="column is-hidden-tablet-only is-shown-desktop is-one-third-desktop">
@@ -179,13 +179,13 @@
               <div class="modal-background"></div>
               <div class="modal-content">
                 <figure>
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_01.jpg" alt="">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/table_setting_tall.jpg" alt="">
                 </figure>
               </div>
               <button class="modal-close"></button>
             </div>
             <figure id="home-nest-figure-right" class="image portrait">
-              <img id="show-home-nest-mid-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/nest_tall_01.jpg" alt="">
+              <img id="show-home-nest-mid-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/table_setting_tall.jpg" alt="">
             </figure>
           </div>
           <div id="home-nest-left" class="column center is-half-tablet is-one-third-desktop">

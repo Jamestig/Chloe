@@ -24,7 +24,7 @@
       <article id="emai-bnb-emaibnb-article" class="combine-container content">
         <div class="columns">
           <figure id="emai-bnb-book-background" class="combine-background column">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/header-background.JPG" alt="">
+            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clara_large.jpg" alt="">
           </figure>
           <div class="combine-inner column is-two-thirds is-half-desktop is-one-third-fullhd is-offset-1 is-offset-2-fullhd">
             <h2>emai bed &amp; breakfast, restaurant &amp; cafe</h2>
@@ -46,16 +46,16 @@
         </header>
         
         <div class="columns is-multiline">
-          <section id="emai-bnb-rosewood" class="column room-section section is-full is-one-third-desktop">
+          <section id="emai-bnb-ivy" class="column room-section section is-full is-one-third-desktop">
             <h2 class="remove-header">Room One</h2>
             <article class="combine-container content">
               <div class="columns">
-              <figure id="emai-bnb-clara-background" class="combine-background column">
-                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/room_tall_01.jpg" alt="">
+              <figure id="emai-bnb-ivy-background" class="combine-background column">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clara_tall.jpg" alt="">
               </figure>
                 <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
-                  <h3>Clara</h3>
-                  <p>Clara is the only room which offers an expansive balcony on which you can read a book, sip a coffee, or unwind with good company.</p>
+                  <h3>Ivy</h3>
+                  <p>Ivy is the only room which offers an expansive balcony on which you can read a book, sip a coffee, or unwind with good company.</p>
                 </div>
               </div>
               <div class="link-button-airbnb-container">
@@ -66,16 +66,16 @@
             </article>
           </section>
 
-          <section id="emai-bnb-ivy" class="column room-section section is-full is-one-third-desktop">
+          <section id="emai-bnb-clara" class="column room-section section is-full is-one-third-desktop">
             <h2 class="remove-header">Room Two</h2>
             <article class="combine-container content">
               <div class="columns">
-                <figure id="emai-bnb-ivy-background" class="combine-background column">
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/header-background.JPG" alt="">
+                <figure id="emai-bnb-clara-background" class="combine-background column">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clara_tall.jpg" alt="">
                 </figure>
                 <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
-                  <h3>Ivy</h3>
-                  <p>With a view of our gorgeous garden and vined-covered wall down below, Ivy is a delight to eyes that are sensitive to the greeneries of life.</p>
+                  <h3>Clara</h3>
+                  <p>With a view of our gorgeous garden and vined-covered wall down below, Clara is a delight to eyes that are sensitive to the greeneries of life.</p>
                 </div>
               </div>
               <div class="link-button-airbnb-container">
@@ -91,7 +91,7 @@
             <article class="combine-container content">
               <div class="columns">
                 <figure id="emai-bnb-may-background" class="combine-background column">
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/header-background.JPG" alt="">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/may_tall.jpg" alt="">
                 </figure>
                 <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
                   <h3>May</h3>
@@ -122,7 +122,7 @@
             <article class="combine-container content">
               <div class="columns">
               <figure id="emai-bnb-clay-background" class="combine-background column">
-                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/room_tall_01.jpg" alt="">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clara_tall.jpg" alt="">
               </figure>
                 <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
                   <h3>Clay</h3>
@@ -141,7 +141,7 @@
             <article class="combine-container content">
               <div class="columns">
                 <figure id="emai-bnb-willow-background" class="combine-background column">
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/header-background.JPG" alt="">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clara_tall.jpg" alt="">
                 </figure>
                 <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
                   <h3>Willow</h3>
@@ -160,7 +160,7 @@
             <article class="combine-container content">
               <div class="columns">
                 <figure id="emai-bnb-cocoon-background" class="combine-background column">
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/header-background.JPG" alt="">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clara_tall.jpg" alt="">
                 </figure>
                 <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
                   <h3>Cocoon</h3>
