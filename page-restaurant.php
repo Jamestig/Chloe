@@ -49,7 +49,7 @@
               </div>
               <button class="modal-close"></button>
             </div>
-            <figure id="restaurant-menu-figure" class="image">
+            <figure id="restaurant-menu-figure" class="image portrait">
               <img id="show-restaurant-menu-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/tomato_soup_tall.jpg" alt="">
             </figure>
           </div>
@@ -83,7 +83,7 @@
               </div>
               <button class="modal-close"></button>
             </div>
-            <figure id="restaurant-food-figure" class="image">
+            <figure id="restaurant-food-figure" class="image portrait">
               <img id="show-restaurant-food-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/tomato_soup_tall.jpg" alt="">
             </figure>
           </div>

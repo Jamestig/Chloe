@@ -206,10 +206,14 @@ a:hover {
 .image-modal {
   cursor: pointer;
 }
-
 .modal-content figure {
   height: 90vh;
   overflow: hidden;
+  margin: auto;
+  text-align: center;
+}
+.modal-content img {
+  height: 100%;
 }
 
 .home-menu-modal.is-active {
@@ -837,8 +841,8 @@ main {
   margin-bottom: 50px;
 }
 
-#restaurant-menu img,
-#restaurant-food img {
+#restaurant-menu .image-modal,
+#restaurant-food .image-modal {
   max-width: 420px;
 }
 
