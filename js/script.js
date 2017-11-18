@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
     jQuery(".home-nest-mid-modal").removeClass("is-active");
     jQuery(".restaurant-menu-modal").removeClass("is-active");
     jQuery(".restaurant-food-modal").removeClass("is-active");
+    jQuery(".contact-map-modal").removeClass("is-active");
   });
   
   jQuery("#show-home-menu-modal").click(function() {
@@ -66,6 +67,9 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   jQuery("#show-restaurant-food-modal").click(function() {
     jQuery(".restaurant-food-modal").addClass("is-active");
+  });
+  jQuery("#show-contact-map-modal").click(function() {
+    jQuery(".contact-map-modal").addClass("is-active");
   });
 
 });

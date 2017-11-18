@@ -252,6 +252,11 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
 }
+.contact-map-modal.is-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
 #restaurant-welcome .content {
   position: relative;
