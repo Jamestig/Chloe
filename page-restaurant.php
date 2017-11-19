@@ -35,7 +35,7 @@
               <br>
               <p>Our dishes are created from a unique coalescence of traditional Tuscan customs, contemporary European dining, and international techniques that we have gathered over the years of creating and refining our recipes to reveal our most exquisite yet homely flavours and aromas.</p>
               <div class="link-button-container">
-                <a href="https://emaidalat.com/restaurant/" class="link-button">View Menu</a>
+                <a href="https://emaidalat.com/wp-content/uploads/2017/11/RestaurantMenu-Eng-NoPrices.pdf" class="link-button">View Menu</a>
               </div>
             </div>
           </div>
@@ -44,13 +44,13 @@
               <div class="modal-background"></div>
               <div class="modal-content">
                 <figure>
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/tomato_soup_tall.jpg" alt="">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/beef_red_wine.jpg" alt="">
                 </figure>
               </div>
               <button class="modal-close"></button>
             </div>
             <figure id="restaurant-menu-figure" class="image portrait">
-              <img id="show-restaurant-menu-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/tomato_soup_tall.jpg" alt="">
+              <img id="show-restaurant-menu-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/beef_red_wine.jpg" alt="">
             </figure>
           </div>
         </article>
@@ -78,13 +78,13 @@
               <div class="modal-background"></div>
               <div class="modal-content">
                 <figure>
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/tomato_soup_tall.jpg" alt="">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/potato_leek_soup.jpg" alt="">
                 </figure>
               </div>
               <button class="modal-close"></button>
             </div>
             <figure id="restaurant-food-figure" class="image portrait">
-              <img id="show-restaurant-food-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/tomato_soup_tall.jpg" alt="">
+              <img id="show-restaurant-food-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/potato_leek_soup.jpg" alt="">
             </figure>
           </div>
         </article>

@@ -193,13 +193,15 @@ a:hover {
 
 .portrait {
   max-height: 540px;
+  height: 100%;
   overflow: hidden;
 }
 
 .portrait img {
   max-width: 400px;
+  height: 100%;
   margin: auto;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
 }
 
@@ -214,6 +216,7 @@ a:hover {
 }
 .modal-content img {
   height: 100%;
+  object-fit: contain;
 }
 
 .home-menu-modal.is-active {
@@ -846,9 +849,9 @@ main {
   margin-bottom: 50px;
 }
 
-#restaurant-menu .image-modal,
-#restaurant-food .image-modal {
-  max-width: 420px;
+#restaurant-menu .portrait img,
+#restaurant-food .portrait img{
+  max-width: 600px;
 }
 
 #restaurant-menu .container,
@@ -949,7 +952,7 @@ main {
 }
 
 #restaurant-food-background {
-  background-image: url(images/photo/prawns_wide.jpg);
+  background-image: url(images/photo/spring_salad_large.jpg);
   background-position: center;
   background-size: cover;
 }

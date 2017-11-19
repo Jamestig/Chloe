@@ -122,7 +122,7 @@
             <article class="combine-container content">
               <div class="columns">
               <figure id="emai-bnb-clay-background" class="combine-background column">
-                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/willow_lights_02.jpg" alt="">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clay_large_01.jpg" alt="">
               </figure>
                 <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
                   <h3>Clay</h3>
@@ -160,7 +160,7 @@
             <article class="combine-container content">
               <div class="columns">
                 <figure id="emai-bnb-cocoon-background" class="combine-background column">
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/willow_bed_01.jpg" alt="">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/cocoon_large_01.jpg" alt="">
                 </figure>
                 <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
                   <h3>Cocoon</h3>

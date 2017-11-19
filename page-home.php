@@ -46,7 +46,7 @@
               <br>
               <p>Every delectable dish is freshly cooked using organic vegetables and herbs farmed from Dalat's remarkable agricultural landscape, renowned across the country for its beautiful weather and clean, fresh Mediterranean produce.</p>
               <div class="link-button-container">
-                <a href="https://emaidalat.com/restaurant/" class="link-button">View Menu</a>
+                <a href="https://emaidalat.com/wp-content/uploads/2017/11/RestaurantMenu-Eng-NoPrices.pdf" class="link-button">View Menu</a>
               </div>
             </div>
           </div>
