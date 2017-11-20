@@ -35,7 +35,7 @@
               <br>
               <p>Our dishes are created from a unique coalescence of traditional Tuscan customs, contemporary European dining, and international techniques that we have gathered over the years of creating and refining our recipes to reveal our most exquisite yet homely flavours and aromas.</p>
               <div class="link-button-container">
-                <a href="https://emaidalat.com/wp-content/uploads/2017/11/RestaurantMenu-Eng-NoPrices.pdf" class="link-button">View Menu</a>
+                <a href="https://emaidalat.com/wp-content/uploads/2017/11/RestaurantMenu-Eng-NoPrices.pdf" class="link-button" target="_blank">View Menu</a>
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@
     </section>
 
     <section id="restaurant-food" class="section grey-f4">
-      <h1 class="remove-header">Cafe</h1>
+      <h1 class="remove-header">Café</h1>
       <div class="container">
 
         <article id="restaurant-food-article" class="columns">
@@ -69,7 +69,7 @@
               <br>
               <p>At émai, we find elegance in the refined simplicity of our flavours: each ingredient is carefully selected and prepared to reveal its most delicious natural taste and nutritional value. Other than exported aged parmesan from Italy, all of our ingredients are the best farm-to-table local produce that Dalat has to offer.</p>
               <div class="link-button-container">
-                <a href="https://emaidalat.com/restaurant/" class="link-button">Cafe Menu</a>
+                <a href="https://emaidalat.com/wp-content/uploads/2017/11/CoffeeShopMenu-NoPrices-Uneditable.pdf" class="link-button">Café Menu</a>
               </div>
             </div>
           </div>
@@ -88,7 +88,6 @@
             </figure>
           </div>
         </article>
-
       </div>
     </section>
 

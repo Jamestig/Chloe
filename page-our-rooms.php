@@ -15,7 +15,7 @@
           <hr>
           <h2><i>welcome to emai</i></h2>
         </hgroup>
-        <p>To reserve a stay in one of our charming guestrooms, please make your selection below to book on AirBnB, or call us at +84 123 456 789 (English) or + 84 987 654 321 (Vietnamese). We would be so pleased to welcome you to émai.</p>
+        <p>To reserve a stay in one of our charming guestrooms, please make your selection below to book on AirBnB, or contact us on our<a href="https://www.facebook.com/emaidalat/" target="_blank"> Facebook </a>page (English and Vietnamese). We would be so pleased to welcome you to émai.</p>
       </div>
     </section>
 
@@ -55,11 +55,11 @@
               </figure>
                 <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
                   <h3>Ivy</h3>
-                  <p>Ivy is the only room which offers an expansive balcony on which you can read a book, sip a coffee, or unwind with good company.</p>
+                  <p>With a view of our gorgeous garden and vined-covered wall down below, Ivy is a delight to eyes that are sensitive to the greeneries of life.</p>
                 </div>
               </div>
               <div class="link-button-airbnb-container">
-                <a class="airbnb-button" href="https://emaidalat.com/contact/">
+                <a class="airbnb-button" href="https://www.airbnb.com/rooms/21822260">
                   <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now On airbnb">
                 </a>
               </div>
@@ -75,7 +75,7 @@
                 </figure>
                 <div class="combine-inner column is-half is-three-quarters-desktop is-offset-1">
                   <h3>Clara</h3>
-                  <p>With a view of our gorgeous garden and vined-covered wall down below, Clara is a delight to eyes that are sensitive to the greeneries of life.</p>
+                  <p>Clara is the only room which offers an expansive balcony on which you can read a book, sip a coffee, or unwind with good company.</p>
                 </div>
               </div>
               <div class="link-button-airbnb-container">

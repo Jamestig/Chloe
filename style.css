@@ -208,6 +208,9 @@ a:hover {
 .image-modal {
   cursor: pointer;
 }
+.modal-content {
+  width:90%;
+}
 .modal-content figure {
   height: 90vh;
   overflow: hidden;
@@ -1009,6 +1012,15 @@ main {
   .room-section {
     margin-bottom: -4em;
   }
+}
+
+.emai-bnb-first .combine-inner h3,
+.emai-bnb-attic .combine-inner h3 {
+  margin-top: 0.33333em;
+}
+.emai-bnb-first .combine-inner,
+.emai-bnb-attic .combine-inner {
+  height: 40%;
 }
 
 /*// COMBINE ELEMENT //*/
