@@ -412,9 +412,25 @@ main {
 }
 
 @media screen and (min-width:769px) {
-  #header {
+  .page-id-10 #header {
+    background-image: url(images/photo/home-header-background.jpg);
+    background-size: cover;
+  }
+  .page-id-106 #header {
+    background-image: url(images/photo/prawns_wide.jpg);
+    background-size: cover;
+  }
+  .page-id-38 #header {
     background-image: url(images/photo/clara_large.jpg);
     background-position: 50% 80%;
+    background-size: cover;
+  }
+  .page-id-49 #header {
+    background-image: url(images/photo/home-header-background.jpg);
+    background-size: cover;
+  }
+  .page-id-28 #header {
+    background-image: url(images/photo/garden_large_01.jpg);
     background-size: cover;
   }
 }
@@ -564,16 +580,31 @@ main {
 
 #first-background {
   height: 330px;
-  background-image: url(images/photo/clara_large.jpg);
   background-position: center;
   background-size: cover;
 }
-
 @media screen and (min-width:769px) {
   #first-background {
     display: none;
   }
 }
+.page-id-10 #first-background {
+  background-image: url(images/photo/home-header-background.jpg);
+}
+.page-id-106 #first-background {
+  background-image: url(images/photo/prawns_wide.jpg);
+}
+.page-id-38 #first-background {
+  background-image: url(images/photo/clara_large.jpg);
+  background-position: 50% 80%;
+}
+.page-id-49 #first-background {
+  background-image: url(images/photo/home-header-background.jpg);
+}
+.page-id-28 #first-background {
+  background-image: url(images/photo/garden_large_01.jpg);
+}
+
 
 /*////////////////////
     HOME PAGE

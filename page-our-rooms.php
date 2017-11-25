@@ -29,7 +29,7 @@
           <div class="combine-inner column is-two-thirds is-half-desktop is-one-third-fullhd is-offset-1 is-offset-2-fullhd">
             <h2>emai bed &amp; breakfast, restaurant &amp; cafe</h2>
             <p>Atop a little slope on a town street in Dalat sits an old wooden house, densely covered with vines and surrounded by lush, beautiful gardens and stone paths.</p>
-            <p>Comprising an intimate 5-room bed &amp; breakfast, a contemporary Mediterranean restaurant and café, this little abode is brimming with cosiness, good food, and soothing music, always ready to treat you to a beautiful time no matter the occasion.</p>
+            <p>Comprising an intimate 6-room bed &amp; breakfast, a contemporary Mediterranean restaurant and café, this little abode is brimming with cosiness, good food, and soothing music, always ready to treat you to a beautiful time no matter the occasion.</p>
             <div class="link-button-container">
               <a href="https://emaidalat.com/contact/" class="link-button">Book your stay</a>
             </div>
@@ -59,7 +59,7 @@
                 </div>
               </div>
               <div class="link-button-airbnb-container">
-                <a class="airbnb-button" href="https://www.airbnb.com/rooms/21822260">
+                <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21901899">
                   <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now On airbnb">
                 </a>
               </div>
@@ -79,7 +79,7 @@
                 </div>
               </div>
               <div class="link-button-airbnb-container">
-                <a class="airbnb-button" href="https://emaidalat.com/contact/">
+                <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21858606">
                   <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now On airbnb">
                 </a>
               </div>
@@ -99,7 +99,7 @@
                 </div>
               </div>
               <div class="link-button-airbnb-container">
-                <a class="airbnb-button" href="https://emaidalat.com/contact/">
+                <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21872453">
                   <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now On airbnb">
                 </a>
               </div>
@@ -129,7 +129,7 @@
                 </div>
               </div>
               <div class="link-button-airbnb-container">
-                <a class="airbnb-button" href="https://emaidalat.com/contact/">
+                <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21900394">
                   <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now On airbnb">
                 </a>
               </div>
@@ -148,7 +148,7 @@
                 </div>
               </div>
               <div class="link-button-airbnb-container">
-                <a class="airbnb-button" href="https://emaidalat.com/contact/">
+                <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21901196">
                   <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now On airbnb">
                 </a>
               </div>
@@ -167,7 +167,7 @@
                 </div>
               </div>
               <div class="link-button-airbnb-container">
-                <a class="airbnb-button" href="https://emaidalat.com/contact/">
+                <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21901538">
                   <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now On airbnb">
                 </a>
               </div>

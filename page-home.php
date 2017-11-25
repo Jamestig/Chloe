@@ -35,7 +35,7 @@
         </div>
           <div class="column is-half">
             <figure id="home-menu-figure" class="image portrait">
-              <img id="show-home-menu-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/tomato_soup_tall.jpg" alt="">
+              <img id="show-home-menu-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/tomato_soup_tall_lowres.jpg" alt="">
             </figure>
           </div>
           <div class="column is-half">
@@ -46,7 +46,7 @@
               <br>
               <p>Every delectable dish is freshly cooked using organic vegetables and herbs farmed from Dalat's remarkable agricultural landscape, renowned across the country for its beautiful weather and clean, fresh Mediterranean produce.</p>
               <div class="link-button-container">
-                <a href="https://emaidalat.com/wp-content/uploads/2017/11/RestaurantMenu-Eng-NoPrices.pdf" class="link-button" target="_blank">View Menu</a>
+                <a href="https://emaidalat.com/wp-content/uploads/2017/11/émai_restaurant_menu.pdf" class="link-button" target="_blank">View Menu</a>
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@
         </div>
           <div class="column is-half">
             <figure id="home-cafe-figure" class="image portrait">
-              <img id="show-home-cafe-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/panna_tall_01.jpg" alt="">
+              <img id="show-home-cafe-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/panna_tall_01_lowres.jpg" alt="">
             </figure>
           </div>
           <div class="column is-half">
@@ -80,7 +80,7 @@
               <br>
               <p>From heartwarming mulled wine panacottas to delightfully creamy passion fruit cheesecakes, our charming treats go perfectly with a warm cup of coffee or tea made from some of the world’s best beans and tea leaves, or any one of our own creative and healthy drink creations.</p>
               <div class="link-button-container">
-                <a href="https://emaidalat.com/wp-content/uploads/2017/11/CoffeeShopMenu-NoPrices-Uneditable.pdf" class="link-button">Café Menu</a>
+                <a href="https://emaidalat.com/wp-content/uploads/2017/11/émai_café_menu.pdf" class="link-button" target="_blank">Café Menu</a>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@
             </div>
            
             <figure id="home-rooms-figure-left" class="image portrait">
-              <img id="show-home-rooms-mid-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clara_tall.jpg" alt="">
+              <img id="show-home-rooms-mid-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clara_tall_lowres.jpg" alt="">
             </figure>
           </div>
           <div id="home-rooms-left" class="column is-one-third-desktop">
@@ -134,7 +134,7 @@
             </div>
            
             <figure id="home-rooms-figure-right" class="image portrait">
-              <img id="show-home-rooms-left-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/may_tall.jpg" alt="">
+              <img id="show-home-rooms-left-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/may_tall_lowres.jpg" alt="">
             </figure>
           </div>
         </article>
@@ -171,7 +171,7 @@
               <button class="modal-close"></button>
             </div>
             <figure id="home-nest-figure-left" class="image portrait">
-              <img id="show-home-nest-right-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/grapes_tall.jpg" alt="">
+              <img id="show-home-nest-right-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/grapes_tall_lowres.jpg" alt="">
             </figure>
           </div>
           <div id="home-nest-mid" class="column is-hidden-tablet-only is-shown-desktop is-one-third-desktop">
@@ -185,7 +185,7 @@
               <button class="modal-close"></button>
             </div>
             <figure id="home-nest-figure-right" class="image portrait">
-              <img id="show-home-nest-mid-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/table_setting_tall.jpg" alt="">
+              <img id="show-home-nest-mid-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/table_setting_tall_lowres.jpg" alt="">
             </figure>
           </div>
           <div id="home-nest-left" class="column center is-half-tablet is-one-third-desktop">
