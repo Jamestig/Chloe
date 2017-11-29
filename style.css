@@ -96,7 +96,7 @@ a:hover {
     margin-left: .5em;
   }
 }
-
+/*
 .link-button-airbnb-container {
   margin: auto;
   margin-top: 2em;
@@ -109,9 +109,13 @@ a:hover {
     top: -120px;
   }
 }
+*/
+.airbnb-button {
+  display: block;
+}
 
 .airbnb-button img {
-  max-width: 250px;
+  max-width: 200px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -297,10 +301,6 @@ a:hover {
   color: #363636;
 }
 
-@font-face {
-  font-family: 'Open Sans', sans-serif;
-}
-
 .inverse,
 .inverse p,
 .inverse h1,
@@ -392,8 +392,6 @@ h6 {
 }
 
 
-
-
 /*////////////////////
     BASE COLOURS
 ////////////////////*/
@@ -424,31 +422,11 @@ main {
 
 #header {
   background-image: url(images/logo/paper.png);
-<<<<<<< HEAD
-  background-position: center;
-=======
->>>>>>> 07fb722cced55c05747eb573644f261e763b4461
   background-size: cover;
 }
 
 @media screen and (min-width:769px) {
   .page-id-10 #header {
-<<<<<<< HEAD
-    background-image: url(images/photo/home-header-background.jpg);
-  }
-  .page-id-106 #header {
-    background-image: url(images/photo/spring_salad_large.jpg);
-  }
-  .page-id-38 #header {
-    background-image: url(images/photo/clara_large.jpg);
-    background-position: 50% 80%;
-  }
-  .page-id-49 #header {
-    background-image: url(images/photo/home-header-background.jpg);
-  }
-  .page-id-28 #header {
-    background-image: url(images/photo/garden_large_01.jpg);
-=======
     background-image: url(images/header/home_header.jpg);
   }
   .page-id-106 #header {
@@ -462,7 +440,6 @@ main {
   }
   .page-id-28 #header {
     background-image: url(images/header/gallery_header.jpg);
->>>>>>> 07fb722cced55c05747eb573644f261e763b4461
   }
 }
 
@@ -612,11 +589,13 @@ main {
     top: 0;
     opacity: 0;
     visibility: hidden;
+    transition: opacity .5s ease-in-out, visibility .5s ease-in-out;
     -webkit-transition: opacity .5s ease-in-out, visibility .5s ease-in-out;
   }
   #navMenu.is-active {
     opacity: .9;
     visibility: visible;
+    transition: opacity .5s ease-in-out, visibility .5s ease-in-out;
     -webkit-transition: opacity .5s ease-in-out, visibility .5s ease-in-out;
   }
 }
@@ -625,7 +604,6 @@ main {
   #navMenu li {
     height: 10%;
   }
-  #navMenu li:hover {}
   .nav-item:first-child {
     margin-top: 15%;
   }
@@ -646,8 +624,6 @@ main {
   }
 }
 
-<<<<<<< HEAD
-=======
 #first-background {
   height: 330px;
   background-position: center;
@@ -674,7 +650,6 @@ main {
   background-image: url(images/header/gallery_header.jpg);
 }
 
->>>>>>> 07fb722cced55c05747eb573644f261e763b4461
 
 /*////////////////////
     HOME PAGE
@@ -1095,29 +1070,6 @@ main {
   margin-top: 4em;
 }
 
-#emai-bnb-first .content,
-#emai-bnb-attic .content {
-  max-width: 1200px;
-  margin: auto;
-}
-
-#emai-bnb-first .combine-inner,
-#emai-bnb-attic .combine-inner {
-  padding: 3%;
-}
-
-#emai-bnb-first .combine-background,
-#emai-bnb-attic .combine-background {
-  max-height: 500px;
-}
-
-@media screen and (max-width:1024px) {
-  #emai-bnb-first .combine-background,
-  #emai-bnb-attic .combine-background {
-    max-height: 400px;
-  }
-}
-
 .room-section {
   margin-top: 0;
   margin-bottom: 0;
@@ -1131,14 +1083,6 @@ main {
   }
 }
 
-.emai-bnb-first .combine-inner h3,
-.emai-bnb-attic .combine-inner h3 {
-  margin-top: 0.33333em;
-}
-.emai-bnb-first .combine-inner,
-.emai-bnb-attic .combine-inner {
-  height: 40%;
-}
 @media screen and (max-width:550px) {
   .emai-room {
     padding-left: .2em;
@@ -1154,13 +1098,17 @@ main {
 }
 
 .emai-room .airbnb-button {
-  display: block;
-  text-align: center;
   padding-top: .5em;
+  padding-left: 2em;
 }
 
 .emai-room-info {
   padding: 2em;
+}
+@media screen and (max-width: 400px) {
+  .emai-room-info {
+    padding: 0;
+  }
 }
 
 .room-info-left {
@@ -1219,11 +1167,10 @@ main {
 
 }
 
-
 /*// COMBINE ELEMENT //*/
 
 .combine-inner {
-  padding: 2em;
+  padding: 2.5em;
   background-color: #f4f4f4;
 }
 
@@ -1284,16 +1231,6 @@ main {
 .content figure:not(:last-child) {
   margin-bottom: 0;
 }
-
-
-/*////////////////////
-    COTTAGE PAGE
-////////////////////*/
-
-#cottage-main .combine-inner {
-  padding: 3%;
-}
-
 
 /*////////////////////
     BLOG HOME PAGE
