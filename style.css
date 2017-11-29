@@ -55,6 +55,11 @@ a:hover {
     display: flex;
   }
 }
+@media(min-width: 1024px) {
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
+}
 
 .link-button {
   color: white;
@@ -106,7 +111,7 @@ a:hover {
 }
 
 .airbnb-button img {
-  width: 280px;
+  max-width: 250px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -205,6 +210,19 @@ a:hover {
   object-position: center;
 }
 
+.hr-left {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  margin-right: 2em;
+}
+.hr-right {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  margin: 0 0 0 2em;
+}
+
+/*////////////////////
+    MODALS
+////////////////////*/
+
 .image-modal {
   cursor: pointer;
 }
@@ -268,21 +286,6 @@ a:hover {
   display: flex;
 }
 
-#restaurant-welcome .content {
-  position: relative;
-}
-
-@media screen and (max-width:768px) {
-  .black-background {
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-color: rgba(10, 10, 10, 0.5);
-    margin: -3rem 0;
-  }
-}
 
 /*////////////////////
     TYPOGRAPHY
@@ -356,11 +359,17 @@ h6 {
   p {
     font-size: 1.05em;
   }
+  .emai-room p {
+    font-size: 1em;
+  }
 }
 
 @media screen and (min-width:769px) {
   p {
     font-size: 1.1em;
+  }
+  .emai-room p {
+    font-size: 1.0em;
   }
 }
 
@@ -368,13 +377,21 @@ h6 {
   p {
     font-size: 1.15em;
   }
+  .emai-room p {
+    font-size: 1.05em;
+  }
 }
 
 @media screen and (min-width:1216px) {
   p {
     font-size: 1.2em;
   }
+  .emai-room p {
+    font-size: 1.1em;
+  }
 }
+
+
 
 
 /*////////////////////
@@ -407,31 +424,26 @@ main {
 
 #header {
   background-image: url(images/logo/paper.png);
-  background-position: bottom;
+  background-position: center;
   background-size: cover;
 }
 
 @media screen and (min-width:769px) {
   .page-id-10 #header {
     background-image: url(images/photo/home-header-background.jpg);
-    background-size: cover;
   }
   .page-id-106 #header {
-    background-image: url(images/photo/prawns_wide.jpg);
-    background-size: cover;
+    background-image: url(images/photo/spring_salad_large.jpg);
   }
   .page-id-38 #header {
     background-image: url(images/photo/clara_large.jpg);
     background-position: 50% 80%;
-    background-size: cover;
   }
   .page-id-49 #header {
     background-image: url(images/photo/home-header-background.jpg);
-    background-size: cover;
   }
   .page-id-28 #header {
     background-image: url(images/photo/garden_large_01.jpg);
-    background-size: cover;
   }
 }
 
@@ -474,6 +486,32 @@ main {
 
 #header-background {
   margin-bottom: -60px;
+}
+#first-background {
+  height: 330px;
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (min-width:769px) {
+  #first-background {
+    display: none;
+  }
+}
+.page-id-10 #first-background {
+  background-image: url(images/photo/home-header-background.jpg);
+}
+.page-id-106 #first-background {
+  background-image: url(images/photo/spring_salad_large.jpg);
+}
+.page-id-38 #first-background {
+  background-image: url(images/photo/clara_large.jpg);
+  background-position: 50% 80%;
+}
+.page-id-49 #first-background {
+  background-image: url(images/photo/home-header-background.jpg);
+}
+.page-id-28 #first-background {
+  background-image: url(images/photo/garden_large_01.jpg);
 }
 
 /*// HEADER NAV //*/
@@ -576,33 +614,6 @@ main {
     bottom: 15%;
     left: 25%;
   }
-}
-
-#first-background {
-  height: 330px;
-  background-position: center;
-  background-size: cover;
-}
-@media screen and (min-width:769px) {
-  #first-background {
-    display: none;
-  }
-}
-.page-id-10 #first-background {
-  background-image: url(images/photo/home-header-background.jpg);
-}
-.page-id-106 #first-background {
-  background-image: url(images/photo/prawns_wide.jpg);
-}
-.page-id-38 #first-background {
-  background-image: url(images/photo/clara_large.jpg);
-  background-position: 50% 80%;
-}
-.page-id-49 #first-background {
-  background-image: url(images/photo/home-header-background.jpg);
-}
-.page-id-28 #first-background {
-  background-image: url(images/photo/garden_large_01.jpg);
 }
 
 
@@ -985,10 +996,26 @@ main {
   }
 }
 
-#restaurant-food-background {
-  background-image: url(images/photo/spring_salad_large.jpg);
+#restaurant-first-background {
+  background-image: url(images/photo/candle_large_01.jpg);
   background-position: center;
   background-size: cover;
+}
+
+#restaurant-welcome .content {
+  position: relative;
+}
+
+@media screen and (max-width:768px) {
+  .black-background {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgba(10, 10, 10, 0.5);
+    margin: -3rem 0;
+  }
 }
 
 
@@ -1053,6 +1080,86 @@ main {
 .emai-bnb-attic .combine-inner {
   height: 40%;
 }
+@media screen and (max-width:550px) {
+  .emai-room {
+    padding-left: .2em;
+    padding-right: .2em;
+  }
+}
+.emai-room h5 {
+  padding-left: 2em;
+}
+
+.emai-room li {
+  list-style-type: none;
+}
+
+.emai-room .airbnb-button {
+  display: block;
+  text-align: center;
+  padding-top: .5em;
+}
+
+.emai-room-info {
+  padding: 2em;
+}
+
+.room-info-left {
+  margin-top: -90px;
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .room-info-left {
+    margin-top: -50px;
+  }
+}
+
+.room-info-left p {
+  text-align: left;
+  padding: 1em 2em 0 2em;
+}
+@media screen and (min-width: 1024px) and (max-width: 1215px) {
+  .emai-room h5 {
+    padding-left: 1em;
+  }
+  .room-info-left p {
+    padding: 1em 1em 0 1em;
+  }
+  .emai-room ul {
+    margin-left: 1em;
+  }
+  .emai-room hr {
+    margin-left: 1em;
+  }
+}
+
+.room-info-left img {
+  max-width: 190px;
+}
+
+.emai-room-picture {
+  padding: 0;
+}
+.emai-room-picture figure {
+  margin: 0;
+  height: 100%;
+}
+.emai-room-picture figure img {
+  object-fit: cover;
+}
+@media screen and (min-width: 1024px) {
+  .emai-room-picture figure img {
+    height: 100%;
+  }
+  .emai-room-picture {
+    max-height: 620px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1215px) {
+
+}
+
 
 /*// COMBINE ELEMENT //*/
 

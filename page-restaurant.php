@@ -21,7 +21,7 @@
       </div>
     </section>
 
-    <div id="restaurant-food-background" class="banner"></div>
+    <div id="restaurant-first-background" class="banner"></div>
 
     <section id="restaurant-menu" class="section grey-f4">
       <h1 class="remove-header">Menu</h1>

@@ -29,7 +29,7 @@
               <div class="modal-background"></div>
               <div class="modal-content">
                   <figure>
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/dalat_map_large.PNG" alt="">
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/dalat_map_large.PNG" alt="map of Dalat, Vietnam city from google maps with émai location">
                   </figure>
               </div>
               <button class="modal-close"></button>
@@ -40,7 +40,7 @@
               <a href="tel: +842633839001">+84 2633 839 001</a>
             </div>
             <figure id="contact-map-image" class="image">
-                <img id="show-contact-map-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/map.jpg" alt="">
+                <img id="show-contact-map-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/map.jpg" alt="street map of émai dalat">
             </figure>
             <div class="link-button-container">
               <a target="_blank" href="https://www.google.com/maps/place/%C3%A9mai+dalat+restaurant,+cafe+%26+homestay/@11.9468416,108.4325695,15z/data=!4m5!3m4!1s0x0:0x1fd618a538787fe1!8m2!3d11.9468416!4d108.4325695" class="link-button">View on Google Maps</a>
