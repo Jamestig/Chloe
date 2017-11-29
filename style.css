@@ -407,34 +407,38 @@ main {
 
 #header {
   background-image: url(images/logo/paper.png);
-  background-position: bottom;
   background-size: cover;
 }
 
 @media screen and (min-width:769px) {
   .page-id-10 #header {
-    background-image: url(images/photo/home-header-background.jpg);
-    background-size: cover;
+    background-image: url(images/header/home_header.jpg);
   }
   .page-id-106 #header {
-    background-image: url(images/photo/prawns_wide.jpg);
-    background-size: cover;
+    background-image: url(images/header/restaurant_header.jpg);
   }
   .page-id-38 #header {
-    background-image: url(images/photo/clara_large.jpg);
-    background-position: 50% 80%;
-    background-size: cover;
+    background-image: url(images/header/rooms_header.jpg);
   }
   .page-id-49 #header {
-    background-image: url(images/photo/home-header-background.jpg);
-    background-size: cover;
+    background-image: url(images/header/contact_header.jpg);
   }
   .page-id-28 #header {
-    background-image: url(images/photo/garden_large_01.jpg);
-    background-size: cover;
+    background-image: url(images/header/gallery_header.jpg);
   }
 }
 
+@media screen and (min-width:1024px)  and (max-width:1215px) {
+  .page-id-10 #header {
+    background-size: contain;
+  }
+}
+@media screen and (min-width:1216px) {
+  .page-id-10 #header {
+    background-size: cover;
+    background-position-y: 300%;
+  }
+}
 #header-logo {
   max-width: 360px;
 }
@@ -589,20 +593,19 @@ main {
   }
 }
 .page-id-10 #first-background {
-  background-image: url(images/photo/home-header-background.jpg);
+  background-image: url(images/header/home_header.jpg);
 }
 .page-id-106 #first-background {
-  background-image: url(images/photo/prawns_wide.jpg);
+  background-image: url(images/header/restaurant_header.jpg);
 }
 .page-id-38 #first-background {
-  background-image: url(images/photo/clara_large.jpg);
-  background-position: 50% 80%;
+  background-image: url(images/header/rooms_header.jpg);
 }
 .page-id-49 #first-background {
-  background-image: url(images/photo/home-header-background.jpg);
+  background-image: url(images/header/contact_header.jpg);
 }
 .page-id-28 #first-background {
-  background-image: url(images/photo/garden_large_01.jpg);
+  background-image: url(images/header/gallery_header.jpg);
 }
 
 
