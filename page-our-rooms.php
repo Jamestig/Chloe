@@ -36,119 +36,119 @@
     </section>
 
     <section id="emai-bnb-first" class="section">
-     <div class="content">
-      <header class="has-text-centered">
-        <h2 class="title">1st floor guestrooms</h2>
-        <hr>
-      </header>
+      <div class="content">
+        <header class="has-text-centered">
+          <h2 class="title">1st floor guestrooms</h2>
+          <hr>
+        </header>
 
-      <section id="emai-room-ivy" class="section emai-room">
-        <h2 class="remove-header">Room One: Ivy</h2>
-        <div class="container">
-          <article class="content">
-            <div class="columns is-multiline grey-f4 row-reverse">
-              <div class="emai-room-picture column is-full-tablet is-two-thirds-desktop">
-                <figure>
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/ivy_large.jpg" alt="émai dalat homestay room 1: Ivy">
-                </figure>
-              </div>
-              <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
-                <div class="columns is-multiline">
-                  <div class="room-info-left column is-full-desktop">
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/logo.png" alt="Ivy logo">
-                    <p>With a view of our gorgeous garden and vine-covered wall down below, Ivy is a delight to eyes that are sensitive to the greeneries of life.</p>
-                  </div>
-                  <div class="room-info-right column is-full-desktop">
-                    <h5 class="no-transform">Details</h5>
-                    <hr class="hr-right">
-                    <ul>
-                      <li>Accommodates Two</li>
-                      <li>Double Bed (140cm)</li>
-                      <li>Bathroom with Wooden Bathtub</li>
-                      <li>970,000 / 43 USD</li>
-                    </ul>
-                    <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21901899">
+        <section id="emai-room-ivy" class="section emai-room">
+          <h2 class="remove-header">Room One: Ivy</h2>
+          <div class="container">
+            <article class="content">
+              <div class="columns is-multiline grey-f4 row-reverse">
+                <div class="emai-room-picture column is-full-tablet is-two-thirds-desktop">
+                  <figure>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/ivy_large.jpg" alt="émai dalat homestay room 1: Ivy">
+                  </figure>
+                </div>
+                <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
+                  <div class="columns is-multiline">
+                    <div class="room-info-left column is-full-desktop">
+                      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/logo.png" alt="Ivy logo">
+                      <p>With a view of our gorgeous garden and vine-covered wall down below, Ivy is a delight to eyes that are sensitive to the greeneries of life.</p>
+                    </div>
+                    <div class="room-info-right column is-full-desktop">
+                      <h5 class="no-transform">Details</h5>
+                      <hr class="hr-right">
+                      <ul>
+                        <li>Accommodates Two</li>
+                        <li>Double Bed (140cm)</li>
+                        <li>Bathroom with Wooden Bathtub</li>
+                        <li>970,000 / 43 USD</li>
+                      </ul>
+                      <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21901899">
                           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now on airbnb - émai dalat homestay room 1: Ivy">
                         </a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </article>
-        </div>
-      </section>
+            </article>
+          </div>
+        </section>
 
-      <section id="emai-room-clara" class="section emai-room">
-        <h2 class="remove-header">Room Two: Clara</h2>
-        <div class="container">
-          <article class="content">
-            <div class="columns is-multiline grey-f4">
-              <div class="emai-room-picture column is-full-tablet is-two-thirds-desktop">
-                <figure>
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clara_large.jpg" alt="émai dalat homestay room 2: Clara">
-                </figure>
-              </div>
-              <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
-                <div class="columns is-multiline">
-                  <div class="room-info-left column is-full-desktop">
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/logo.png" alt="Clara logo">
-                    <p>Clara is the only room which offers an expansive balcony on which you can read a book, sip a coffee, or unwind with good company.</p>
-                  </div>
-                  <div class="room-info-right column is-full-desktop">
-                    <h5 class="no-transform">Details</h5>
-                    <hr class="hr-right">
-                    <ul>
-                      <li>Accommodates Two</li>
-                      <li>King Single Bed (120cm)</li>
-                      <li>Bathroom with Wooden Bathtub</li>
-                      <li>1,065,000 / 47 USD</li>
-                    </ul>
-                    <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21858606">
+        <section id="emai-room-clara" class="section emai-room">
+          <h2 class="remove-header">Room Two: Clara</h2>
+          <div class="container">
+            <article class="content">
+              <div class="columns is-multiline grey-f4">
+                <div class="emai-room-picture column is-full-tablet is-two-thirds-desktop">
+                  <figure>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clara_large.jpg" alt="émai dalat homestay room 2: Clara">
+                  </figure>
+                </div>
+                <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
+                  <div class="columns is-multiline">
+                    <div class="room-info-left column is-full-desktop">
+                      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/logo.png" alt="Clara logo">
+                      <p>Clara is the only room which offers an expansive balcony on which you can read a book, sip a coffee, or unwind with good company.</p>
+                    </div>
+                    <div class="room-info-right column is-full-desktop">
+                      <h5 class="no-transform">Details</h5>
+                      <hr class="hr-right">
+                      <ul>
+                        <li>Accommodates Two</li>
+                        <li>King Single Bed (120cm)</li>
+                        <li>Bathroom with Wooden Bathtub</li>
+                        <li>1,065,000 / 47 USD</li>
+                      </ul>
+                      <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21858606">
                         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now on airbnb - émai dalat homestay room 2: Clara">
                       </a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </article>
-        </div>
-      </section>
+            </article>
+          </div>
+        </section>
 
-      <section id="emai-room-may" class="section emai-room">
-        <h2 class="remove-header">Room Three: May</h2>
-        <div class="container">
-          <article class="content">
-            <div class="columns is-multiline grey-f4 row-reverse">
-              <div class="emai-room-picture column is-full-tablet is-two-thirds-desktop">
-                <figure>
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/may_large_01.jpg" alt="émai dalat homestay room 3: May">
-                </figure>
-              </div>
-              <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
-                <div class="columns is-multiline">
-                  <div class="room-info-left column is-full-desktop">
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/logo.png" alt="Ivy logo">
-                    <p>May offers a view of our smaller, serene garden, with a pond and lush plants and trees to soothe the eyes.</p>
-                  </div>
-                  <div class="room-info-right column is-full-desktop">
-                    <h5 class="no-transform">Details</h5>
-                    <hr class="hr-right">
-                    <ul>
-                      <li>Accommodates Two</li>
-                      <li>Double Bed (140cm)</li>
-                      <li>Bathroom with Wooden Bathtub</li>
-                      <li>900,000 / 40 USD</li>
-                    </ul>
-                    <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21872453">
+        <section id="emai-room-may" class="section emai-room">
+          <h2 class="remove-header">Room Three: May</h2>
+          <div class="container">
+            <article class="content">
+              <div class="columns is-multiline grey-f4 row-reverse">
+                <div class="emai-room-picture column is-full-tablet is-two-thirds-desktop">
+                  <figure>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/may_large_01.jpg" alt="émai dalat homestay room 3: May">
+                  </figure>
+                </div>
+                <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
+                  <div class="columns is-multiline">
+                    <div class="room-info-left column is-full-desktop">
+                      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/logo.png" alt="Ivy logo">
+                      <p>May offers a view of our smaller, serene garden, with a pond and lush plants and trees to soothe the eyes.</p>
+                    </div>
+                    <div class="room-info-right column is-full-desktop">
+                      <h5 class="no-transform">Details</h5>
+                      <hr class="hr-right">
+                      <ul>
+                        <li>Accommodates Two</li>
+                        <li>Double Bed (140cm)</li>
+                        <li>Bathroom with Wooden Bathtub</li>
+                        <li>900,000 / 40 USD</li>
+                      </ul>
+                      <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21872453">
                           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now on airbnb - émai dalat homestay room 3: May">
                         </a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </article>
-        </div>
-      </section>
+            </article>
+          </div>
+        </section>
       </div>
     </section>
 
