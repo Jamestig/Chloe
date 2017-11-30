@@ -1065,6 +1065,11 @@ main {
   padding-bottom: 0;
 }
 
+#emai-bnb-attic header {
+  max-width: 900px;
+  margin: auto;
+}
+
 #emai-bnb-first > .content > .columns,
 #emai-bnb-attic > .content > .columns {
   margin-top: 4em;
