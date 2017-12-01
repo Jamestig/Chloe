@@ -21,7 +21,7 @@
       </div>
     </section>
 
-    <div id="restaurant-first-background" class="banner"></div>
+    <div id="restaurant-food-background" class="banner"></div>
 
     <section id="restaurant-menu" class="section grey-f4">
       <h1 class="remove-header">Menu</h1>
@@ -29,17 +29,17 @@
 
         <article id="restaurant-menu-article" class="columns">
 
-          <div class="column is-half">
+          <div id="restaurant-menu-right" class="column is-half">
             <div itemscope itemType="http://schema.org/hasMenu" class="content">
               <h3>Time-honoured traditions from the Mediterranean countryside - with a contemporary touch</h3>
               <br>
-              <p>Our dishes are created from a unique coalescence of traditional Tuscan customs, contemporary European dining, and international techniques that we have gathered over the years of creating and refining our recipes to reveal our most exquisite yet homely flavours and aromas.</p>
+              <p>Our dishes are created from a unique coalescence of traditional Italian customs, contemporary European dining, and international techniques that we have gathered over the years of creating and refining our recipes to reveal our most exquisite yet homely flavours and aromas.</p>
               <div class="link-button-container">
                 <a href="https://emaidalat.com/wp-content/uploads/2017/11/émai_restaurant_menu.pdf" class="link-button" target="_blank">View Menu</a>
               </div>
             </div>
           </div>
-          <div class="column is-half">
+          <div id="restaurant-menu-left" class="column is-half">
             <div class="restaurant-menu-modal modal">
               <div class="modal-background"></div>
               <div class="modal-content">
@@ -49,8 +49,8 @@
               </div>
               <button class="modal-close"></button>
             </div>
-            <figure id="restaurant-menu-figure" class="image portrait">
-              <img id="show-restaurant-menu-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/beef_red_wine.jpg" alt="">
+            <figure id="restaurant-menu-figure" class="image restaurant-portrait">
+              <img id="show-restaurant-menu-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/beef_tall.jpg" alt="">
             </figure>
           </div>
         </article>
@@ -63,7 +63,7 @@
       <div class="container">
 
         <article id="restaurant-food-article" class="columns">
-          <div class="column is-half center">
+          <div id="restaurant-food-left" class="column is-half center">
             <div itemscope itemType="http://schema.org/servesCuisine" class="content">
               <h3>The finest flavours from our farm-to-table vegetables and herbs cultivated from Dalat’s impeccable agricultural landscape</h3>
               <br>
@@ -73,7 +73,7 @@
               </div>
             </div>
           </div>
-          <div class="column is-half">
+          <div id="restaurant-food-right" class="column is-half">
             <div class="restaurant-food-modal modal">
               <div class="modal-background"></div>
               <div class="modal-content">
@@ -83,8 +83,8 @@
               </div>
               <button class="modal-close"></button>
             </div>
-            <figure id="restaurant-food-figure" class="image portrait">
-              <img id="show-restaurant-food-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/potato_leek_soup.jpg" alt="">
+            <figure id="restaurant-food-figure" class="image restaurant-portrait">
+              <img id="show-restaurant-food-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/potato_soup_tall.jpg" alt="">
             </figure>
           </div>
         </article>

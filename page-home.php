@@ -46,7 +46,7 @@
               <br>
               <p>Every delectable dish is freshly cooked using organic vegetables and herbs farmed from Dalat's remarkable agricultural landscape, renowned across the country for its beautiful weather and clean, fresh Mediterranean produce.</p>
               <div class="link-button-container">
-                <a href="https://emaidalat.com/wp-content/uploads/2017/11/émai_restaurant_menu.pdf" class="link-button" target="_blank">View Menu</a>
+                <a href="https://emaidalat.com/restaurant/" class="link-button" target="_blank">Restaurant émai</a>
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@
               <br>
               <p>From heartwarming mulled wine panacottas to delightfully creamy passion fruit cheesecakes, our charming treats go perfectly with a warm cup of coffee or tea made from some of the world’s best beans and tea leaves, or any one of our own creative and healthy drink creations.</p>
               <div class="link-button-container">
-                <a href="https://emaidalat.com/wp-content/uploads/2017/11/émai_café_menu.pdf" class="link-button" target="_blank">Café Menu</a>
+                <a href="https://emaidalat.com/wp-content/uploads/2017/11/émai_café_menu.pdf" class="link-button" target="_blank">Café émai</a>
               </div>
             </div>
           </div>

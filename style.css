@@ -55,6 +55,7 @@ a:hover {
     display: flex;
   }
 }
+
 @media(min-width: 1024px) {
   .row-reverse {
     flex-direction: row-reverse;
@@ -96,6 +97,7 @@ a:hover {
     margin-left: .5em;
   }
 }
+
 /*
 .link-button-airbnb-container {
   margin: auto;
@@ -110,6 +112,7 @@ a:hover {
   }
 }
 */
+
 .airbnb-button {
   display: block;
 }
@@ -218,6 +221,7 @@ a:hover {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
   margin-right: 2em;
 }
+
 .hr-right {
   background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
   margin: 0 0 0 2em;
@@ -230,15 +234,18 @@ a:hover {
 .image-modal {
   cursor: pointer;
 }
+
 .modal-content {
-  width:90%;
+  width: 90%;
 }
+
 .modal-content figure {
   height: 90vh;
   overflow: hidden;
   margin: auto;
   text-align: center;
 }
+
 .modal-content img {
   height: 100%;
   object-fit: contain;
@@ -249,41 +256,49 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
 }
+
 .home-cafe-modal.is-active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+
 .home-rooms-mid-modal.is-active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+
 .home-rooms-left-modal.is-active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+
 .home-nest-right-modal.is-active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+
 .home-nest-mid-modal.is-active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+
 .restaurant-menu-modal.is-active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+
 .restaurant-food-modal.is-active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+
 .contact-map-modal.is-active {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -443,17 +458,19 @@ main {
   }
 }
 
-@media screen and (min-width:1024px)  and (max-width:1215px) {
+@media screen and (min-width:1024px) and (max-width:1215px) {
   .page-id-10 #header {
     background-size: contain;
   }
 }
+
 @media screen and (min-width:1216px) {
   .page-id-10 #header {
     background-size: cover;
-    background-position-y: 300%;
+    background-position-y: 120%;
   }
 }
+
 #header-logo {
   max-width: 360px;
 }
@@ -494,29 +511,36 @@ main {
 #header-background {
   margin-bottom: -60px;
 }
+
 #first-background {
   height: 330px;
   background-position: center;
   background-size: cover;
 }
+
 @media screen and (min-width:769px) {
   #first-background {
     display: none;
   }
 }
+
 .page-id-10 #first-background {
   background-image: url(images/photo/home-header-background.jpg);
 }
+
 .page-id-106 #first-background {
   background-image: url(images/photo/spring_salad_large.jpg);
 }
+
 .page-id-38 #first-background {
   background-image: url(images/photo/clara_large.jpg);
   background-position: 50% 80%;
 }
+
 .page-id-49 #first-background {
   background-image: url(images/photo/home-header-background.jpg);
 }
+
 .page-id-28 #first-background {
   background-image: url(images/photo/garden_large_01.jpg);
 }
@@ -629,23 +653,29 @@ main {
   background-position: center;
   background-size: cover;
 }
+
 @media screen and (min-width:769px) {
   #first-background {
     display: none;
   }
 }
+
 .page-id-10 #first-background {
   background-image: url(images/header/home_header.jpg);
 }
+
 .page-id-106 #first-background {
   background-image: url(images/header/restaurant_header.jpg);
 }
+
 .page-id-38 #first-background {
   background-image: url(images/header/rooms_header.jpg);
 }
+
 .page-id-49 #first-background {
   background-image: url(images/header/contact_header.jpg);
 }
+
 .page-id-28 #first-background {
   background-image: url(images/header/gallery_header.jpg);
 }
@@ -745,7 +775,7 @@ main {
 
 #home-rooms-content {
   padding: 1em;
-    text-align: left;
+  text-align: left;
 }
 
 @media screen and (min-width: 769px) and (max-width:1024px) {
@@ -928,23 +958,102 @@ main {
   margin-bottom: 50px;
 }
 
-#restaurant-menu .portrait img,
-#restaurant-food .portrait img{
-  max-width: 600px;
+#restaurant-food-background {
+  background-image: url(images/photo/candle_large_01.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
-#restaurant-menu .container,
-#restaurant-food .container {
-  max-width: 1000px;
+.restaurant-portrait {
+  margin: auto;
+  max-width: 450px;
+}
+
+#restaurant-menu-article {
+  flex-flow: row-reverse;
 }
 
 #restaurant-food {
   background-color: #eaeaea;
 }
 
-#restaurant-menu-article {
-  flex-flow: row-reverse;
+#restaurant-food-article .content {
+  background-color: white;
+  padding: 2em;
+  text-align: left;
 }
+
+#restaurant-menu-right {
+  padding: 2em;
+}
+
+@media screen and (min-width:900px) {
+  #restaurant-menu-right .content {
+    margin-right: 5em;
+  }
+}
+
+#restaurant-food-left {
+  z-index: 5;
+}
+
+@media screen and (min-width:769px) {
+  #restaurant-food-left {
+    position: relative;
+    right: -4em;
+  }
+  #restaurant-menu-right h3 {
+    padding-top: 1em;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width: 900px) {
+  #restaurant-food-article .content {
+    margin-left: -6em;
+  }
+  #restaurant-food {
+    padding-right: 0;
+  }  #restaurant-menu {
+    padding-left: 0;
+  }
+  #restaurant-food-right {
+    padding-right: 0;
+  }  #restaurant-menu-left {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  #restaurant-food {
+    margin-top: -5em;
+  }
+}
+@media screen and (min-width:1216px) {
+  #restaurant-menu-figure {
+    margin-right: 1.5em;
+  }
+  #restaurant-food-left {
+    right: -6em;
+    bottom: -2em;
+  }
+  #restaurant-food-figure {
+    margin-left: 1em;
+  }
+  #restaurant-menu-right h3 {
+    padding-top: 2em;
+  }
+}
+
+/*
+
+#restaurant-menu .container,
+#restaurant-food .container {
+  max-width: 1000px;
+}
+
+
+
+
 
 #restaurant-menu-article img {
   margin: auto;
@@ -1018,26 +1127,23 @@ main {
     padding-top: 100px;
   }
 }
+*/
 
 #restaurant-welcome {
   background-image: url(images/photo/ravioli_wide.jpg);
   background-position: center;
   background-size: cover;
 }
+
 @media screen and (max-width: 768px) {
   #restaurant-welcome {
     background-position: right;
   }
 }
 
-#restaurant-first-background {
-  background-image: url(images/photo/candle_large_01.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
 #restaurant-welcome .content {
   position: relative;
+  padding: 2em;
 }
 
 @media screen and (max-width:768px) {
@@ -1094,6 +1200,7 @@ main {
     padding-right: .2em;
   }
 }
+
 .emai-room h5 {
   padding-left: 2em;
 }
@@ -1110,19 +1217,10 @@ main {
 .emai-room-info {
   padding: 2em;
 }
+
 @media screen and (max-width: 400px) {
   .emai-room-info {
     padding: 0;
-  }
-}
-
-.room-info-left {
-  margin-top: -90px;
-  text-align: center;
-}
-@media screen and (min-width: 1024px) {
-  .room-info-left {
-    margin-top: -50px;
   }
 }
 
@@ -1130,6 +1228,7 @@ main {
   text-align: left;
   padding: 1em 2em 0 2em;
 }
+
 @media screen and (min-width: 1024px) and (max-width: 1215px) {
   .emai-room h5 {
     padding-left: 1em;
@@ -1145,20 +1244,19 @@ main {
   }
 }
 
-.room-info-left img {
-  max-width: 190px;
-}
-
 .emai-room-picture {
   padding: 0;
 }
+
 .emai-room-picture figure {
   margin: 0;
   height: 100%;
 }
+
 .emai-room-picture figure img {
   object-fit: cover;
 }
+
 @media screen and (min-width: 1024px) {
   .emai-room-picture figure img {
     height: 100%;
@@ -1168,8 +1266,113 @@ main {
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1215px) {
+.room-info-left {
+  text-align: left;
+}
+#emai-room-ivy .room-info-left img {
+  max-width: 120px;
+  margin-left: 4em;
+}
+#emai-room-ivy .room-info-left {
+  margin-top: -70px;
+}
+@media screen and (min-width: 1024px) {
+  #emai-room-ivy .room-info-left {
+    margin-top: -50px;
+  }
+  #emai-room-ivy .room-info-left img {
+    margin-left: 3em;
+  }
+}
 
+#emai-room-clara .room-info-left img {
+  max-width: 230px;
+}
+#emai-room-clara .room-info-left {
+  margin-top: -3.5em;
+}
+@media screen and (min-width: 1024px) {
+  #emai-room-clara .room-info-left {
+    margin-top: -3em;
+  }
+}
+
+#emai-room-may .room-info-left img {
+  max-width: 140px;
+  margin-left: 3em;
+}
+#emai-room-may .room-info-left {
+  margin-top: -4em;
+}
+@media screen and (min-width: 769px) {
+  #emai-room-may .room-info-left {
+    margin-top: -3em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #emai-room-may .room-info-left {
+    margin-top: -2.5em;
+  }
+}
+
+#emai-room-clay .room-info-left img {
+  max-width: 150px;
+  margin-left: 3em;
+}
+#emai-room-clay .room-info-left {
+  margin-top: -2em;
+}
+@media screen and (min-width: 769px) {
+  #emai-room-clay .room-info-left {
+    margin-top: -1em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #emai-room-clay .room-info-left {
+    margin-top: -1em;
+  }
+}
+
+#emai-room-willow .room-info-left img {
+  max-width: 230px;
+  margin-left: 1em;
+}
+#emai-room-willow .room-info-left {
+  margin-top: -2.5em;
+}
+@media screen and (min-width: 769px) {
+  #emai-room-willow .room-info-left {
+    margin-top: -1.5em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #emai-room-willow .room-info-left {
+    margin-top: -1em;
+  }
+  #emai-room-willow .room-info-left img {
+    margin-left: -3em;
+  }
+}
+
+#emai-room-cocoon .room-info-left img {
+  max-width: 220px;
+  margin-left: 3em;
+}
+#emai-room-cocoon .room-info-left {
+  margin-top: -2.5em;
+}
+@media screen and (min-width: 769px) {
+  #emai-room-cocoon .room-info-left {
+    margin-top: -1.5em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #emai-room-cocoon .room-info-left {
+    margin-top: -1em;
+  }
+  #emai-room-cocoon .room-info-left img {
+    margin-left: -.5em;
+  }
 }
 
 /*// COMBINE ELEMENT //*/
@@ -1186,6 +1389,7 @@ main {
   margin-right: 0 !important;
   margin-left: 0 !important;
 }
+
 .combine-background img {
   height: 100%;
   width: 100%;
@@ -1603,9 +1807,11 @@ div.wpcf7-mail-sent-ok {
     COMING SOON
 ////////////////////*/
 
-html, body {
+html,
+body {
   margin-top: 0 !important;
 }
+
 .coming-soon {
   background-image: url(images/photo/cover.jpg);
   background-position: center;
@@ -1613,6 +1819,7 @@ html, body {
   height: 100vh;
   padding-top: 0;
 }
+
 .coming-soon .column {
   background-image: url(images/logo/coverbanner.jpg);
   background-position: center;
@@ -1621,12 +1828,14 @@ html, body {
   height: 75vh;
   opacity: .9;
 }
+
 @media screen and (min-width:550px) {
   .coming-soon .column {
     margin-left: 33%;
     opacity: 1;
   }
 }
+
 @media screen and (min-width:1024px) {
   .coming-soon .column {
     height: 85vh;

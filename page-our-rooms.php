@@ -55,7 +55,7 @@
                 <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
                   <div class="columns is-multiline">
                     <div class="room-info-left column is-full-desktop">
-                      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/logo.png" alt="Ivy logo">
+                      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/ivy_web.png" alt="Ivy logo">
                       <p>With a view of our gorgeous garden and vine-covered wall down below, Ivy is a delight to eyes that are sensitive to the greeneries of life.</p>
                     </div>
                     <div class="room-info-right column is-full-desktop">
@@ -91,7 +91,7 @@
                 <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
                   <div class="columns is-multiline">
                     <div class="room-info-left column is-full-desktop">
-                      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/logo.png" alt="Clara logo">
+                      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/clara_web.png" alt="Clara logo">
                       <p>Clara is the only room which offers an expansive balcony on which you can read a book, sip a coffee, or unwind with good company.</p>
                     </div>
                     <div class="room-info-right column is-full-desktop">
@@ -101,7 +101,7 @@
                         <li>Accommodates Two</li>
                         <li>King Single Bed (120cm)</li>
                         <li>Bathroom with Wooden Bathtub</li>
-                        <li>1,065,000 / 47 USD</li>
+                        <li>990,000 / 44 USD</li>
                       </ul>
                       <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21858606">
                         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now on airbnb - émai dalat homestay room 2: Clara">
@@ -127,7 +127,7 @@
                 <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
                   <div class="columns is-multiline">
                     <div class="room-info-left column is-full-desktop">
-                      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/logo.png" alt="Ivy logo">
+                      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/may_web.png" alt="May logo">
                       <p>May offers a view of our smaller, serene garden, with a pond and lush plants and trees to soothe the eyes.</p>
                     </div>
                     <div class="room-info-right column is-full-desktop">
@@ -157,7 +157,6 @@
         <header class="has-text-centered">
           <h2 class="title">Attic guestrooms</h2>
           <hr>
-          <p>Our attic rooms are tucked snugly under the roof, with a skylight through which you can watch the clouds drift or see the stars. Taking inspiration from Japanese architecture, the sleeping arrangement in our attic rooms is a single mattress on the floor.</p>
         </header>
 
         <section id="emai-room-clay" class="section emai-room">
@@ -173,8 +172,8 @@
                 <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
                   <div class="columns is-multiline">
                     <div class="room-info-left column is-full-desktop">
-                      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/logo.png" alt="Clay logo">
-                      <p>If you'd like something a bit more playful, our attic rooms are tucked snugly under the roof, with a skylight through which you can watch the clouds drift or see the stars. </p>
+                      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/clay_web.png" alt="Clay logo">
+                      <p>Inspired by Japanese architecture, our attic rooms are tucked snugly under the roof, with a skylight through which you can watch the clouds drift or see the stars.</p>
                     </div>
                     <div class="room-info-right column is-full-desktop">
                       <h5 class="no-transform">Details</h5>
@@ -209,8 +208,8 @@
                 <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
                   <div class="columns is-multiline">
                     <div class="room-info-left column is-full-desktop">
-                      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/logo.png" alt="Willow logo">
-                      <p>If you'd like something a bit more playful, our attic rooms are tucked snugly under the roof, with a skylight through which you can watch the clouds drift or see the stars. </p>
+                      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/willow_web.png" alt="Willow logo">
+                      <p>Inspired by Japanese architecture, our attic rooms are tucked snugly under the roof, with a skylight through which you can watch the clouds drift or see the stars.</p>
                     </div>
                     <div class="room-info-right column is-full-desktop">
                       <h5 class="no-transform">Details</h5>
@@ -245,8 +244,8 @@
                 <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
                   <div class="columns is-multiline">
                     <div class="room-info-left column is-full-desktop">
-                      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/logo.png" alt="Cocoon logo">
-                      <p>If you'd like something a bit more playful, our attic rooms are tucked snugly under the roof, with a skylight through which you can watch the clouds drift or see the stars. </p>
+                      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/cocoon_web.png" alt="Cocoon logo">
+                      <p>Inspired by Japanese architecture, our attic rooms are tucked snugly under the roof, with a skylight through which you can watch the clouds drift or see the stars.</p>
                     </div>
                     <div class="room-info-right column is-full-desktop">
                       <h5 class="no-transform">Details</h5>
