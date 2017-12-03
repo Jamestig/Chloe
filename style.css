@@ -438,6 +438,7 @@ main {
 #header {
   background-image: url(images/logo/paper.png);
   background-size: cover;
+  background-position: bottom;
 }
 
 @media screen and (min-width:769px) {
@@ -455,19 +456,6 @@ main {
   }
   .page-id-28 #header {
     background-image: url(images/header/gallery_header.jpg);
-  }
-}
-
-@media screen and (min-width:1024px) and (max-width:1215px) {
-  .page-id-10 #header {
-    background-size: contain;
-  }
-}
-
-@media screen and (min-width:1216px) {
-  .page-id-10 #header {
-    background-size: cover;
-    background-position-y: 120%;
   }
 }
 
@@ -494,12 +482,16 @@ main {
     margin-top: -55px;
   }
 }
-
 @media screen and (min-width:1024px) {
   #header-logo {
     padding: 130px 70px;
     margin-bottom: -35px;
     margin-top: 0px;
+  }
+}
+@media screen and (min-width:1408px) {
+  #header-logo {
+    padding: 150px 70px;
   }
 }
 
@@ -1248,17 +1240,17 @@ main {
   padding: 0;
 }
 
-.emai-room-picture figure {
+.emai-room-picture div {
   margin: 0;
   height: 100%;
 }
 
-.emai-room-picture figure img {
+.emai-room-picture div img {
   object-fit: cover;
 }
 
 @media screen and (min-width: 1024px) {
-  .emai-room-picture figure img {
+  .emai-room-picture div img {
     height: 100%;
   }
   .emai-room-picture {

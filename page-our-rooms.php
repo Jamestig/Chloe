@@ -24,7 +24,7 @@
       <article id="emai-bnb-emaibnb-article" class="combine-container content">
         <div class="columns">
           <figure id="emai-bnb-book-background" class="combine-background column">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clara_large.jpg" alt="émai dalat homestay">
+            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/exterior_wide.jpg" alt="émai dalat homestay">
           </figure>
           <div class="combine-inner column is-half is-one-third-desktop is-one-quarter-fullhd is-offset-1 is-offset-2-fullhd">
             <h2>émai bed &amp; breakfast, restaurant &amp; cafe</h2>
@@ -47,10 +47,19 @@
           <div class="container">
             <article class="content">
               <div class="columns is-multiline grey-f4 row-reverse">
-                <div class="emai-room-picture column is-full-tablet is-two-thirds-desktop">
-                  <figure>
+                <div class="fade emai-room-picture column is-full-tablet is-two-thirds-desktop">
+                  <div>
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/ivy_large.jpg" alt="émai dalat homestay room 1: Ivy">
-                  </figure>
+                  </div>
+                  <div>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/ivy_bed_01.jpg" alt="émai dalat homestay room 1: Ivy">
+                  </div>
+                  <div>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/ivy_bed_02.jpg" alt="émai dalat homestay room 1: Ivy">
+                  </div>
+                  <div>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/ivy_lamp.jpg" alt="émai dalat homestay room 1: Ivy">
+                  </div>
                 </div>
                 <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
                   <div class="columns is-multiline">
@@ -83,11 +92,13 @@
           <div class="container">
             <article class="content">
               <div class="columns is-multiline grey-f4">
-                <div class="emai-room-picture column is-full-tablet is-two-thirds-desktop">
-                  <figure>
+               
+                <div class="fade emai-room-picture column is-full-tablet is-two-thirds-desktop">
+                  <div>
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clara_large.jpg" alt="émai dalat homestay room 2: Clara">
-                  </figure>
+                  </div>
                 </div>
+               
                 <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
                   <div class="columns is-multiline">
                     <div class="room-info-left column is-full-desktop">
@@ -119,11 +130,16 @@
           <div class="container">
             <article class="content">
               <div class="columns is-multiline grey-f4 row-reverse">
-                <div class="emai-room-picture column is-full-tablet is-two-thirds-desktop">
-                  <figure>
+               
+                <div class="fade emai-room-picture column is-full-tablet is-two-thirds-desktop">
+                  <div>
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/may_large_01.jpg" alt="émai dalat homestay room 3: May">
-                  </figure>
+                  </div>
+                  <div>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/may_large_02.jpg" alt="émai dalat homestay room 3: May">
+                  </div>
                 </div>
+               
                 <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
                   <div class="columns is-multiline">
                     <div class="room-info-left column is-full-desktop">
@@ -164,11 +180,13 @@
           <div class="container">
             <article class="content">
               <div class="columns is-multiline grey-f4 row-reverse">
-                <div class="emai-room-picture column is-full-tablet is-two-thirds-desktop">
-                  <figure>
+               
+                <div class="fade emai-room-picture column is-full-tablet is-two-thirds-desktop">
+                  <div>
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clay_large_01.jpg" alt="émai dalat homestay room 4: Clay">
-                  </figure>
+                  </div>
                 </div>
+
                 <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
                   <div class="columns is-multiline">
                     <div class="room-info-left column is-full-desktop">
@@ -200,11 +218,22 @@
           <div class="container">
             <article class="content">
               <div class="columns is-multiline grey-f4">
-                <div class="emai-room-picture column is-full-tablet is-two-thirds-desktop">
-                  <figure>
+               
+                <div class="fade emai-room-picture column is-full-tablet is-two-thirds-desktop">
+                  <div>
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/willow_large_02.jpg" alt="émai dalat homestay room 5: Willow">
-                  </figure>
+                  </div>
+                  <div>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/willow_large_01.jpg" alt="émai dalat homestay room 5: Willow">
+                  </div>
+                  <div>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/willow_lights_03.jpg" alt="émai dalat homestay room 5: Willow">
+                  </div>
+                  <div>
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/willow_lights_04.jpg" alt="émai dalat homestay room 5: Willow">
+                  </div>
                 </div>
+
                 <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
                   <div class="columns is-multiline">
                     <div class="room-info-left column is-full-desktop">
@@ -236,11 +265,13 @@
           <div class="container">
             <article class="content">
               <div class="columns is-multiline grey-f4 row-reverse">
-                <div class="emai-room-picture column is-full-tablet is-two-thirds-desktop">
-                  <figure>
+               
+                <div class="fade emai-room-picture column is-full-tablet is-two-thirds-desktop">
+                  <div>
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/cocoon_large_01.jpg" alt="émai dalat homestay room 6: Cocoon">
-                  </figure>
+                  </div>
                 </div>
+
                 <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
                   <div class="columns is-multiline">
                     <div class="room-info-left column is-full-desktop">

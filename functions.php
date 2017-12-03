@@ -43,12 +43,15 @@ clara_create_widget( 'Blog Sidebar', 'blog', 'Displays on the side of pages in t
     wp_enqueue_style( 'fontawesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
 	wp_enqueue_style( 'amiri_font', 'https://fonts.googleapis.com/css?family=Amiri|Open+Sans' );
     wp_enqueue_style('bulma_css', get_template_directory_uri() . '/css/bulma.css');
+    wp_enqueue_style('slick_css', get_template_directory_uri() . '/css/slick.css');
+    wp_enqueue_style('slick-theme_css', get_template_directory_uri() . '/css/slick-theme.css');
     wp_enqueue_style('main_css', get_template_directory_uri() . '/style.css');
   }
 
   add_action('wp_enqueue_scripts', 'clara_theme_styles');
 
   function clara_theme_js() {
+    wp_enqueue_script('slick_js', get_template_directory_uri() . '/js/slick.min.js', array('jquery'), '', false );
     wp_enqueue_script('main_js', get_template_directory_uri() . '/js/script.js', array('jquery'), '', true );
   }
 
