@@ -28,7 +28,7 @@
           <div class="modal-background"></div>
           <div class="modal-content">
               <figure>
-                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/tomato_soup_tall.jpg" alt="Italian garden-fresh and sun-dried Tomato Soup with Rosemary Cream">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/tomato_soup_large.jpg" alt="Italian garden-fresh and sun-dried Tomato Soup with Rosemary Cream">
               </figure>
           </div>
           <button class="modal-close"></button>
@@ -62,14 +62,14 @@
           <div class="modal-background"></div>
           <div class="modal-content">
               <figure>
-                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/panna_tall_01.jpg" alt="Panna Cotta with Dalat berries cooked in Mulled Wine">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/panna_large.jpg" alt="Panna Cotta with Dalat berries cooked in Mulled Wine">
               </figure>
           </div>
           <button class="modal-close"></button>
         </div>
           <div class="column is-half">
             <figure id="home-cafe-figure" class="image portrait">
-              <img id="show-home-cafe-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/panna_tall_01_lowres.jpg" alt="Panna Cotta with Dalat berries cooked in Mulled Wine">
+              <img id="show-home-cafe-modal" class="image-modal" src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/panna_tall_lowres.jpg" alt="Panna Cotta with Dalat berries cooked in Mulled Wine">
             </figure>
           </div>
           <div class="column is-half">
@@ -111,7 +111,7 @@
               <div class="modal-background"></div>
               <div class="modal-content">
                   <figure>
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clara_tall.jpg" alt="émai homestay room 2: Clara">
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/clara_large.jpg" alt="émai homestay room 2: Clara">
                   </figure>
               </div>
               <button class="modal-close"></button>
@@ -127,7 +127,7 @@
               <div class="modal-background"></div>
               <div class="modal-content">
                   <figure>
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/may_tall.jpg" alt="émai homestay room 3: May">
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/may_large_01.jpg" alt="émai homestay room 3: May">
                   </figure>
               </div>
               <button class="modal-close"></button>
@@ -165,7 +165,7 @@
               <div class="modal-background"></div>
               <div class="modal-content">
                 <figure>
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/grapes_tall.jpg" alt="Fresh green and purple grapes on a set table">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/grapes_large.jpg" alt="Fresh green and purple grapes on a set table">
                 </figure>
               </div>
               <button class="modal-close"></button>
@@ -179,7 +179,7 @@
               <div class="modal-background"></div>
               <div class="modal-content">
                 <figure>
-                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/table_setting_tall.jpg" alt="Salad of Beets, Fresh Oranges and Strawberries, and Earthly Mixed Nuts">
+                  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/table_setting_large.jpg" alt="Salad of Beets, Fresh Oranges and Strawberries, and Earthly Mixed Nuts">
                 </figure>
               </div>
               <button class="modal-close"></button>

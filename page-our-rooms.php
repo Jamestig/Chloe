@@ -24,7 +24,7 @@
       <article id="emai-bnb-emaibnb-article" class="combine-container content">
         <div class="columns">
           <figure id="emai-bnb-book-background" class="combine-background column">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/exterior_wide.jpg" alt="émai dalat homestay">
+            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/background/exterior_wide.jpg" alt="émai dalat homestay">
           </figure>
           <div class="combine-inner column is-half is-one-third-desktop is-one-quarter-fullhd is-offset-1 is-offset-2-fullhd">
             <h2>émai bed &amp; breakfast, restaurant &amp; cafe</h2>

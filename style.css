@@ -517,24 +517,24 @@ main {
 }
 
 .page-id-10 #first-background {
-  background-image: url(images/photo/home-header-background.jpg);
+  background-image: url(images/header/home_header.jpg);
 }
 
 .page-id-106 #first-background {
-  background-image: url(images/photo/spring_salad_large.jpg);
+  background-image: url(images/header/restaurant_header.jpg);
 }
 
 .page-id-38 #first-background {
-  background-image: url(images/photo/clara_large.jpg);
+  background-image: url(images/header/rooms_header.jpg);
   background-position: 50% 80%;
 }
 
 .page-id-49 #first-background {
-  background-image: url(images/photo/home-header-background.jpg);
+  background-image: url(images/header/contact_header.jpg);
 }
 
 .page-id-28 #first-background {
-  background-image: url(images/photo/garden_large_01.jpg);
+  background-image: url(images/header/gallery_header.jpg);
 }
 
 /*// HEADER NAV //*/
@@ -754,7 +754,7 @@ main {
 }
 
 #home-food-background {
-  background-image: url(images/photo/prawns_wide.jpg);
+  background-image: url(images/background/prawns_wide.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -806,7 +806,7 @@ main {
 }
 
 #home-dalat {
-  background-image: url(images/photo/dalat_wide.jpg);
+  background-image: url(images/background/dalat_wide.jpg);
   background-position: bottom;
   background-size: cover;
 }
@@ -910,7 +910,7 @@ main {
 }
 
 #home-book {
-  background-image: url(images/photo/garden_large_01.jpg);
+  background-image: url(images/background/garden_wide.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -951,7 +951,7 @@ main {
 }
 
 #restaurant-food-background {
-  background-image: url(images/photo/candle_large_01.jpg);
+  background-image: url(images/background/beet_wide.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -959,6 +959,14 @@ main {
 .restaurant-portrait {
   margin: auto;
   max-width: 450px;
+}
+
+#restaurant-menu {
+  padding-top: 5em;
+}
+
+#restaurant-food {
+  padding-bottom: 5em;
 }
 
 #restaurant-menu-article {
@@ -1122,7 +1130,7 @@ main {
 */
 
 #restaurant-welcome {
-  background-image: url(images/photo/ravioli_wide.jpg);
+  background-image: url(images/background/candle_wide.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -1654,7 +1662,7 @@ main {
 }
 
 #contact-form-section {
-  background-image: url(images/placeholder/dalat_wide_01.jpg);
+  background-image: url(images/background/dalat_wide.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -1795,44 +1803,6 @@ div.wpcf7-mail-sent-ok {
   padding: 1em;
 }
 
-/*////////////////////
-    COMING SOON
-////////////////////*/
-
-html,
-body {
-  margin-top: 0 !important;
-}
-
-.coming-soon {
-  background-image: url(images/photo/cover.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  padding-top: 0;
-}
-
-.coming-soon .column {
-  background-image: url(images/logo/coverbanner.jpg);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 75vh;
-  opacity: .9;
-}
-
-@media screen and (min-width:550px) {
-  .coming-soon .column {
-    margin-left: 33%;
-    opacity: 1;
-  }
-}
-
-@media screen and (min-width:1024px) {
-  .coming-soon .column {
-    height: 85vh;
-  }
-}
 
 /*////////////////////
     FOOTER
