@@ -46,7 +46,7 @@
               <br>
               <p>Every delectable dish is freshly cooked using organic vegetables and herbs farmed from Dalat's remarkable agricultural landscape, renowned across the country for its beautiful weather and clean, fresh Mediterranean produce.</p>
               <div class="link-button-container">
-                <a href="https://emaidalat.com/restaurant/" class="link-button" target="_blank">Restaurant émai</a>
+                <a href="https://emaidalat.com/restaurant/" class="link-button">Restaurant émai</a>
               </div>
             </div>
           </div>
@@ -224,58 +224,7 @@
         </div>
       </div>
     </section>
-<!--
-    <section id="home-blog-excerpts" class="blog-excerpts section">
-      <div class="container content">
 
-        <header class="has-text-centered">
-          <h1 class="no-transform">from <a href="https://emaidalat.com/blog/">our blog</a></h1>
-          <hr>
-          <p>Coming soon - Our blog features our latest news, lifestyle stories and essays, and special offers.</p>
-        </header>
-        <div class="columns">
-
-          <?php
-            $args_latest = array(
-            'post_type' => 'post',
-            'ignore_sticky_posts' => 1,
-            'posts_per_page' => 3
-            );
-            $the_query = new WP_Query($args_latest); ?>
-            <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
-
-            <article id="" class="blog-excerpt column is-one-third has-text-left">
-              <figure id="" class="image">
-                <a href="<?php the_permalink() ?>">
-                <img class="border" alt="image" src="<?php the_post_thumbnail(); ?>"/>
-              </a>
-              </figure>
-              <div class="blog-excerpt-text">
-                <h4>
-                  <a href="<?php the_permalink() ?>">
-                    <?php the_title(); ?>
-                  </a>
-                </h4>
-                <h6>
-                  <?php the_category(' &vert; '); ?>
-                </h6>
-                <p class="is-size-6">
-                  <?php echo substr(strip_tags($post->post_content), 0, 100);?>
-                </p>
-                <!- <?php the_content( 'Read the full post »' ); ?>->
-              </div>
-            </article>
-
-            <?php endwhile;?>
-
-            <?php wp_reset_query();?>
-        </div>
-        <div class="padded has-text-centered">
-          <a href="https://emaidalat.com/blog/" class="link-button">Visit blog</a>
-        </div>
-      </div>
-    </section>
--->
   </main>
 
   <?php get_footer(); ?>
