@@ -44,7 +44,7 @@
               <br>
               <p>Inspired by the elegant simplicity of the Tuscan countryside, the food at émai is an exquisite blend of traditional and contemporary styles to deliver a wholly unique gastronomic experience.</p>
               <br>
-              <p>Every delectable dish is freshly cooked using organic vegetables and herbs farmed from Dalat's remarkable agricultural landscape, renowned across the country for its beautiful weather and clean, fresh Mediterranean produce.</p>
+              <p>Every delectable dish is freshly cooked using vegetables and herbs farmed from Dalat's remarkable agricultural landscape, renowned across the country for its beautiful weather and clean, fresh Mediterranean produce.</p>
               <div class="link-button-container">
                 <a href="https://emaidalat.com/restaurant/" class="link-button">Restaurant émai</a>
               </div>
@@ -80,7 +80,7 @@
               <br>
               <p>From heartwarming mulled wine panacottas to delightfully creamy passion fruit cheesecakes, our charming treats go perfectly with a warm cup of coffee or tea made from some of the world’s best beans and tea leaves, or any one of our own creative and healthy drink creations.</p>
               <div class="link-button-container">
-                <a href="https://emaidalat.com/wp-content/uploads/2017/11/émai_café_menu.pdf" class="link-button" target="_blank">Café émai</a>
+                <a href="https://emaidalat.com/cafe/" class="link-button">Café émai</a>
               </div>
             </div>
           </div>
@@ -99,9 +99,9 @@
               <h3>Gorgeous &amp; rustic little rooms</h3>
               <p>Our cosy guest rooms recall the picturesque charm of the Dalat countryside, with a touch of Zen and contemporary aesthetics from Europe and Japan.</p>
               <br>
-              <p>Whether you would like to get snug in one of the charming guestrooms at our bed &amp; breakfast, or enjoy the spacious beauty and privacy at our cottage house, we would be so pleased to welcome you to émai.</p>
+              <p>If you would like to enjoy the full émai experience from morning to night, we would be so pleased to welcome you to get snug in one of the small, yet charming guestrooms at our beautiful wooden home.</p>
               <div class="link-button-container">
-                <a href="https://emaidalat.com/our-rooms/" class="link-button">View Rooms</a>
+                <a href="https://emaidalat.com/homestay/" class="link-button">View Rooms</a>
               </div>
             </div>
           </div>
@@ -215,7 +215,7 @@
                   <a href="https://emaidalat.com/contact/" class="link-button">Reserve a table</a>
                 </div>
                 <div class="link-button-right">
-                  <a href="https://emaidalat.com/our-rooms/" class="link-button">Book your stay</a>
+                  <a href="https://emaidalat.com/homestay/" class="link-button">Book your stay</a>
                 </div>
               </div>
 
