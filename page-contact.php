@@ -11,13 +11,13 @@
     <section class="section intro">
       <div class="container side-padding">
         <hgroup class="content has-text-centered">
-          <h1>Location / Contact Us</h1>
+          <h1><?php single_post_title(); ?></h1>
           <hr>
-          <h2><i>Reaching émai</i></h2>
+          <h2><i>reaching émai</i></h2>
         </hgroup>
-        <p class="has-text-centered">To send us a message, kindly use the contact information below to reach us online or over the phone.
-          <br>We are open from 7am to 11pm every day, seven days a week.
-        </p>
+
+        <?php the_content(); ?>
+     
       </div>
     </section>
 
@@ -66,22 +66,7 @@
       <div class="container">
         <div class="columns">
 
-          <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
-          <div id="contact-form" class="column is-two-thirds-tablet has-text-centered grey-f4">
-            <h3 class="padded">say hello</h3>
-
-            <?php the_content(); ?>
-
-          </div>
-
-          <?php endwhile; else : ?>
-
-          <p>
-            <?php _e( 'Index: No Results.'); ?>
-          </p>
-
-          <?php endif; ?>
+          <?php echo do_shortcode('[contact-form-7 id="7" title="Contact"]'); ?>
 
         </div>
       </div>

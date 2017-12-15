@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="Description" CONTENT="émai is an Italian restaurant, café &amp; homestay in a beautiful and romantic garden cottage home in Dalat, Vietnam.">
   <title>
     <?php wp_title(); ?>
   </title>

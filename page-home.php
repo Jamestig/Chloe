@@ -9,12 +9,12 @@
   <main id="home-main">
 
     <section id="home-intro" class="section intro">
-      <h1 class="remove-header">Introduction</h1>
+      <h1 class="remove-header"><?php single_post_title(); ?></h1>
       <div class="container side-padding">
         <div class="content has-text-centered">
-          <p class="is-size-4">Come into a timeless sanctuary of gentle beauty, soothing music, and exquisite Mediterranean food.
-          </p>
-          <p class="is-size-5">Blending European romanticism, Nordic minimalism, and Japanese Zen aesthetics, émai is a bed &amp; breakfast, art café, and contemporary Italian restaurant, all in a beautiful little cottage home in which to rest your heart and enchant your senses.</p>
+          
+          <?php the_content(); ?>
+          
           <hr>
         </div>
       </div>

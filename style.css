@@ -102,21 +102,6 @@ img {
   }
 }
 
-/*
-.link-button-airbnb-container {
-  margin: auto;
-  margin-top: 2em;
-  text-align: center;
-}
-
-@media screen and (min-width: 769px) {
-  .link-button-airbnb-container {
-    position: relative;
-    top: -120px;
-  }
-}
-*/
-
 .airbnb-button {
   display: block;
 }
@@ -177,7 +162,7 @@ img {
   }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1216px) {
   .banner {
     min-height: 600px;
   }
@@ -208,7 +193,7 @@ img {
 }
 
 .portrait {
-  max-height: 540px;
+  max-height: 535px;
   height: 100%;
   overflow: hidden;
 }
@@ -638,30 +623,31 @@ main {
   }
 }
 
-.page-id-10 #first-background {
-  background-image: url(images/header/home_header.jpg);
-}
+@media screen and (max-width:768px) {
+  .page-id-10 #first-background {
+    background-image: url(images/header/home_header_sml.jpg);
+  }
 
-.page-id-106 #first-background {
-  background-image: url(images/header/restaurant_header.jpg);
-}
+  .page-id-106 #first-background {
+    background-image: url(images/header/restaurant_header_sml.jpg);
+  }
 
-.page-id-201 #first-background {
-  background-image: url(images/header/cafe_header.jpg);
-}
+  .page-id-201 #first-background {
+    background-image: url(images/header/cafe_header_sml.jpg);
+  }
 
-.page-id-38 #first-background {
-  background-image: url(images/header/rooms_header.jpg);
-}
+  .page-id-38 #first-background {
+    background-image: url(images/header/rooms_header_sml.jpg);
+  }
 
-.page-id-49 #first-background {
-  background-image: url(images/header/contact_header.jpg);
-}
+  .page-id-49 #first-background {
+    background-image: url(images/header/contact_header_sml.jpg);
+  }
 
-.page-id-28 #first-background {
-  background-image: url(images/header/gallery_header.jpg);
+  .page-id-28 #first-background {
+    background-image: url(images/header/gallery_header_sml.jpg);
+  }
 }
-
 
 /*////////////////////
     HOME PAGE

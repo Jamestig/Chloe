@@ -11,13 +11,13 @@
     <section class="section intro">
       <div class="container side-padding">
         <hgroup class="content has-text-centered">
-          <h1 class="title">Restaurant émai</h1>
+          <h1 class="title"><?php single_post_title(); ?></h1>
           <hr>
           <h2><i>treat yourself to the sublime</i></h2>
         </hgroup>
-        <p>The food at émai is an exquisitely incomparable blend of traditional and contemporary, European and international inspirations, with special appreciation for the elegant simplicity of the Tuscan countryside.</p>
-        <br>
-        <p>Every delectable dish is freshly cooked using organic vegetables and herbs farmed from Dalat's unique agricultural landscape, renowned across the country for its beautiful weather and clean, fresh Mediterranean produce.</p>
+        
+        <?php the_content(); ?>
+        
       </div>
     </section>
 

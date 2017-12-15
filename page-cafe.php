@@ -11,11 +11,13 @@
     <section class="section intro">
       <div class="container side-padding">
         <hgroup class="content has-text-centered">
-          <h1 class="title">café émai</h1>
+          <h1 class="title"><?php single_post_title(); ?></h1>
           <hr>
           <h2><i>wholesome and indulgent</i></h2>
         </hgroup>
-        <p>From heartwarming mulled wine panna cottas to delightfully creamy passionfruit cheesecakes, our charming treats go perfectly with a warm cup of coffee or tea made from some of the world's best coffee beans and tea leaves, or any one of our own creative and healthy drink concoctions. </p>
+        
+        <?php the_content(); ?>
+        
       </div>
     </section>
 

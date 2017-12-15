@@ -11,11 +11,13 @@
     <section id="emai-bnb-intro" class="section intro">
       <div class="container side-padding">
         <hgroup class="content has-text-centered">
-          <h1 class="title">Our Rooms</h1>
+          <h1 class="title"><?php single_post_title(); ?></h1>
           <hr>
           <h2><i>welcome to émai</i></h2>
         </hgroup>
-        <p>To reserve a stay in one of our charming guestrooms, please make your selection below to book on AirBnB, or contact us on our<a href="https://www.facebook.com/emaidalat/" target="_blank"> Facebook </a>page (English and Vietnamese). We would be so pleased to welcome you to émai.</p>
+        
+        <?php the_content(); ?>
+        
       </div>
     </section>
 

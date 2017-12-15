@@ -11,7 +11,7 @@
     <section id="gallery-section" class="section banner">
       <div class="container">
         <hgroup class="content has-text-centered">
-          <h1 class="title">Gallery</h1>
+          <h1 class="title"><?php single_post_title(); ?></h1>
           <hr>
         </hgroup>
         <div id="smartslider">
