@@ -11,7 +11,7 @@
     <section class="section intro">
       <div class="container side-padding">
         <hgroup class="content has-text-centered">
-          <h1><?php single_post_title(); ?></h1>
+          <h1><?php echo get_the_title(); ?></h1>
           <hr>
           <h2><i>reaching émai</i></h2>
         </hgroup>
@@ -49,12 +49,12 @@
           <div id="contact-booking-info" class="column is-half">
             <div class="content">
               <h2>reserve a table at restaurant émai</h2>
-              <p>To make reservations at our Italian restaurant, please call us on <a href="tel: +84 2633 839 001">+84 2633 839 001</a> (English and Vietnamese) between 8:00am - 5:00pm</p>
+              <p>To make reservations at our Italian restaurant, please call us on <a href="tel: +842633839001">+84 2633 839 001</a> (English and Vietnamese) between 8:00am - 5:00pm</p>
               <h2>make a booking at émai homestay</h2>
               <p>to book your stay in one of our charming guestrooms, please either:</p>
               <p>&hybull; make your selection on <a href="https://emaidalat.com/homestay/">our rooms</a> page to book on airbnb
               <br>&hybull; contact us on our<a href="https://www.facebook.com/emaidalat/" target="_blank"> Facebook </a>page or
-                <br>&hybull; email us at <a href="mailto:family@emaidalat.com" target="">family@emaidalat.com</a> at any time and we will respond as soon as possible.</p>
+                <br>&hybull; email us at <a href="mailto:family@emaidalat.com">family@emaidalat.com</a> at any time and we will respond as soon as possible.</p>
               <p>stop by at our café between 7:00am - 9:00pm for tea and coffee and enjoy our selection of exquisite home-made cakes and desserts</p>
             </div>
           </div>

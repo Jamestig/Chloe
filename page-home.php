@@ -15,6 +15,8 @@
           
           <?php the_content(); ?>
           
+          <p>Blending European romanticism, Nordic minimalism, and Japanese Zen aesthetics, émai is a bed & breakfast, art café, and contemporary Italian restaurant, all in a beautiful little cottage home in which to rest your heart and enchant your senses.</p>
+          
           <hr>
         </div>
       </div>

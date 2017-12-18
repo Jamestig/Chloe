@@ -155,7 +155,7 @@
                         <li>Accommodates Two</li>
                         <li>Double Bed (140cm)</li>
                         <li>Bathroom with Wooden Bathtub</li>
-                        <li>900,000 / 40 USD</li>
+                        <li>890,000 / 40 USD</li>
                       </ul>
                       <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21872453">
                           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now on airbnb - émai dalat homestay room 3: May">

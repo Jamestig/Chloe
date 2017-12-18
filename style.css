@@ -668,6 +668,7 @@ main {
 
 #home-intro p:first-child {
   max-width: 600px;
+  font-size:1.4em;
 }
 
 #home-menu .container,
@@ -1632,6 +1633,13 @@ main {
 
 
 /*// CONTACT FORM 7 //*/
+
+#wpcf7-f7-o1 {
+  margin: auto;
+  padding: 2em;
+  background-color: #eaeaea;
+  opacity: .9;
+}
 
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],
