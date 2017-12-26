@@ -2,7 +2,7 @@
 
 TIMWORK V 0.1 
 
-mobile - 420px
+mobile - 450px
 
 
 //*/
@@ -13,7 +13,6 @@ mobile - 420px
 
 * {
   box-sizing: border-box;
-  font-family: 'Amiri', serif;
 }
 
 li {
@@ -33,10 +32,77 @@ figure {
     TYPOGRAPHY
 ////////////////////*/
 
+* {
+  font-family: 'Amiri', serif;
+  letter-spacing: .05em;
+  color: #363636;
+  font-size: 1em;
+}
+
+li, a {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+p {
+  line-height: 1.2em;
+}
+
+@media screen and (min-width:451px) {
+  p, a, li {
+    font-size: 1.025em;
+  }
+}
+
+@media screen and (min-width:769px) {
+  p, a, li {
+    font-size: 1.05em;
+  }
+}
+
+@media screen and (min-width:1025px) {
+  p, a, li {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (min-width:1281px) {
+  p, a, li {
+    font-size: 1.15em;
+  }
+}
+
+@media screen and (min-width:1601px) {
+  p, a, li {
+    font-size: 1.2em;
+  }
+}
+
 
 /*////////////////////
-    BASE COLOURS
+    COLOUR
 ////////////////////*/
+
+/*// BASE COLOURS //*/
+
+.header-nav-item a {
+  color: #777777;
+}
+
+/*// COLOUR CLASSES //*/
+
+.grey-f4 {
+  color: #f4f4f4;
+}
+.grey-ea {
+  color: #eaeaea;
+}
+.grey-77 {
+  color: #777777;
+}
+.grey-36 {
+  color: #363636;
+}
 
 /*////////////////////
     FRAMEWORK CLASSES
@@ -54,34 +120,13 @@ figure {
 
 /*// GRID LAYOUT //*/
 
-.wrapper {
+.wrapper-mobile {
   display: grid;
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 50px 50px;
 }
 
-.wrapper div {
-  text-align: center;
-}
 
-.wrapper>div:nth-child(1) {
-  background-color: lightblue;
-}
-.wrapper>div:nth-child(2) {
-  background-color: lightgoldenrodyellow;
-}
-.wrapper>div:nth-child(3) {
-  background-color: lightgray;
-}
-.wrapper>div:nth-child(4) {
-  background-color: lightcoral;
-}
-.wrapper>div:nth-child(5) {
-  background-color: lightgreen;
-}
-.wrapper>div:nth-child(6) {
-  background-color: lightcyan;
-}
 
 
 /*// PERSISTANT CLASSES //*/
@@ -103,7 +148,56 @@ figure {
   overflow: hidden;
 }
 
-.intro {}
+.intro {
+  text-align: center;
+  margin: auto;
+  padding: 3em 1em;
+  background-color: #f4f4f4;
+}
+.intro hgroup {
+  margin: auto;
+  max-width: 600px;
+}
+.intro h2 {
+  font-size: 1.5em;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: black;
+}
+.intro h3 {
+  font-size: 1.5em;
+  font-weight: normal;
+  text-transform: lowercase;
+  color: #363636;
+}
+.intro p {
+  margin: auto;
+  padding: .8em 0;
+  line-height: 1.5em;
+}
+.intro p:first-of-type {
+  font-size: 1.4em; 
+  max-width: 600px;
+  color: black;
+}
+.intro p:last-of-type {
+  font-size: 1.2em; 
+  max-width: 800px;
+  color: #363636;
+}
+
+.hr-center {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  margin: 2em auto;
+  max-width: 400px;
+}
+
+.section {
+  padding: 1em;
+  margin: auto;
+}
 
 /*// IMAGE CLASSES //*/
 
@@ -132,7 +226,17 @@ figure {
 }
 
 .portrait {
-  
+  max-height: 535px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.portrait img {
+  max-width: 400px;
+  height: 100%;
+  margin: auto;
+  object-fit: cover;
+  object-position: center;
 }
 
 /*////////////////////
@@ -148,6 +252,13 @@ figure {
 
 .header-nav-item {
   flex: 1 1 auto;
+  font-size: 1.05em;
+}
+
+#header-top {
+  background-image: url(../images/logo/paper.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #header-logo {
@@ -160,18 +271,42 @@ figure {
   position: relative;
   top: 7%;
   height: 90%;
-  max-width: 300px;
+  max-width: 200px;
 }
 
 #header-background {
   height: 50vh;
 }
 
+@media screen and (min-width: 769px) {
+  #header-logo {
+    height: 450px;
+    margin-left: 25%;
+    background-image: url(../images/logo/paper.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 350px;
+    position: absolute;
+  }
+  #header-background {
+    height: 430px;
+  }
+}
+@media screen and (min-width: 1281px) {
+  #header-logo {
+    height: 500px;
+    width: 400px;
+  }
+  #header-background {
+    height: 480px;
+  }
+}
+
 /*// OVERLAY MENU //*/
 
 #nav-check-label,
 .overlay,
-.header-nav a {
+#header-nav a {
   transition: all .3s;
 }
 
@@ -181,6 +316,14 @@ input {
 
 input:checked + #nav-check-label:before {
   content: "\f00d";
+}
+
+input:checked + #nav-check-label {
+  color: #777777;
+}
+
+input:checked + #nav-check-label:hover {
+  color: black;
 }
 
 input:checked ~ .overlay {
@@ -196,7 +339,7 @@ input:checked ~ .overlay {
   padding: .72em 0;
   width: 3em;
   text-align: center;
-  color: #454545;
+  color: #777777;
   cursor: pointer;
 }
 
@@ -206,7 +349,7 @@ input:checked ~ .overlay {
 }
 
 #nav-check-label:hover {
-  color: #f4f4f4;
+  color: black;
 }
 
 .overlay {
@@ -222,23 +365,23 @@ input:checked ~ .overlay {
 
 #header-nav-list li a {
   display: block;
-  padding: .25em 0;
-  color: #fff;
-  font-size: 1.85em;
   text-align: center;
   text-decoration: none;
 }
 
-#header-nav-list li a:focus,
-.nav li a:hover {
-  color: #e74c3c;
+#header-nav-list li a:focus {
+  color: black;
+}
+
+#header-nav-list li a:hover {
+  color: black;
 }
 
 #header-nav-list li a:active {
-  color: #d62c1a;
+  color: white;
 }
 
-@media screen and (max-width:1023px) {
+@media screen and (max-width:768px) {
 
   .overlay {
     position: fixed;
@@ -246,7 +389,7 @@ input:checked ~ .overlay {
     z-index: 98;
     top: 0;
     bottom: 0;
-    background: rgba(51, 51, 51, 0.8);
+    background: rgba(230, 230, 230, 0.8);
     opacity: 0;
     visibility: hidden;
   }
@@ -257,11 +400,11 @@ input:checked ~ .overlay {
     right: 0;
     bottom: 0;
     left: 0;
-    height: 50vh;
+    max-height: 70%;
   }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:769px) {
   
   #nav-check-label {
     display: none;
@@ -272,12 +415,26 @@ input:checked ~ .overlay {
     opacity: 1;
   }
 
-  .overlay {
-    background-color: lightgray;
-  }
-
   #header-nav-list {
     flex-flow: row wrap;
+    padding: 4em 0;
   }
+  
+  #header-nav-list:first-of-type {
+    padding-left: 1em;
+  }
+  #header-nav-list:last-of-type {
+    padding-right: 1em;
+  }
+}
 
+/*// HOME PAGE //*/
+
+#main-home .intro {
+  padding-top: 4em;
+}
+#main-home .intro .hr-center {
+  max-width: 700px;
+  margin-top: 4em;
+  margin-bottom: 4em;
 }
