@@ -178,7 +178,7 @@
         </header>
 
         <section id="emai-room-clay" class="section emai-room">
-          <h2 class="remove-header">Room Four: Clay</h2>
+          <h2 class="remove-header">Room Four: Lila</h2>
           <div class="container">
             <article class="content">
               <div class="columns is-multiline grey-f4 row-reverse">
@@ -199,10 +199,10 @@
                       <h5 class="no-transform">Details</h5>
                       <hr class="hr-right">
                       <ul>
-                        <li>Accommodates Two</li>
-                        <li>King Bed (160cm)</li>
+                        <li>Accommodates Four</li>
+                        <li>Two King Single Beds (120cm)</li>
                         <li>Private Bathroom with Wooden Bathtub</li>
-                        <li>700,000 / 31 USD</li>
+                        <li>1,400,000 / 61 USD</li>
                       </ul>
                       <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21900394">
                           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now on airbnb - émai dalat homestay room 4: Clay">
@@ -216,7 +216,7 @@
         </section>
 
         <section id="emai-room-willow" class="section emai-room">
-          <h2 class="remove-header">Room Five: Willow</h2>
+          <h2 class="remove-header">Room Five: Jasmine</h2>
           <div class="container">
             <article class="content">
               <div class="columns is-multiline grey-f4">
@@ -246,12 +246,12 @@
                       <h5 class="no-transform">Details</h5>
                       <hr class="hr-right">
                       <ul>
-                        <li>Accommodates Two</li>
-                        <li>King Bed (160cm)</li>
+                        <li>Accommodates Four to Six</li>
+                        <li>Two King Beds (160cm)</li>
                         <li>Ensuite Bathroom with Shower</li>
-                        <li>700,000 / 31 USD</li>
+                        <li>2,000,000 / 88 USD</li>
                       </ul>
-                      <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21901196">
+                      <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21901538">
                           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now on airbnb - émai dalat homestay room 5: Willow">
                         </a>
                     </div>
@@ -261,44 +261,7 @@
             </article>
           </div>
         </section>
-
-        <section id="emai-room-cocoon" class="section emai-room">
-          <h2 class="remove-header">Room Six: Cocoon</h2>
-          <div class="container">
-            <article class="content">
-              <div class="columns is-multiline grey-f4 row-reverse">
-               
-                <div class="fade emai-room-picture column is-full-tablet is-two-thirds-desktop">
-                  <div>
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/photo/cocoon_large_01.jpg" alt="émai dalat homestay room 6: Cocoon">
-                  </div>
-                </div>
-
-                <div class="emai-room-info column is-full-tablet is-one-third-desktop ">
-                  <div class="columns is-multiline">
-                    <div class="room-info-left column is-full-desktop">
-                      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo/cocoon_web.png" alt="Cocoon logo">
-                      <p>Inspired by Japanese architecture, our attic rooms are tucked snugly under the roof, with a skylight through which you can watch the clouds drift or see the stars.</p>
-                    </div>
-                    <div class="room-info-right column is-full-desktop">
-                      <h5 class="no-transform">Details</h5>
-                      <hr class="hr-right">
-                      <ul>
-                        <li>Accommodates Two</li>
-                        <li>Two King Single Beds (120cm)</li>
-                        <li>Ensuite Bathroom with Shower</li>
-                        <li>700,000 / 31 USD</li>
-                      </ul>
-                      <a class="airbnb-button" target="_blank" href="https://www.airbnb.com/rooms/21901538">
-                          <img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon/airbnb.png" alt="Book Now on airbnb - émai dalat homestay room 6: Cocoon">
-                        </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-        </section>
+        
       </div>
     </section>
 
