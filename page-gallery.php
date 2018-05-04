@@ -11,11 +11,11 @@
     <section id="gallery-section" class="section banner">
       <div class="container">
         <hgroup class="content has-text-centered">
-          <h2 class="title">Gallery</h2>
+          <h1 class="title"><?php single_post_title(); ?></h1>
           <hr>
         </hgroup>
         <div id="smartslider">
-          <?php echo do_shortcode('[smartslider3 slider=3]'); ?>
+          <?php echo do_shortcode('[smartslider3 slider=2]'); ?>
         </div>
       </div>
     </section>

@@ -1,18 +1,24 @@
 <?php get_header(); ?>
 
-<section class="section the-loop">
+<main>
 
-    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+  <section class="section">
+    <div class="container">
 
-      <h1><?php the_title(); ?></h1>
-      <p><?php the_content(); ?></p>
-	
-	<?php endwhile; else : ?>
-	
-	  <p><?php _e( 'Index: No Results.'); ?></p>
-	
-	<?php endif; ?>
+      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-</section>
+        <h3><?php the_title(); ?></h3>
+        <p><?php the_content(); ?></p>
+
+      <?php endwhile; else : ?>
+
+        <p><?php _e( 'Index: No Results.'); ?></p>
+
+      <?php endif; ?>
+
+    </div>
+  </section>
+
+</main>
 
 <?php get_footer(); ?>
